@@ -1,0 +1,99 @@
+HEADER    AA0544                                  31-Dec-10                     
+COMPND    1-(L-tryptophan-3-yl)-L-tryptophan                                    
+REVDAT 001   31-Dec-10                                                          
+REMARK 001 Copyright (C) 2010 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Trp     1       0.000   0.000   0.000                          
+ATOM      2  HN  Trp     1      -0.312  -0.971   0.081                          
+ATOM      3  CA  Trp     1       1.493   0.000   0.000                          
+ATOM      4  HA  Trp     1       1.813  -0.571  -0.879                          
+ATOM      5  C   Trp     1       1.991  -0.758   1.234                          
+ATOM      6  O   Trp     1       1.289  -1.254   2.107                          
+ATOM      7  CB  Trp     1       2.025   1.445   0.000                          
+ATOM      8  HB1 Trp     1       1.209   2.154  -0.198                          
+ATOM      9  HB2 Trp     1       2.411   1.715   0.992                          
+ATOM     10  CG  Trp     1       3.079   1.710  -1.038                          
+ATOM     11  CD1 Trp     1       4.358   2.168  -0.806                          
+ATOM     12  HD1 Trp     1       4.823   2.393   0.143                          
+ATOM     13  CD2 Trp     1       2.931   1.619  -2.452                          
+ATOM     14  NE1 Trp     1       5.012   2.361  -2.007                          
+ATOM     15  CE2 Trp     1       4.136   2.029  -3.040                          
+ATOM     16  CE3 Trp     1       1.851   1.241  -3.279                          
+ATOM     17  HE1 Trp     1       0.905   0.934  -2.839                          
+ATOM     18  CZ1 Trp     1       4.266   2.067  -4.442                          
+ATOM     19  HZ1 Trp     1       5.175   2.394  -4.932                          
+ATOM     20  CZ2 Trp     1       1.990   1.264  -4.667                          
+ATOM     21  HZ2 Trp     1       1.155   0.969  -5.297                          
+ATOM     22  CH2 Trp     1       3.185   1.674  -5.238                          
+ATOM     23  HH1 Trp     1       3.284   1.698  -6.321                          
+ATOM     24  N   Trp     2       7.245   2.163   1.410                          
+ATOM     25  HN  Trp     2       7.518   1.318   1.915                          
+ATOM     26  CA  Trp     2       7.565   1.981  -0.030                          
+ATOM     27  HA  Trp     2       7.049   1.078  -0.369                          
+ATOM     28  C   Trp     2       9.082   1.778  -0.149                          
+ATOM     29  O   Trp     2       9.937   2.473   0.379                          
+ATOM     30  CB  Trp     2       7.124   3.234  -0.805                          
+ATOM     31  HB1 Trp     2       8.008   3.857  -1.016                          
+ATOM     32  HB2 Trp     2       6.497   3.876  -0.167                          
+ATOM     33  CG  Trp     2       6.346   2.975  -2.134                          
+ATOM     34  CD1 Trp     2       6.202   4.372  -2.770                          
+ATOM     35  HD1 Trp     2       5.546   5.129  -2.314                          
+ATOM     36  CD2 Trp     2       7.238   2.364  -3.186                          
+ATOM     37  NE1 Trp     2       6.941   4.597  -3.816                          
+ATOM     38  CE2 Trp     2       7.586   3.381  -4.089                          
+ATOM     39  CE3 Trp     2       7.691   1.067  -3.369                          
+ATOM     40  HE1 Trp     2       7.398   0.261  -2.703                          
+ATOM     41  CZ1 Trp     2       8.422   3.133  -5.161                          
+ATOM     42  HZ1 Trp     2       8.675   3.927  -5.856                          
+ATOM     43  CZ2 Trp     2       8.541   0.810  -4.449                          
+ATOM     44  HZ2 Trp     2       8.916  -0.197  -4.611                          
+ATOM     45  CH2 Trp     2       8.911   1.837  -5.334                          
+ATOM     46  HH1 Trp     2       9.568   1.617  -6.172                          
+TER      47                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   13                                                      
+CONECT   11   10   12   14                                                      
+CONECT   12   11                                                                
+CONECT   13   10   15   16                                                      
+CONECT   14   11   15   33                                                      
+CONECT   15   13   14   18                                                      
+CONECT   16   13   17   20                                                      
+CONECT   17   16                                                                
+CONECT   18   15   19   22                                                      
+CONECT   19   18                                                                
+CONECT   20   16   21   22                                                      
+CONECT   21   20                                                                
+CONECT   22   18   20   23                                                      
+CONECT   23   22                                                                
+CONECT   24   25   26                                                           
+CONECT   25   24                                                                
+CONECT   26   24   27   28   30                                                 
+CONECT   27   26                                                                
+CONECT   28   26   29                                                           
+CONECT   29   28                                                                
+CONECT   30   26   31   32   33                                                 
+CONECT   31   30                                                                
+CONECT   32   30                                                                
+CONECT   33   14   30   34   36                                                 
+CONECT   34   33   35   37                                                      
+CONECT   35   34                                                                
+CONECT   36   33   38   39                                                      
+CONECT   37   34   38                                                           
+CONECT   38   36   37   41                                                      
+CONECT   39   36   40   43                                                      
+CONECT   40   39                                                                
+CONECT   41   38   42   45                                                      
+CONECT   42   41                                                                
+CONECT   43   39   44   45                                                      
+CONECT   44   43                                                                
+CONECT   45   41   43   46                                                      
+CONECT   46   45                                                                
+END                                                                             

@@ -1,0 +1,35 @@
+HEADER    AA0046                                  31-Mar-01                     
+COMPND    N-acetylglycine                                                       
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  CH3 ACE     1      -2.198  -0.091  -0.923                          
+ATOM      2  HC1 ACE     1      -2.741   0.093  -1.868                          
+ATOM      3  HC2 ACE     1      -2.401  -1.140  -0.638                          
+ATOM      4  HC3 ACE     1      -2.639   0.572  -0.159                          
+ATOM      5  C   ACE     1      -0.724   0.153  -1.104                          
+ATOM      6  O   ACE     1      -0.269   0.473  -2.200                          
+ATOM      7  N   Gly     1       0.000   0.000   0.000                          
+ATOM      8  HN  Gly     1      -0.560  -0.366   0.772                          
+ATOM      9  CA  Gly     1       1.454   0.000   0.000                          
+ATOM     10  HA1 Gly     1       1.837  -0.528   0.876                          
+ATOM     11  HA2 Gly     1       1.838   1.024   0.000                          
+ATOM     12  C   Gly     1       1.908  -0.735  -1.265                          
+ATOM     13  O   Gly     1       1.160  -1.610  -1.708                          
+TER      14                                                                     
+CONECT    1    2    3    4    5                                                 
+CONECT    2    1                                                                
+CONECT    3    1                                                                
+CONECT    4    1                                                                
+CONECT    5    1    6    7                                                      
+CONECT    6    5                                                                
+CONECT    7    5    8    9                                                      
+CONECT    8    7                                                                
+CONECT    9    7   10   11   12                                                 
+CONECT   10    9                                                                
+CONECT   11    9                                                                
+CONECT   12    9   13                                                           
+CONECT   13   12                                                                
+END                                                                             

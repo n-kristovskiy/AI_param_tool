@@ -1,0 +1,51 @@
+HEADER    AA0535                                  30-Sep-10                     
+COMPND    N,N,N-trimethyl-L-serine                                              
+REVDAT 001   30-Sep-10                                                          
+REMARK 001 Copyright (C) 2010 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Ser     1       0.000   0.000   0.000                          
+ATOM      2  CA  Ser     1       1.341   0.000   0.000                          
+ATOM      3  HA  Ser     1       1.621  -0.510  -0.931                          
+ATOM      4  C   Ser     1       1.999  -0.807   1.146                          
+ATOM      5  O   Ser     1       1.376  -1.538   1.906                          
+ATOM      6  CB  Ser     1       1.921   1.434   0.000                          
+ATOM      7  HB1 Ser     1       1.482   2.053  -0.786                          
+ATOM      8  HB2 Ser     1       1.785   1.925   0.968                          
+ATOM      9  OG  Ser     1       3.328   1.378  -0.270                          
+ATOM     10  HG  Ser     1       3.651   2.299  -0.355                          
+ATOM     11  C1          1      -0.490   0.540   1.114                          
+ATOM     12  H11         1      -1.581   0.462   1.078                          
+ATOM     13  H12         1      -0.105   0.004   1.982                          
+ATOM     14  H13         1      -0.194   1.592   1.149                          
+ATOM     15  C2          1      -0.435  -1.255  -0.079                          
+ATOM     16  H21         1       0.103  -1.755  -0.889                          
+ATOM     17  H22         1      -1.508  -1.233  -0.295                          
+ATOM     18  H23         1      -0.283  -1.764   0.874                          
+ATOM     19  C3          1      -0.478   0.647  -1.060                          
+ATOM     20  H31         1      -0.258   1.712  -0.958                          
+ATOM     21  H32         1      -1.564   0.511  -1.092                          
+ATOM     22  H33         1      -0.013   0.232  -1.958                          
+TER      23                                                                     
+CONECT    1   11   15   19    2                                                 
+CONECT    2    3    4    6    1                                                 
+CONECT    3    2                                                                
+CONECT    4    2    5                                                           
+CONECT    5    4                                                                
+CONECT    6    2    7    8    9                                                 
+CONECT    7    6                                                                
+CONECT    8    6                                                                
+CONECT    9    6   10                                                           
+CONECT   10    9                                                                
+CONECT   11    1   12   13   14                                                 
+CONECT   12   11                                                                
+CONECT   13   11                                                                
+CONECT   14   11                                                                
+CONECT   15    1   16   17   18                                                 
+CONECT   16   15                                                                
+CONECT   17   15                                                                
+CONECT   18   15                                                                
+CONECT   19    1   20   21   22                                                 
+CONECT   20   19                                                                
+CONECT   21   19                                                                
+CONECT   22   19                                                                
+END                                                                             

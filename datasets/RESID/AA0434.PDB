@@ -1,0 +1,23 @@
+HEADER    AA0434                                  30-Sep-07                     
+COMPND    hydroxyglycine                                                        
+REVDAT 001   30-Sep-07                                                          
+REMARK 001 Copyright (C) 2007 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Gly     1       0.000   0.000   0.000                          
+ATOM      2  HN  Gly     1      -0.258  -0.973  -0.086                          
+ATOM      3  CA  Gly     1       1.470   0.000   0.000                          
+ATOM      4  HA  Gly     1       1.839  -0.528  -0.910                          
+ATOM      5  C   Gly     1       1.979  -0.709   1.230                          
+ATOM      6  O   Gly     1       1.437  -1.721   1.613                          
+ATOM      7  OB                  1.941   1.339   0.000                          
+ATOM      8  HB                  1.617   1.708   0.824                          
+TER       9                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8                                                           
+CONECT    8    7                                                                
+END                                                                             

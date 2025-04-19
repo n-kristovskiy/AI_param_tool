@@ -1,0 +1,51 @@
+HEADER    AA0480                                  31-Dec-08                     
+COMPND    (2S)-4,5,5'-trihydroxyleucine                                         
+REVDAT 001   31-Dec-08                                                          
+REMARK 001 Copyright (C) 2008 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Leu     1       0.000   0.000   0.000                          
+ATOM      2  HN  Leu     1      -0.303   0.358   0.913                          
+ATOM      3  CA  Leu     1       1.489   0.000   0.000                          
+ATOM      4  HA  Leu     1       1.782  -0.522  -0.915                          
+ATOM      5  C   Leu     1       1.986  -0.786   1.226                          
+ATOM      6  O   Leu     1       1.355  -0.900   2.269                          
+ATOM      7  CB  Leu     1       1.961   1.460   0.000                          
+ATOM      8  HB1 Leu     1       1.466   1.963  -0.842                          
+ATOM      9  HB2 Leu     1       1.588   1.941   0.916                          
+ATOM     10  CG  Leu     1       3.483   1.740  -0.090                          
+ATOM     11  OD1         1       4.102   1.379   1.153                          
+ATOM     12  HD1         1       4.325   0.430   1.139                          
+ATOM     13  CD2 Leu     1       4.186   1.013  -1.257                          
+ATOM     14  HD2 Leu     1       3.686   1.206  -2.211                          
+ATOM     15  HD3 Leu     1       5.231   1.337  -1.328                          
+ATOM     16  OE1         1       4.216  -0.408  -1.046                          
+ATOM     17  HE1         1       4.759  -0.760  -1.783                          
+ATOM     18  CD3 Leu     1       3.706   3.265  -0.253                          
+ATOM     19  HD4 Leu     1       4.777   3.494  -0.214                          
+ATOM     20  HD5 Leu     1       3.247   3.823   0.572                          
+ATOM     21  OE2         1       3.201   3.751  -1.492                          
+ATOM     22  HE2         1       2.318   4.124  -1.316                          
+TER      23                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   13   18                                                 
+CONECT   11   10   12                                                           
+CONECT   12   11                                                                
+CONECT   13   10   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   13   17                                                           
+CONECT   17   16                                                                
+CONECT   18   10   19   20   21                                                 
+CONECT   19   18                                                                
+CONECT   20   18                                                                
+CONECT   21   18   22                                                           
+CONECT   22   21                                                                
+END                                                                             

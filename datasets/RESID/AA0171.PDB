@@ -1,0 +1,39 @@
+HEADER    AA0171                                  31-Mar-01                     
+COMPND    S-sulfo-L-cysteine                                                    
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N           1       0.000   0.000   0.000                          
+ATOM      2  H           2      -0.374   0.464   0.911                          
+ATOM      3  C           3       1.484   0.000  -0.000                          
+ATOM      4  H           4       1.833  -0.506  -0.920                          
+ATOM      5  C           5       1.986  -0.735   1.230                          
+ATOM      6  O           6       1.224  -0.985   2.151                          
+ATOM      7  C           7       1.985   1.475   0.000                          
+ATOM      8  H           8       1.585   1.997  -0.891                          
+ATOM      9  H           9       1.637   1.988   0.916                          
+ATOM     10  S          10       3.839   1.507  -0.067                          
+ATOM     11  S          11       4.140   0.903  -1.164                          
+ATOM     12  O          12       3.978  -0.574  -0.996                          
+ATOM     13  O          13       3.334   1.459  -2.293                          
+ATOM     14  O          14       5.583   1.037  -1.693                          
+ATOM     15  H          15       5.710   0.721  -2.590                          
+TER      16                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11                                                           
+CONECT   11   10   12   13   14                                                 
+CONECT   12   11                                                                
+CONECT   13   11                                                                
+CONECT   14   11   15                                                           
+CONECT   15   14                                                                
+END                                                                             

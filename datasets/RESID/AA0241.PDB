@@ -1,0 +1,36 @@
+HEADER    AA0241                                  05-Dec-08                     
+COMPND    glycine thiazole-4-carboxylic acid                                    
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REVDAT 004   05-Dec-08                                                          
+REMARK 001 Copyright (C) 2001, 2008 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Gly     1       0.000   0.000   0.000                          
+ATOM      2  HN  Gly     1      -0.388   0.515  -0.876                          
+ATOM      3  CA  Gly     1       1.483   0.000   0.000                          
+ATOM      4  HA1 Gly     1       1.838  -0.504  -0.918                          
+ATOM      5  HA2 Gly     1       1.835   1.049   0.000                          
+ATOM      6  C   Gly     1       2.011  -0.720   1.227                          
+ATOM      7  N   Cys     2       1.305  -1.489   1.964                          
+ATOM      8  CA  Cys     2       1.959  -2.109   3.106                          
+ATOM      9  C   Cys     2       1.277  -3.022   4.055                          
+ATOM     10  O   Cys     2       0.105  -3.332   3.915                          
+ATOM     11  CB  Cys     2       3.253  -1.721   3.153                          
+ATOM     12  HB  Cys     2       3.969  -2.043   3.914                          
+ATOM     13  SG  Cys     2       3.716  -0.586   1.803                          
+TER      14                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    6                                                 
+CONECT    4    3                                                                
+CONECT    5    3                                                                
+CONECT    6    3    7   13                                                      
+CONECT    7    6    8                                                           
+CONECT    8    7    9   11                                                      
+CONECT    9    8   10                                                           
+CONECT   10    9                                                                
+CONECT   11    8   12   13                                                      
+CONECT   12   11                                                                
+CONECT   13    6   11                                                           
+END                                                                             

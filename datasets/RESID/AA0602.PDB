@@ -1,0 +1,37 @@
+HEADER    AA0602                                  01-Mar-13                     
+COMPND    (2R)-2-hydroxyproline                                                 
+REVDAT 001   01-Mar-13                                                          
+REMARK 001 Copyright (C) 2013 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Pro     1       0.000   0.000   0.000                          
+ATOM      2  CA  Pro     1       1.471   0.000   0.000                          
+ATOM      3  OA          1       1.951  -0.662  -1.156                          
+ATOM      4  HO          1       2.519  -1.556  -0.859                          
+ATOM      5  C   Pro     1       2.026  -0.753   1.190                          
+ATOM      6  O   Pro     1       1.477  -0.668   2.292                          
+ATOM      7  CB  Pro     1       1.913   1.454   0.000                          
+ATOM      8  HB1 Pro     1       2.144   1.807   1.060                          
+ATOM      9  HB2 Pro     1       2.865   1.622  -0.604                          
+ATOM     10  CG  Pro     1       0.722   2.205  -0.571                          
+ATOM     11  HG1 Pro     1       0.668   3.262  -0.145                          
+ATOM     12  HG2 Pro     1       0.782   2.322  -1.703                          
+ATOM     13  CD  Pro     1      -0.476   1.391  -0.137                          
+ATOM     14  HD1 Pro     1      -0.874   1.773   0.861                          
+ATOM     15  HD2 Pro     1      -1.326   1.466  -0.893                          
+TER      16                                                                     
+CONECT    1    2   13                                                           
+CONECT    2    1    3    5    7                                                 
+CONECT    3    2    4                                                           
+CONECT    4    3                                                                
+CONECT    5    2    6                                                           
+CONECT    6    5                                                                
+CONECT    7    2    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13    1   10   14   15                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+END                                                                             

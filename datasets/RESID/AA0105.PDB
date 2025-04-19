@@ -1,0 +1,42 @@
+HEADER    AA0105                                  30-Sep-07                     
+COMPND    L-cysteine methyl ester                                               
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REVDAT 003   30-Sep-07                                                          
+REMARK 001 Copyright (C) 2001, 2007 John S. Garavelli                           
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Cys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Cys     1      -0.362  -0.961   0.076                          
+ATOM      3  CA  Cys     1       1.483   0.000   0.000                          
+ATOM      4  HA  Cys     1       1.823  -0.504  -0.922                          
+ATOM      5  C   Cys     1       1.974  -0.714   1.250                          
+ATOM      6  O   Cys     1       1.465  -0.453   2.334                          
+ATOM      7  CB  Cys     1       1.984   1.475   0.000                          
+ATOM      8  HB1 Cys     1       1.549   2.013  -0.862                          
+ATOM      9  HB2 Cys     1       1.664   1.964   0.938                          
+ATOM     10  SG  Cys     1       3.810   1.520  -0.116                          
+ATOM     11  HG  Cys     1       3.913   1.118  -1.127                          
+ATOM     12  O           1       2.973  -1.627   1.119                          
+ATOM     13  C   CH3     1       3.438  -1.853  -0.232                          
+ATOM     14  H1  CH3     1       3.815  -0.911  -0.666                          
+ATOM     15  H2  CH3     1       2.606  -2.247  -0.841                          
+ATOM     16  H3  CH3     1       4.256  -2.596  -0.201                          
+TER      17                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6   12                                                      
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11                                                           
+CONECT   11   10                                                                
+CONECT   12    5   13                                                           
+CONECT   13   12   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   13                                                                
+END                                                                             

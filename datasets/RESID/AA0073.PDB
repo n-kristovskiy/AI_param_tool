@@ -1,0 +1,49 @@
+HEADER    AA0073                                  31-Mar-01                     
+COMPND    3'-methyl-L-histidine                                                 
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   His     1       0.000   0.000   0.000                          
+ATOM      2  HN  His     1      -0.363  -0.083   0.912                          
+ATOM      3  CA  His     1       1.475   0.000   0.000                          
+ATOM      4  HA  His     1       1.852  -0.548  -0.877                          
+ATOM      5  C   His     1       1.901  -0.791   1.270                          
+ATOM      6  O   His     1       1.119  -0.784   2.229                          
+ATOM      7  CB  His     1       2.187   1.358   0.000                          
+ATOM      8  HB1 His     1       3.139   1.374  -0.006                          
+ATOM      9  HB2 His     1       1.780   1.896  -0.870                          
+ATOM     10  CG  His     1       1.814   2.214   1.236                          
+ATOM     11  ND1 His     1       2.346   2.298   2.451                          
+ATOM     12  CD2 His     1       0.639   2.840   1.277                          
+ATOM     13  HD2 His     1      -0.080   2.883   0.459                          
+ATOM     14  CE1 His     1       1.502   2.963   3.221                          
+ATOM     15  HE1 His     1       1.625   3.123   4.292                          
+ATOM     16  NE2 His     1       0.435   3.285   2.502                          
+ATOM     17  CE3 CH3     1       3.706   2.080   2.980                          
+ATOM     18  HE2 CH3     1       3.772   2.448   3.789                          
+ATOM     19  HE3 CH3     1       4.300   2.456   2.434                          
+ATOM     20  HE4 CH3     1       3.866   1.207   3.037                          
+TER      21                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12                                                      
+CONECT   11   10   14   17                                                      
+CONECT   12   10   13   16                                                      
+CONECT   13   12                                                                
+CONECT   14   11   15   16                                                      
+CONECT   15   14                                                                
+CONECT   16   12   14                                                           
+CONECT   17   11   18   19   20                                                 
+CONECT   18   17                                                                
+CONECT   19   17                                                                
+CONECT   20   17                                                                
+END                                                                             

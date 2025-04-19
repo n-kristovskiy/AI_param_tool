@@ -19,14 +19,24 @@
 
 ## 📁 Описание ключевых папок
 
-- `RESP_data/`: Папка для сохранения результатов, полученных с использованием протокола на основе библиотеки psiresp.
-- `PDBbind_demo/`: Набор биохимических лигандов и белков, с которыми они взаимодействуют, загруженный с [PDBbind](https://www.pdbbind-plus.org.cn/download).
+- `data/`: Папка с результатами растетов зарядов методами resp (библиотека [psirep](https://github.com/lilyminium/psiresp)) и [Espaloma Charge](https://github.com/choderalab/espaloma-charge).
+- `datasets/`: Папка с наборами данных структур аминокислот и их модификаций.
+- `espaloma-charge-main`: Папка основными скриптами Espaloma Charge
+- `examples`: Папка c примером файлов полученных при применении конвеера по параметризации остатка
+- `notebooks`: Папка с ноутбуками для воспроизведения работы програмного конвейера
+    - `1_charge_calculation_Kcr.ipynb`
+    - `2_generate_topology_Kcr.ipynb`
+    - `3_edd_topology_Kcr.ipynb`
 
 ## 📁 Описание ключевых ноутбуков 
 
-1. `datasets_parsing.ipynb`: Ноутбук для парсинга тестовых наборов данных.
-2. `Espaloma_ai.ipynb`: Ноутбук с примером использования Espaloma Charge.
-3. `psiresp.ipynb`: Ноутбук с примером использования библиотеки psiresp.
+- `notebooks/`:
+    - `1_charge_calculation_Kcr.ipynb` : Ноутбук для создания pdb cnhernehs остатка и расчета парциальных зарядов
+    - `2_generate_topology_Kcr.ipynb`: Ноутбук для генерации файлоа топологии (itp) с использованием библиотеки [acpype](https://github.com/alanwilter/acpype)
+    - `3_edd_topology_Kcr.ipynb` : Ноутбук для генерации файла тополгии остатка (rtp) и дополнительных файлов для модификации силового поля
+    
+    - `datasets_parsing.ipynb`: Ноутбук для парсинга тестовых наборов данных.
+    - `Espaloma_ai.ipynb`: Ноутбук с примером использования Espaloma Charge.
 
 ## 📧 Контакты
 

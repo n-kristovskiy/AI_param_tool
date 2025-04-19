@@ -1,0 +1,23 @@
+HEADER    AA0265                                  31-Mar-01                     
+COMPND    1-thioglycine                                                         
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N           1       0.000   0.000   0.000                          
+ATOM      2  H           1      -0.561  -0.366   0.772                          
+ATOM      3  C           1       1.454   0.000   0.000                          
+ATOM      4  H           1       1.814  -0.552  -0.872                          
+ATOM      5  H           1       1.837   1.023   0.000                          
+ATOM      6  C           1       1.798  -0.764   1.252                          
+ATOM      7  S           1       0.969  -0.863   2.161                          
+TER       8                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    6                                                 
+CONECT    4    3                                                                
+CONECT    5    3                                                                
+CONECT    6    3    7                                                           
+CONECT    7    6                                                                
+END                                                                             

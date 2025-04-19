@@ -1,0 +1,99 @@
+HEADER    AA0506                                  20-Nov-09                     
+COMPND    7'-hydroxy-2'-alpha-mannosyl-L-tryptophan                             
+REVDAT 001   20-Nov-09                                                          
+REMARK 001 Copyright (C) 2009 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Trp     1       0.000   0.000   0.000                          
+ATOM      2  HN  Trp     1      -0.316  -0.971   0.043                          
+ATOM      3  CA  Trp     1       1.490   0.000   0.000                          
+ATOM      4  HA  Trp     1       1.811  -0.553  -0.890                          
+ATOM      5  C   Trp     1       1.973  -0.761   1.249                          
+ATOM      6  O   Trp     1       1.311  -0.875   2.275                          
+ATOM      7  CB  Trp     1       2.017   1.442   0.000                          
+ATOM      8  HB1 Trp     1       1.432   2.041  -0.709                          
+ATOM      9  HB2 Trp     1       1.859   1.907   0.982                          
+ATOM     10  CG  Trp     1       3.474   1.558  -0.372                          
+ATOM     11  CD1 Trp     1       4.004   1.750  -1.642                          
+ATOM     12  CD2 Trp     1       4.583   1.529   0.542                          
+ATOM     13  NE1 Trp     1       5.371   1.810  -1.512                          
+ATOM     14  HE1 Trp     1       6.007   1.983  -2.276                          
+ATOM     15  CE2 Trp     1       5.756   1.648  -0.203                          
+ATOM     16  CE3 Trp     1       4.689   1.401   1.942                          
+ATOM     17  HE3 Trp     1       3.802   1.315   2.566                          
+ATOM     18  CZ2 Trp     1       7.032   1.619   0.358                          
+ATOM     19  O           1       8.267   1.714  -0.244                          
+ATOM     20  H           1       8.118   1.860  -1.189                          
+ATOM     21  CZ3 Trp     1       5.953   1.370   2.535                          
+ATOM     22  HZ3 Trp     1       6.041   1.264   3.613                          
+ATOM     23  CH2 Trp     1       7.098   1.471   1.751                          
+ATOM     24  HH2 Trp     1       8.073   1.444   2.233                          
+ATOM     25  C1  Man     2       3.375   1.949  -3.002                          
+ATOM     26  HC1 Man     2       4.162   1.808  -3.750                          
+ATOM     27  C2  Man     2       2.765   3.356  -3.144                          
+ATOM     28  HC2 Man     2       2.126   3.578  -2.281                          
+ATOM     29  O2  Man     2       3.805   4.355  -3.186                          
+ATOM     30  HO2 Man     2       3.860   4.642  -4.121                          
+ATOM     31  C3  Man     2       1.918   3.478  -4.417                          
+ATOM     32  HC3 Man     2       1.312   4.388  -4.324                          
+ATOM     33  O3  Man     2       2.778   3.732  -5.540                          
+ATOM     34  HO3 Man     2       3.175   2.874  -5.811                          
+ATOM     35  C4  Man     2       0.995   2.273  -4.642                          
+ATOM     36  HC4 Man     2       0.606   2.273  -5.667                          
+ATOM     37  O4  Man     2      -0.138   2.398  -3.768                          
+ATOM     38  HO4 Man     2      -0.646   3.182  -4.041                          
+ATOM     39  C5  Man     2       1.664   0.912  -4.354                          
+ATOM     40  HC5 Man     2       0.868   0.178  -4.177                          
+ATOM     41  OCR Man     2       2.415   0.908  -3.128                          
+ATOM     42  C6  Man     2       2.498   0.352  -5.522                          
+ATOM     43  H61 Man     2       3.041  -0.542  -5.200                          
+ATOM     44  H62 Man     2       1.841   0.090  -6.357                          
+ATOM     45  O6  Man     2       3.459   1.287  -6.016                          
+ATOM     46  HO6 Man     2       3.976   0.810  -6.695                          
+TER      47                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12                                                      
+CONECT   11   10   13   25                                                      
+CONECT   12   10   15   16                                                      
+CONECT   13   11   14   15                                                      
+CONECT   14   13                                                                
+CONECT   15   12   13   18                                                      
+CONECT   16   12   17   21                                                      
+CONECT   17   16                                                                
+CONECT   18   15   19   23                                                      
+CONECT   19   18   20                                                           
+CONECT   20   19                                                                
+CONECT   21   16   22   23                                                      
+CONECT   22   21                                                                
+CONECT   23   18   21   24                                                      
+CONECT   24   23                                                                
+CONECT   25   11   26   27   41                                                 
+CONECT   26   25                                                                
+CONECT   27   25   28   29   31                                                 
+CONECT   28   27                                                                
+CONECT   29   27   30                                                           
+CONECT   30   29                                                                
+CONECT   31   27   32   33   35                                                 
+CONECT   32   31                                                                
+CONECT   33   31   34                                                           
+CONECT   34   33                                                                
+CONECT   35   31   36   37   39                                                 
+CONECT   36   35                                                                
+CONECT   37   35   38                                                           
+CONECT   38   37                                                                
+CONECT   39   35   40   41   42                                                 
+CONECT   40   39                                                                
+CONECT   41   25   39                                                           
+CONECT   42   39   43   44   45                                                 
+CONECT   43   42                                                                
+CONECT   44   42                                                                
+CONECT   45   42   46                                                           
+CONECT   46   45                                                                
+END                                                                             

@@ -1,0 +1,32 @@
+HEADER    PROTEIN                                 20-APR-24   NONE
+TITLE     NULL                                                        
+COMPND    NULL                                                        
+SOURCE    NULL                                                        
+KEYWDS    NULL                                                        
+EXPDTA    NULL                                                        
+AUTHOR    Marvin                                                      
+REVDAT   1   20-APR-24         0                                  
+ATOM      1  C   GLY     1       0.924  -1.846   0.000  0.00  0.00           C+0
+ATOM      2  CA  GLY     1       0.924  -3.386   0.000  0.00  0.00           C+0
+ATOM      3  N   GLY     1      -0.410  -4.156   0.000  0.00  0.00           N+0
+ATOM      4  O   GLY     1       2.257  -1.076   0.000  0.00  0.00           O+0
+ATOM      5  C   LYS     2       0.924   1.234   0.000  0.00  0.00           C+0
+ATOM      6  CA  LYS     2      -0.410   0.464   0.000  0.00  0.00           C+0
+ATOM      7  N   LYS     2      -0.410  -1.076   0.000  0.00  0.00           N+0
+ATOM      8  O   LYS     2       0.924   2.774   0.000  0.00  0.00           O+0
+ATOM      9  CB  LYS     2      -1.744   1.234   0.000  0.00  0.00           C+0
+ATOM     10  CG  LYS     2      -3.077   0.464   0.000  0.00  0.00           C+0
+ATOM     11  CD  LYS     2      -4.411   1.234   0.000  0.00  0.00           C+0
+ATOM     12  CE  LYS     2      -5.745   0.464   0.000  0.00  0.00           C+0
+HETATM   13  N   UNK     0      -7.079   1.234   0.000  0.00  0.00           N+0
+ATOM     14  C   GLY     3       4.925   0.464   0.000  0.00  0.00           C+0
+ATOM     15  CA  GLY     3       3.591   1.234   0.000  0.00  0.00           C+0
+ATOM     16  N   GLY     3       2.257   0.464   0.000  0.00  0.00           N+0
+ATOM     17  O   GLY     3       6.258   1.234   0.000  0.00  0.00           O+0
+HETATM   18  C   UNK     0      -8.412   0.464   0.000  0.00  0.00           C+0
+HETATM   19  C   UNK     0      -9.746   1.234   0.000  0.00  0.00           C+0
+HETATM   20  O   UNK     0      -8.412  -1.076   0.000  0.00  0.00           O+0
+HETATM   21  C   UNK     0     -11.080   0.464   0.000  0.00  0.00           C+0
+HETATM   22  C   UNK     0     -12.413   1.234   0.000  0.00  0.00           C+0
+MASTER        0    0    0    0    0    0    0    0   22    0    0    0
+END

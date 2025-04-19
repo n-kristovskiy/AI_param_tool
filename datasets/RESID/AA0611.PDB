@@ -1,0 +1,97 @@
+HEADER    AA0611                                  13-Sep-13                     
+COMPND    S-(gamma-glutamyl-cysteinyl-glycyl)-L-cysteine                        
+REVDAT 001   13-Sep-13                                                          
+REMARK 001 Copyright (C) 2013 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Cys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Cys     1      -0.317  -0.971   0.058                          
+ATOM      3  CA  Cys     1       1.490   0.000   0.000                          
+ATOM      4  HA  Cys     1       1.797  -0.559  -0.891                          
+ATOM      5  C   Cys     1       1.988  -0.750   1.242                          
+ATOM      6  O   Cys     1       1.299  -1.120   2.182                          
+ATOM      7  CB  Cys     1       2.014   1.445   0.000                          
+ATOM      8  HB1 Cys     1       1.275   2.122  -0.441                          
+ATOM      9  HB2 Cys     1       2.192   1.798   1.022                          
+ATOM     10  SG  Cys     1       3.586   1.598  -0.922                          
+ATOM     11  N   Gly     1       3.179   2.755  -4.758                          
+ATOM     12  HN  Gly     1       2.271   3.176  -4.944                          
+ATOM     13  CA  Gly     1       3.248   1.796  -3.666                          
+ATOM     14  HA1 Gly     1       4.226   1.306  -3.670                          
+ATOM     15  HA2 Gly     1       2.463   1.052  -3.831                          
+ATOM     16  C   Gly     1       2.993   2.482  -2.327                          
+ATOM     17  O   Gly     1       2.375   3.533  -2.204                          
+ATOM     18  N   Cys     1       5.377   5.061  -6.598                          
+ATOM     19  HN  Cys     1       6.171   4.723  -6.058                          
+ATOM     20  CA  Cys     1       4.061   4.542  -6.218                          
+ATOM     21  HA  Cys     1       3.648   4.052  -7.108                          
+ATOM     22  C   Cys     1       4.297   3.459  -5.145                          
+ATOM     23  O   Cys     1       5.418   3.222  -4.693                          
+ATOM     24  CB  Cys     1       3.140   5.657  -5.703                          
+ATOM     25  HB1 Cys     1       3.332   6.606  -6.213                          
+ATOM     26  HB2 Cys     1       3.292   5.825  -4.631                          
+ATOM     27  SG  Cys     1       1.376   5.261  -5.971                          
+ATOM     28  HG  Cys     1       1.389   5.453  -7.302                          
+ATOM     29  N   Glu     1       8.945   9.281  -8.329                          
+ATOM     30  HN1 Glu     1       9.416   9.139  -7.437                          
+ATOM     31  HN2 Glu     1       9.648   9.659  -8.972                          
+ATOM     32  CA  Glu     1       8.485   7.979  -8.860                          
+ATOM     33  HA  Glu     1       9.286   7.243  -8.722                          
+ATOM     34  C   Glu     1       8.266   8.127 -10.380                          
+ATOM     35  O   Glu     1       8.914   8.854 -11.121                          
+ATOM     36  CB  Glu     1       7.223   7.563  -8.093                          
+ATOM     37  HB1 Glu     1       7.299   7.865  -7.038                          
+ATOM     38  HB2 Glu     1       6.349   8.091  -8.495                          
+ATOM     39  CG  Glu     1       7.001   6.049  -8.114                          
+ATOM     40  HG1 Glu     1       7.682   5.567  -7.403                          
+ATOM     41  HG2 Glu     1       7.216   5.608  -9.093                          
+ATOM     42  CD  Glu     1       5.563   5.714  -7.790                          
+ATOM     43  OE  Glu     1       4.630   6.008  -8.531                          
+ATOM     44  OXT Glu     1       7.335   7.306 -10.896                          
+ATOM     45  HXT Glu     1       7.308   7.540 -11.847                          
+TER      46                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   16                                                           
+CONECT   11   12   13   22                                                      
+CONECT   12   11                                                                
+CONECT   13   11   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   10   13   17                                                      
+CONECT   17   16                                                                
+CONECT   18   19   20   42                                                      
+CONECT   19   18                                                                
+CONECT   20   18   21   22   24                                                 
+CONECT   21   20                                                                
+CONECT   22   11   20   23                                                      
+CONECT   23   22                                                                
+CONECT   24   20   25   26   27                                                 
+CONECT   25   24                                                                
+CONECT   26   24                                                                
+CONECT   27   24   28                                                           
+CONECT   28   27                                                                
+CONECT   29   30   31   32                                                      
+CONECT   30   29                                                                
+CONECT   31   29                                                                
+CONECT   32   29   33   34   36                                                 
+CONECT   33   32                                                                
+CONECT   34   32   35   44                                                      
+CONECT   35   34                                                                
+CONECT   36   32   37   38   39                                                 
+CONECT   37   36                                                                
+CONECT   38   36                                                                
+CONECT   39   36   40   41   42                                                 
+CONECT   40   39                                                                
+CONECT   41   39                                                                
+CONECT   42   18   39   43                                                      
+CONECT   43   42                                                                
+CONECT   44   34   45                                                           
+CONECT   45   44                                                                
+END                                                                             

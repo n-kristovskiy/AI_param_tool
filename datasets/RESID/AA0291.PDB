@@ -1,0 +1,72 @@
+HEADER    AA0291                                  30-Jul-04                     
+COMPND    O-D-glucuronosyl-L-serine                                             
+REVDAT 001   31-Mar-01                                                          
+REVDAT 002   04-May-01                                                          
+REVDAT 003   02-Aug-02                                                          
+REVDAT 004   30-Jul-04                                                          
+REMARK 001 Copyright (C) 2001, 2002, 2004 John S. Garavelli                     
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Ser     1       0.000   0.000   0.000                          
+ATOM      2  HN  Ser     1      -0.392   0.601   0.818                          
+ATOM      3  CA  Ser     1       1.485   0.000   0.000                          
+ATOM      4  HA  Ser     1       1.823  -0.508  -0.922                          
+ATOM      5  C   Ser     1       2.007  -0.762   1.202                          
+ATOM      6  O   Ser     1       2.770  -1.700   1.040                          
+ATOM      7  CB  Ser     1       2.012   1.466   0.000                          
+ATOM      8  HB1 Ser     1       3.105   1.480  -0.158                          
+ATOM      9  HB2 Ser     1       1.776   1.950   0.965                          
+ATOM     10  OG  Ser     1       1.356   2.220  -1.041                          
+ATOM     11  C                   1.460   1.600  -2.346                          
+ATOM     12  H                   1.034   0.586  -2.315                          
+ATOM     13  O                   0.695   2.382  -3.294                          
+ATOM     14  C                   2.940   1.577  -2.817                          
+ATOM     15  H                   3.001   1.176  -3.845                          
+ATOM     16  O                   3.737   0.740  -1.951                          
+ATOM     17  H                   3.510  -0.190  -1.964                          
+ATOM     18  C                   3.466   3.041  -2.806                          
+ATOM     19  H                   3.448   3.430  -1.772                          
+ATOM     20  O                   4.821   3.099  -3.305                          
+ATOM     21  H                   4.939   2.755  -4.188                          
+ATOM     22  C                   2.549   3.916  -3.710                          
+ATOM     23  H                   2.651   3.599  -4.763                          
+ATOM     24  O                   2.948   5.297  -3.592                          
+ATOM     25  H                   3.865   5.456  -3.819                          
+ATOM     26  C                   1.065   3.780  -3.262                          
+ATOM     27  H                   0.954   4.142  -2.222                          
+ATOM     28  C                   0.133   4.538  -4.181                          
+ATOM     29  O                  -0.445   5.553  -3.814                          
+ATOM     30  O                  -0.027   4.008  -5.420                          
+ATOM     31  H                  -0.666   4.464  -5.975                          
+TER      32                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11                                                           
+CONECT   11   10   12   13   14                                                 
+CONECT   12   11                                                                
+CONECT   13   11   26                                                           
+CONECT   14   11   15   16   18                                                 
+CONECT   15   14                                                                
+CONECT   16   14   17                                                           
+CONECT   17   16                                                                
+CONECT   18   14   19   20   22                                                 
+CONECT   19   18                                                                
+CONECT   20   18   21                                                           
+CONECT   21   20                                                                
+CONECT   22   18   23   24   26                                                 
+CONECT   23   22                                                                
+CONECT   24   22   25                                                           
+CONECT   25   24                                                                
+CONECT   26   13   22   27   28                                                 
+CONECT   27   26                                                                
+CONECT   28   26   29   30                                                      
+CONECT   29   28                                                                
+CONECT   30   28   31                                                           
+CONECT   31   30                                                                
+END                                                                             

@@ -1,0 +1,53 @@
+HEADER    AA0066                                  31-Mar-01                     
+COMPND    N,N-dimethyl-L-proline                                                
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  C   CH3     1      -0.463   0.338   1.200                          
+ATOM      2  H   CH3     1       0.039   1.255   1.556                          
+ATOM      3  H   CH3     1      -1.548   0.523   1.117                          
+ATOM      4  H   CH3     1      -0.290  -0.479   1.919                          
+ATOM      5  C   CH3     1      -0.454  -1.199  -0.332                          
+ATOM      6  H   CH3     1      -1.558  -1.175  -0.325                          
+ATOM      7  H   CH3     1      -0.095  -1.948   0.394                          
+ATOM      8  H   CH3     1      -0.093  -1.458  -1.343                          
+ATOM      9  N   Pro     1       0.000   0.000   0.000                          
+ATOM     10  CA  Pro     1       1.345   0.000   0.000                          
+ATOM     11  HA  Pro     1       1.653  -0.432  -0.970                          
+ATOM     12  C   Pro     1       2.004  -0.754   1.139                          
+ATOM     13  O   Pro     1       1.412  -1.582   1.812                          
+ATOM     14  CB  Pro     1       1.728   1.512   0.000                          
+ATOM     15  HB1 Pro     1       1.890   1.877   1.031                          
+ATOM     16  HB2 Pro     1       2.621   1.701  -0.623                          
+ATOM     17  CG  Pro     1       0.445   2.160  -0.589                          
+ATOM     18  HG1 Pro     1      -0.050   2.770   0.189                          
+ATOM     19  HG2 Pro     1       0.642   2.767  -1.491                          
+ATOM     20  CD  Pro     1      -0.412   0.903  -0.904                          
+ATOM     21  HD1 Pro     1      -1.496   1.102  -0.833                          
+ATOM     22  HD2 Pro     1      -0.157   0.525  -1.910                          
+TER      23                                                                     
+CONECT    1    2    3    4    9                                                 
+CONECT    2    1                                                                
+CONECT    3    1                                                                
+CONECT    4    1                                                                
+CONECT    5    6    7    8    9                                                 
+CONECT    6    5                                                                
+CONECT    7    5                                                                
+CONECT    8    5                                                                
+CONECT    9    1    5   10   20                                                 
+CONECT   10    9   11   12   14                                                 
+CONECT   11   10                                                                
+CONECT   12   10   13                                                           
+CONECT   13   12                                                                
+CONECT   14   10   15   16   17                                                 
+CONECT   15   14                                                                
+CONECT   16   14                                                                
+CONECT   17   14   18   19   20                                                 
+CONECT   18   17                                                                
+CONECT   19   17                                                                
+CONECT   20    9   17   21   22                                                 
+CONECT   21   20                                                                
+CONECT   22   20                                                                
+END                                                                             

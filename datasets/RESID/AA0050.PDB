@@ -1,0 +1,49 @@
+HEADER    AA0050                                  31-Mar-01                     
+COMPND    N-acetyl-L-proline                                                    
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  CH3 ACE     1      -2.001  -1.324  -0.010                          
+ATOM      2  HC1 ACE     1      -2.338  -2.375  -0.050                          
+ATOM      3  HC2 ACE     1      -2.432  -0.887   0.910                          
+ATOM      4  HC3 ACE     1      -2.438  -0.808  -0.881                          
+ATOM      5  C   ACE     1      -0.498  -1.250   0.000                          
+ATOM      6  O   ACE     1       0.183  -2.274   0.000                          
+ATOM      7  N   Pro     1       0.000   0.000   0.000                          
+ATOM      8  CA  Pro     1       1.519   0.000   0.000                          
+ATOM      9  HA  Pro     1       1.846  -0.459  -0.943                          
+ATOM     10  C   Pro     1       2.174  -0.852   1.147                          
+ATOM     11  O   Pro     1       1.635  -0.905   2.254                          
+ATOM     12  CB  Pro     1       1.962   1.516   0.000                          
+ATOM     13  HB1 Pro     1       2.729   1.735   0.753                          
+ATOM     14  HB2 Pro     1       2.379   1.807  -0.970                          
+ATOM     15  CG  Pro     1       0.676   2.319   0.318                          
+ATOM     16  HG1 Pro     1       0.580   2.519   1.393                          
+ATOM     17  HG2 Pro     1       0.672   3.278  -0.208                          
+ATOM     18  CD  Pro     1      -0.479   1.421  -0.200                          
+ATOM     19  HD1 Pro     1      -1.379   1.636   0.383                          
+ATOM     20  HD2 Pro     1      -0.715   1.607  -1.257                          
+TER      21                                                                     
+CONECT    1    2    3    4    5                                                 
+CONECT    2    1                                                                
+CONECT    3    1                                                                
+CONECT    4    1                                                                
+CONECT    5    1    6    7                                                      
+CONECT    6    5                                                                
+CONECT    7    5    8   18                                                      
+CONECT    8    7    9   10   12                                                 
+CONECT    9    8                                                                
+CONECT   10    8   11                                                           
+CONECT   11   10                                                                
+CONECT   12    8   13   14   15                                                 
+CONECT   13   12                                                                
+CONECT   14   12                                                                
+CONECT   15   12   16   17   18                                                 
+CONECT   16   15                                                                
+CONECT   17   15                                                                
+CONECT   18    7   15   19   20                                                 
+CONECT   19   18                                                                
+CONECT   20   18                                                                
+END                                                                             

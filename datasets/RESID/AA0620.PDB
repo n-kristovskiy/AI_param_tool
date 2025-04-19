@@ -1,0 +1,35 @@
+HEADER    AA0620                                  31-Dec-13                     
+COMPND    N,N-dimethylglyine                                                    
+REVDAT 001   31-Dec-13                                                          
+REMARK 001 Copyright (C) 2013 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  C1  CH3     1      -0.509   0.484  -1.283                          
+ATOM      2  H11 CH3     1      -0.194   1.514  -1.490                          
+ATOM      3  H12 CH3     1      -1.605   0.447  -1.304                          
+ATOM      4  H13 CH3     1      -0.161  -0.155  -2.103                          
+ATOM      5  C2  CH3     1      -0.542   0.819   1.089                          
+ATOM      6  H21 CH3     1      -1.638   0.798   1.073                          
+ATOM      7  H22 CH3     1      -0.247   0.440   2.072                          
+ATOM      8  H23 CH3     1      -0.220   1.864   1.014                          
+ATOM      9  N   Gly     1       0.000   0.000   0.000                          
+ATOM     10  CA  Gly     1       1.477   0.000   0.000                          
+ATOM     11  HA1 Gly     1       1.833  -0.513  -0.903                          
+ATOM     12  HA2 Gly     1       1.866   1.025   0.000                          
+ATOM     13  C   Gly     1       2.099  -0.761   1.180                          
+ATOM     14  O   Gly     1       1.510  -1.325   2.088                          
+TER      15                                                                     
+CONECT    1    2    3    4    9                                                 
+CONECT    2    1                                                                
+CONECT    3    1                                                                
+CONECT    4    1                                                                
+CONECT    5    6    7    8    9                                                 
+CONECT    6    5                                                                
+CONECT    7    5                                                                
+CONECT    8    5                                                                
+CONECT    9    1    5   10                                                      
+CONECT   10    9   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14                                                           
+CONECT   14   13                                                                
+END                                                                             

@@ -1,0 +1,27 @@
+HEADER    AA0458                                  29-Aug-08                     
+COMPND    aminomalonic acid                                                     
+REVDAT 001   29-Aug-08                                                          
+REMARK 001 Copyright (C) 2008 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Ser     1       0.000   0.000   0.000                          
+ATOM      2  HN  Ser     1      -0.374   0.961  -0.438                          
+ATOM      3  CA  Ser     1       1.456   0.000   0.000                          
+ATOM      4  HA  Ser     1       1.702  -0.519  -0.984                          
+ATOM      5  C   Ser     1       2.011  -0.727   1.191                          
+ATOM      6  O   Ser     1       1.453  -0.709   2.296                          
+ATOM      7  CB  Ser     1       2.110   1.368   0.000                          
+ATOM      8  OG1 Ser     1       1.539   2.418  -0.175                          
+ATOM      9  OG2         1       3.420   1.472   0.168                          
+ATOM     10  HG2         1       3.884   2.429   0.142                          
+TER      11                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9                                                      
+CONECT    8    7                                                                
+CONECT    9    7   10                                                           
+CONECT   10    9                                                                
+END                                                                             

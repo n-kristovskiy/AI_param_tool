@@ -1,0 +1,37 @@
+HEADER    AA0196                                  31-Mar-01                     
+COMPND    D-asparagine                                                          
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N           1       0.000   0.000   0.000                          
+ATOM      2  H           2      -0.384  -0.974  -0.294                          
+ATOM      3  C           3       1.483   0.000   0.000                          
+ATOM      4  H           4       1.834  -0.502   0.919                          
+ATOM      5  C           5       2.017  -0.749  -1.205                          
+ATOM      6  O           6       3.028  -1.426  -1.103                          
+ATOM      7  C           7       1.987   1.475   0.000                          
+ATOM      8  H           8       3.093   1.485  -0.059                          
+ATOM      9  H           9       1.577   2.003  -0.882                          
+ATOM     10  C          10       1.547   2.187   1.270                          
+ATOM     11  O          11       0.499   2.823   1.262                          
+ATOM     12  N          12       2.349   2.079   2.370                          
+ATOM     13  H          13       3.212   1.546   2.330                          
+ATOM     14  H          14       2.052   2.547   3.226                          
+TER      15                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12                                                      
+CONECT   11   10                                                                
+CONECT   12   10   13   14                                                      
+CONECT   13   12                                                                
+CONECT   14   12                                                                
+END                                                                             

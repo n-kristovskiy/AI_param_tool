@@ -1,0 +1,41 @@
+HEADER    AA0487                                  31-Mar-09                     
+COMPND    4-hydroxy-L-glutamic acid                                             
+REVDAT 001   31-Mar-09                                                          
+REMARK 001 Copyright (C) 2009 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Glu     1       0.000   0.000   0.000                          
+ATOM      2  HN  Glu     1      -0.335   0.562  -0.784                          
+ATOM      3  CA  Glu     1       1.484   0.000   0.000                          
+ATOM      4  HA  Glu     1       1.827  -0.498  -0.914                          
+ATOM      5  C   Glu     1       1.961  -0.853   1.190                          
+ATOM      6  O   Glu     1       3.134  -1.059   1.476                          
+ATOM      7  CB  Glu     1       1.975   1.452   0.000                          
+ATOM      8  HB1 Glu     1       1.335   2.065  -0.649                          
+ATOM      9  HB2 Glu     1       1.882   1.885   1.005                          
+ATOM     10  CG  Glu     1       3.417   1.593  -0.500                          
+ATOM     11  HG  Glu     1       3.478   1.373  -1.571                          
+ATOM     12  OD1         0       4.277   0.666   0.155                          
+ATOM     13  HD1         0       4.380   0.982   1.074                          
+ATOM     14  CD2 Glu     1       3.896   3.026  -0.281                          
+ATOM     15  OE1 Glu     1       4.689   3.393   0.573                          
+ATOM     16  OE2 Glu     1       3.339   3.911  -1.130                          
+ATOM     17  HE1 Glu     1       3.741   4.771  -0.883                          
+TER      18                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   14                                                 
+CONECT   11   10                                                                
+CONECT   12   10   13                                                           
+CONECT   13   12                                                                
+CONECT   14   10   15   16                                                      
+CONECT   15   14                                                                
+CONECT   16   14   17                                                           
+CONECT   17   16                                                                
+END                                                                             

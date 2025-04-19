@@ -1,0 +1,41 @@
+HEADER    AA0384                                  25-Feb-05                     
+COMPND    N-formyl-L-proline                                                    
+REVDAT 001   25-Feb-05                                                          
+REMARK 001 Copyright (C) 2005 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  C   For     1      -0.686  -1.136  -0.305                          
+ATOM      2  O   For     1      -0.139  -2.196  -0.578                          
+ATOM      3  HC  For     1      -1.774  -1.114  -0.310                          
+ATOM      4  N   Pro     1       0.000   0.000   0.000                          
+ATOM      5  CA  Pro     1       1.468   0.000   0.000                          
+ATOM      6  HA  Pro     1       1.875  -0.499  -0.898                          
+ATOM      7  C   Pro     1       1.956  -0.654   1.277                          
+ATOM      8  O   Pro     1       2.581  -0.005   2.101                          
+ATOM      9  CB  Pro     1       1.752   1.538   0.000                          
+ATOM     10  HB1 Pro     1       2.727   1.789   0.457                          
+ATOM     11  HB2 Pro     1       1.712   1.907  -1.042                          
+ATOM     12  CG  Pro     1       0.542   2.134   0.789                          
+ATOM     13  HG1 Pro     1       0.725   1.972   1.869                          
+ATOM     14  HG2 Pro     1       0.389   3.210   0.587                          
+ATOM     15  CD  Pro     1      -0.677   1.256   0.349                          
+ATOM     16  HD1 Pro     1      -1.168   1.682  -0.546                          
+ATOM     17  HD2 Pro     1      -1.402   1.126   1.172                          
+TER      18                                                                     
+CONECT    1    2    3    4                                                      
+CONECT    2    1                                                                
+CONECT    3    1                                                                
+CONECT    4    1    5   15                                                      
+CONECT    5    4    6    7    9                                                 
+CONECT    6    5                                                                
+CONECT    7    5    8                                                           
+CONECT    8    7                                                                
+CONECT    9    5   10   11   12                                                 
+CONECT   10    9                                                                
+CONECT   11    9                                                                
+CONECT   12    9   13   14   15                                                 
+CONECT   13   12                                                                
+CONECT   14   12                                                                
+CONECT   15    4   12   16   17                                                 
+CONECT   16   15                                                                
+CONECT   17   15                                                                
+END                                                                             

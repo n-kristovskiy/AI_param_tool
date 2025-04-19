@@ -1,0 +1,75 @@
+HEADER    AA0504                                  20-Nov-09                     
+COMPND    5-glutamyl allysine                                                   
+REVDAT 001   20-Nov-09                                                          
+REMARK 001 Copyright (C) 2009 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Glu     1       0.000   0.000   0.000                          
+ATOM      2  HN  Glu     1      -0.315  -0.963   0.143                          
+ATOM      3  CA  Glu     1       1.484   0.000   0.000                          
+ATOM      4  HA  Glu     1       1.819  -0.536  -0.894                          
+ATOM      5  C   Glu     1       2.003  -0.774   1.218                          
+ATOM      6  O   Glu     1       1.320  -1.304   2.083                          
+ATOM      7  CB  Glu     1       2.003   1.442   0.000                          
+ATOM      8  HB1 Glu     1       3.090   1.456   0.153                          
+ATOM      9  HB2 Glu     1       1.583   1.978   0.861                          
+ATOM     10  CG  Glu     1       1.691   2.174  -1.307                          
+ATOM     11  HG1 Glu     1       0.681   1.933  -1.659                          
+ATOM     12  HG2 Glu     1       2.400   1.861  -2.082                          
+ATOM     13  CD  Glu     1       1.753   3.683  -1.163                          
+ATOM     14  OE  Glu     1       1.961   4.263  -0.104                          
+ATOM     15  N   DO2     2       1.527   4.339  -2.354                          
+ATOM     16  HN  DO2     2       1.163   3.785  -3.123                          
+ATOM     17  CA  DO2     2       1.196   5.769  -2.386                          
+ATOM     18  HA  DO2     2       1.206   6.164  -1.365                          
+ATOM     19  C   DO2     2      -0.238   5.852  -2.920                          
+ATOM     20  O   DO2     2      -0.851   4.951  -3.475                          
+ATOM     21  CB  DO2     2       2.177   6.521  -3.294                          
+ATOM     22  HB1 DO2     2       3.182   6.095  -3.182                          
+ATOM     23  HB2 DO2     2       1.895   6.390  -4.347                          
+ATOM     24  CG  DO2     2       2.249   8.015  -2.961                          
+ATOM     25  HG1 DO2     2       2.572   8.146  -1.921                          
+ATOM     26  HG2 DO2     2       1.258   8.474  -3.039                          
+ATOM     27  CD  DO2     2       3.213   8.750  -3.888                          
+ATOM     28  HD1 DO2     2       4.228   8.356  -3.783                          
+ATOM     29  HD2 DO2     2       2.902   8.641  -4.933                          
+ATOM     30  CE  DO2     2       3.223  10.222  -3.567                          
+ATOM     31  HE  DO2     2       2.238  10.718  -3.545                          
+ATOM     32  OZ  DO2     2       4.254  10.870  -3.414                          
+ATOM     33  OXT DO2     2      -0.809   7.062  -2.769                          
+ATOM     34  HXT DO2     2      -1.707   6.949  -3.147                          
+TER      35                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   15                                                      
+CONECT   14   13                                                                
+CONECT   15   13   16   17                                                      
+CONECT   16   15                                                                
+CONECT   17   15   18   19   21                                                 
+CONECT   18   17                                                                
+CONECT   19   17   20   33                                                      
+CONECT   20   19                                                                
+CONECT   21   17   22   23   24                                                 
+CONECT   22   21                                                                
+CONECT   23   21                                                                
+CONECT   24   21   25   26   27                                                 
+CONECT   25   24                                                                
+CONECT   26   24                                                                
+CONECT   27   24   28   29   30                                                 
+CONECT   28   27                                                                
+CONECT   29   27                                                                
+CONECT   30   27   31   32                                                      
+CONECT   31   30                                                                
+CONECT   32   30                                                                
+CONECT   33   19   34                                                           
+CONECT   34   33                                                                
+END                                                                             

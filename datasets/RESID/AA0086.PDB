@@ -1,0 +1,49 @@
+HEADER    AA0086                                  31-Mar-01                     
+COMPND    L-glutamine amide                                                     
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 002   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Gln     1       0.000   0.000   0.000                          
+ATOM      2  HN  Gln     1      -0.375  -0.242   0.994                          
+ATOM      3  CA  Gln     1       1.484   0.000   0.000                          
+ATOM      4  HA  Gln     1       1.825  -0.487  -0.932                          
+ATOM      5  C   Gln     1       2.014  -0.752   1.209                          
+ATOM      6  O   Gln     1       1.314  -0.867   2.208                          
+ATOM      7  CB  Gln     1       1.981   1.475   0.000                          
+ATOM      8  HB1 Gln     1       1.507   2.013  -0.844                          
+ATOM      9  HB2 Gln     1       1.691   1.965   0.949                          
+ATOM     10  CG  Gln     1       3.528   1.544  -0.170                          
+ATOM     11  HG1 Gln     1       4.013   1.071   0.705                          
+ATOM     12  HG2 Gln     1       3.813   0.995  -1.087                          
+ATOM     13  CD  Gln     1       3.951   2.999  -0.289                          
+ATOM     14  OE  Gln     1       3.100   3.879  -0.219                          
+ATOM     15  NE  Gln     1       5.282   3.259  -0.473                          
+ATOM     16  HE1 Gln     1       5.567   4.232  -0.555                          
+ATOM     17  HE2 Gln     1       5.958   2.503  -0.529                          
+ATOM     18  N   NH2     2       3.276  -1.281   1.121                          
+ATOM     19  HN1 NH2     2       3.830  -1.182   0.277                          
+ATOM     20  HN2 NH2     2       3.634  -1.784   1.931                          
+TER      21                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6   18                                                      
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   15                                                      
+CONECT   14   13                                                                
+CONECT   15   13   16   17                                                      
+CONECT   16   15                                                                
+CONECT   17   15                                                                
+CONECT   18    5   19   20                                                      
+CONECT   19   18                                                                
+CONECT   20   18                                                                
+END                                                                             

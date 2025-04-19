@@ -1,0 +1,65 @@
+CHARGE      0.00 ( 0 )
+Formula: H18 C10 N2 O2 
+ATOM      1  N   KCR     2      -5.014  -1.274   0.411 -0.321500        NT
+ATOM      2  CA  KCR     2      -4.278  -0.389  -0.494  0.060900        CT
+ATOM      3  C   KCR     2      -4.618   1.056  -0.218  0.136900         C
+ATOM      4  O   KCR     2      -4.380   1.559   0.869 -0.299400         O
+ATOM      5  CB  KCR     2      -2.765  -0.652  -0.367 -0.031100        CT
+ATOM      6  CG  KCR     2      -1.953   0.106  -1.433 -0.049900        CT
+ATOM      7  CD  KCR     2      -0.466  -0.281  -1.429 -0.037300        CT
+ATOM      8  CE  KCR     2       0.281   0.250  -0.198  0.011900        CT
+ATOM      9  NZ  KCR     2       1.713  -0.032  -0.297 -0.311800         N
+ATOM     10  CH  KCR     2       2.628   0.375   0.730  0.236600         C
+ATOM     11  OT2 KCR     2       2.202   0.992   1.745 -0.270900         O
+ATOM     12  CT1 KCR     2       4.064   0.068   0.591 -0.004000        CD
+ATOM     13  CI  KCR     2       4.964   0.421   1.513 -0.082200        CM
+ATOM     14  CK  KCR     2       6.412   0.093   1.338 -0.046400        CT
+ATOM     15  HK3 KCR     2       6.800   0.573   0.414  0.027200        HC
+ATOM     16  HK2 KCR     2       6.990   0.470   2.208  0.027200        HC
+ATOM     17  HK1 KCR     2       6.546  -1.007   1.267  0.027200        HC
+ATOM     18  HI  KCR     2       4.660   0.953   2.407  0.057100        HA
+ATOM     19  HT1 KCR     2       4.393  -0.463  -0.295  0.066600        HA
+ATOM     20  HZ  KCR     2       2.088  -0.544  -1.129  0.149000         H
+ATOM     21  HE2 KCR     2       0.132   1.349  -0.118  0.046200        H1
+ATOM     22  HE1 KCR     2      -0.114  -0.233   0.721  0.046200        H1
+ATOM     23  HD2 KCR     2      -0.361  -1.387  -1.485  0.028000        HC
+ATOM     24  HD1 KCR     2       0.004   0.149  -2.341  0.028000        HC
+ATOM     25  HG2 KCR     2      -2.053   1.203  -1.282  0.026600        HC
+ATOM     26  HG1 KCR     2      -2.366  -0.135  -2.437  0.026600        HC
+ATOM     27  HB2 KCR     2      -2.586  -1.743  -0.487  0.028400        HC
+ATOM     28  HB1 KCR     2      -2.426  -0.361   0.650  0.028400        HC
+ATOM     29  HA  KCR     2      -4.589  -0.627  -1.535  0.053400        H1
+ATOM     30  H   KCR     2      -6.039  -1.118   0.273  0.118800         H
+ATOM     31  HW  KCR     2      -4.790  -1.027   1.403  0.118800         H
+ATOM     32  HW1 KCR     2      -5.079   1.658  -0.995  0.104300        HA
+BOND    1    1    2    1      N   CA
+BOND    2    1   30    1      N    H
+BOND    3    1   31    1      N   HW
+BOND    4    2    3    1     CA    C
+BOND    5    2    5    1     CA   CB
+BOND    6    2   29    1     CA   HA
+BOND    7    3    4    2      C    O
+BOND    8    3   32    1      C  HW1
+BOND    9    5    6    1     CB   CG
+BOND   10    5   27    1     CB  HB2
+BOND   11    5   28    1     CB  HB1
+BOND   12    6    7    1     CG   CD
+BOND   13    6   25    1     CG  HG2
+BOND   14    6   26    1     CG  HG1
+BOND   15    7    8    1     CD   CE
+BOND   16    7   23    1     CD  HD2
+BOND   17    7   24    1     CD  HD1
+BOND   18    8    9    1     CE   NZ
+BOND   19    8   21    1     CE  HE2
+BOND   20    8   22    1     CE  HE1
+BOND   21    9   10    1     NZ   CH
+BOND   22    9   20    1     NZ   HZ
+BOND   23   10   11    2     CH  OT2
+BOND   24   10   12    1     CH  CT1
+BOND   25   12   13    2    CT1   CI
+BOND   26   12   19    1    CT1  HT1
+BOND   27   13   14    1     CI   CK
+BOND   28   13   18    1     CI   HI
+BOND   29   14   15    1     CK  HK3
+BOND   30   14   16    1     CK  HK2
+BOND   31   14   17    1     CK  HK1

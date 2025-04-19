@@ -1,0 +1,42 @@
+HEADER    PROTEIN                                 20-APR-24   NONE
+TITLE     NULL                                                        
+COMPND    NULL                                                        
+SOURCE    NULL                                                        
+KEYWDS    NULL                                                        
+EXPDTA    NULL                                                        
+AUTHOR    Marvin                                                      
+REVDAT   1   20-APR-24         0                                  
+ATOM      1  C   LYS     2       0.924   1.234   0.000  0.00  0.00           C+0
+ATOM      2  CA  LYS     2      -0.410   0.464   0.000  0.00  0.00           C+0
+ATOM      3  N   LYS     2      -0.410  -1.076   0.000  0.00  0.00           N+0
+ATOM      4  O   LYS     2       0.924   2.774   0.000  0.00  0.00           O+0
+ATOM      5  CB  LYS     2      -1.744   1.234   0.000  0.00  0.00           C+0
+ATOM      6  CG  LYS     2      -3.077   0.464   0.000  0.00  0.00           C+0
+ATOM      7  CD  LYS     2      -4.411   1.234   0.000  0.00  0.00           C+0
+ATOM      8  CE  LYS     2      -5.745   0.464   0.000  0.00  0.00           C+0
+HETATM    9  N   UNK     0      -7.079   1.234   0.000  0.00  0.00           N+0
+HETATM   10  C   UNK     0      -8.412   0.464   0.000  0.00  0.00           C+0
+HETATM   11  C   UNK     0      -9.746   1.234   0.000  0.00  0.00           C+0
+HETATM   12  O   UNK     0      -8.412  -1.076   0.000  0.00  0.00           O+0
+HETATM   13  C   UNK     0     -11.080   0.464   0.000  0.00  0.00           C+0
+HETATM   14  C   UNK     0     -12.413   1.234   0.000  0.00  0.00           C+0
+HETATM   15  H   UNK     0      -1.744  -0.306   0.000  0.00  0.00           H+0
+HETATM   16  H   UNK     0      -1.744  -1.846   0.000  0.00  0.00           H+0
+HETATM   17  H   UNK     0      -1.021   2.594   0.000  0.00  0.00           H+0
+HETATM   18  H   UNK     0      -2.467   2.594   0.000  0.00  0.00           H+0
+HETATM   19  H   UNK     0      -2.355  -0.896   0.000  0.00  0.00           H+0
+HETATM   20  H   UNK     0      -3.800  -0.896   0.000  0.00  0.00           H+0
+HETATM   21  H   UNK     0      -3.688   2.594   0.000  0.00  0.00           H+0
+HETATM   22  H   UNK     0      -5.134   2.594   0.000  0.00  0.00           H+0
+HETATM   23  H   UNK     0      -5.022  -0.896   0.000  0.00  0.00           H+0
+HETATM   24  H   UNK     0      -6.468  -0.896   0.000  0.00  0.00           H+0
+HETATM   25  H   UNK     0      -7.079   2.774   0.000  0.00  0.00           H+0
+HETATM   26  H   UNK     0      -9.746   2.774   0.000  0.00  0.00           H+0
+HETATM   27  H   UNK     0     -11.080  -1.076   0.000  0.00  0.00           H+0
+HETATM   28  H   UNK     0     -11.643   2.568   0.000  0.00  0.00           H+0
+HETATM   29  H   UNK     0     -13.747   2.004   0.000  0.00  0.00           H+0
+HETATM   30  H   UNK     0     -13.183  -0.100   0.000  0.00  0.00           H+0
+HETATM   31  H   UNK     0       0.924  -1.846   0.000  0.00  0.00           H+0
+HETATM   32  H   UNK     0       2.257   0.464   0.000  0.00  0.00           H+0
+MASTER        0    0    0    0    0    0    0    0   32    0    0    0
+END

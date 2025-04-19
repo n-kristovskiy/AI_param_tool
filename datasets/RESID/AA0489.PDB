@@ -1,0 +1,77 @@
+HEADER    AA0489                                  31-Mar-09                     
+COMPND    [cyclo(prolylserin)-O-yl] cysteinate                                  
+REVDAT 001   31-Mar-09                                                          
+REMARK 001 Copyright (C) 2009 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Cys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Cys     1      -0.326   0.514  -0.822                          
+ATOM      3  CA  Cys     1       1.489   0.000   0.000                          
+ATOM      4  HA  Cys     1       1.813  -0.550  -0.891                          
+ATOM      5  C   Cys     1       1.992  -0.773   1.236                          
+ATOM      6  O   Cys     1       3.173  -0.950   1.520                          
+ATOM      7  CB  Cys     1       1.976   1.458   0.000                          
+ATOM      8  HB1 Cys     1       1.292   2.086  -0.583                          
+ATOM      9  HB2 Cys     1       2.014   1.868   1.015                          
+ATOM     10  SG  Cys     1       3.612   1.674  -0.778                          
+ATOM     11  HG  Cys     1       4.326   1.486   0.349                          
+ATOM     12  N   Ser     2       0.414  -3.346   5.007                          
+ATOM     13  HN  Ser     2       1.237  -3.114   5.552                          
+ATOM     14  CA  Ser     2       0.079  -2.576   3.799                          
+ATOM     15  HA  Ser     2      -0.538  -1.722   4.104                          
+ATOM     16  C   Ser     2      -0.796  -3.452   2.866                          
+ATOM     17  O   Ser     2      -0.774  -3.391   1.639                          
+ATOM     18  CB  Ser     2       1.330  -2.087   3.068                          
+ATOM     19  HB1 Ser     2       1.985  -1.563   3.775                          
+ATOM     20  HB2 Ser     2       1.878  -2.936   2.640                          
+ATOM     21  OG  Ser     2       0.957  -1.174   2.024                          
+ATOM     22  N   Pro     3      -1.699  -4.236   3.554                          
+ATOM     23  CA  Pro     3      -1.912  -4.104   4.990                          
+ATOM     24  HA  Pro     3      -2.486  -3.186   5.163                          
+ATOM     25  C   Pro     3      -0.573  -3.992   5.726                          
+ATOM     26  O   Pro     3      -0.398  -4.306   6.897                          
+ATOM     27  CB  Pro     3      -2.730  -5.341   5.334                          
+ATOM     28  HB1 Pro     3      -2.081  -6.212   5.494                          
+ATOM     29  HB2 Pro     3      -3.341  -5.206   6.232                          
+ATOM     30  CG  Pro     3      -3.572  -5.545   4.074                          
+ATOM     31  HG1 Pro     3      -3.955  -6.564   3.973                          
+ATOM     32  HG2 Pro     3      -4.429  -4.860   4.093                          
+ATOM     33  CD  Pro     3      -2.629  -5.159   2.940                          
+ATOM     34  HD1 Pro     3      -3.144  -4.688   2.098                          
+ATOM     35  HD2 Pro     3      -2.058  -6.019   2.574                          
+TER      36                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6   21                                                      
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11                                                           
+CONECT   11   10                                                                
+CONECT   12   13   14   25                                                      
+CONECT   13   12                                                                
+CONECT   14   12   15   16   18                                                 
+CONECT   15   14                                                                
+CONECT   16   14   17   22                                                      
+CONECT   17   16                                                                
+CONECT   18   14   19   20   21                                                 
+CONECT   19   18                                                                
+CONECT   20   18                                                                
+CONECT   21    5   18                                                           
+CONECT   22   16   23   33                                                      
+CONECT   23   22   24   25   27                                                 
+CONECT   24   23                                                                
+CONECT   25   12   23   26                                                      
+CONECT   26   25                                                                
+CONECT   27   23   28   29   30                                                 
+CONECT   28   27                                                                
+CONECT   29   27                                                                
+CONECT   30   27   31   32   33                                                 
+CONECT   31   30                                                                
+CONECT   32   30                                                                
+CONECT   33   22   30   34   35                                                 
+CONECT   34   33                                                                
+CONECT   35   33                                                                
+END                                                                             

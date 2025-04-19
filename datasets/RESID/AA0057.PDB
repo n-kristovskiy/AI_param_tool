@@ -1,0 +1,29 @@
+HEADER    AA0057                                  31-Mar-01                     
+COMPND    N-formylglycine                                                       
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  C   FOR     1      -0.703   0.439  -1.089                          
+ATOM      2  O   FOR     1      -1.928   0.468  -1.120                          
+ATOM      3  HC  FOR     1      -0.152   0.782  -1.964                          
+ATOM      4  N   Gly     1       0.000   0.000   0.000                          
+ATOM      5  HN  Gly     1      -0.480  -0.311   0.805                          
+ATOM      6  CA  Gly     1       1.454   0.000   0.000                          
+ATOM      7  HA1 Gly     1       1.837  -0.528   0.876                          
+ATOM      8  HA2 Gly     1       1.838   1.024   0.000                          
+ATOM      9  C   Gly     1       1.908  -0.735  -1.265                          
+ATOM     10  O   Gly     1       1.160  -1.610  -1.708                          
+TER      11                                                                     
+CONECT    1    2    3    4                                                      
+CONECT    2    1                                                                
+CONECT    3    1                                                                
+CONECT    4    1    5    6                                                      
+CONECT    5    4                                                                
+CONECT    6    4    7    8    9                                                 
+CONECT    7    6                                                                
+CONECT    8    6                                                                
+CONECT    9    6   10                                                           
+CONECT   10    9                                                                
+END                                                                             

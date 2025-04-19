@@ -1,0 +1,63 @@
+HEADER    AA0125                                  31-Mar-01                     
+COMPND    N6-glycyl-L-lysine                                                    
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Lys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Lys     1      -0.375  -0.979  -0.281                          
+ATOM      3  CA  Lys     1       1.484   0.000   0.000                          
+ATOM      4  HA  Lys     1       1.820  -0.477  -0.940                          
+ATOM      5  C   Lys     1       1.988  -0.781   1.201                          
+ATOM      6  O   Lys     1       1.238  -1.052   2.126                          
+ATOM      7  CB  Lys     1       1.961   1.483   0.000                          
+ATOM      8  HB1 Lys     1       1.394   2.014  -0.789                          
+ATOM      9  HB2 Lys     1       1.751   1.956   0.977                          
+ATOM     10  CG  Lys     1       3.472   1.599  -0.346                          
+ATOM     11  HG1 Lys     1       4.093   1.301   0.519                          
+ATOM     12  HG2 Lys     1       3.700   0.942  -1.205                          
+ATOM     13  CD  Lys     1       3.759   3.073  -0.753                          
+ATOM     14  HD1 Lys     1       3.041   3.345  -1.549                          
+ATOM     15  HD2 Lys     1       3.607   3.741   0.115                          
+ATOM     16  CE  Lys     1       5.209   3.225  -1.295                          
+ATOM     17  HE1 Lys     1       5.919   2.930  -0.499                          
+ATOM     18  HE2 Lys     1       5.336   2.556  -2.167                          
+ATOM     19  NZ  Lys     1       5.487   4.609  -1.707                          
+ATOM     20  HZ1 Lys     1       6.371   5.018  -1.442                          
+ATOM     21  N   Gly     2       3.766   7.559  -3.051                          
+ATOM     22  HN  Gly     2       4.033   8.514  -3.500                          
+ATOM     23  CA  Gly     2       4.966   6.697  -2.895                          
+ATOM     24  HA1 Gly     2       5.494   6.657  -3.865                          
+ATOM     25  HA2 Gly     2       5.627   7.155  -2.135                          
+ATOM     26  C   Gly     2       4.577   5.289  -2.474                          
+ATOM     27  O   Gly     2       3.504   4.831  -2.847                          
+TER      28                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   13   17   18   19                                                 
+CONECT   17   16                                                                
+CONECT   18   16                                                                
+CONECT   19   16   20   26                                                      
+CONECT   20   19                                                                
+CONECT   21   22   23                                                           
+CONECT   22   21                                                                
+CONECT   23   21   24   25   26                                                 
+CONECT   24   23                                                                
+CONECT   25   23                                                                
+CONECT   26   19   23   27                                                      
+CONECT   27   26                                                                
+END                                                                             

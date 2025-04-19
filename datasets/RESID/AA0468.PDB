@@ -1,0 +1,66 @@
+HEADER    AA0468                                  30-Jan-09                     
+COMPND    L-valine 5-(methoxymethyl)thiazole-4-carboxylic acid                  
+REVDAT 001   24-Oct-08                                                          
+REVDAT 001   30-Jan-09                                                          
+REMARK 001 Copyright (C) 2008, 2009 John S. Garavelli                           
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Val     1       0.000   0.000   0.000                          
+ATOM      2  HN  Val     1      -0.327   0.332   0.906                          
+ATOM      3  CA  Val     1       1.478   0.000   0.000                          
+ATOM      4  HA  Val     1       1.790  -0.474  -0.941                          
+ATOM      5  C   Val     1       1.963  -0.911   1.127                          
+ATOM      6  CB  Val     1       2.038   1.449   0.000                          
+ATOM      7  HB  Val     1       1.816   1.937   0.958                          
+ATOM      8  CG1 Val     1       3.559   1.474  -0.212                          
+ATOM      9  HG1 Val     1       3.932   2.505  -0.198                          
+ATOM     10  HG2 Val     1       3.830   1.034  -1.178                          
+ATOM     11  HG3 Val     1       4.098   0.928   0.566                          
+ATOM     12  CG2 Val     1       1.395   2.312  -1.100                          
+ATOM     13  HG4 Val     1       1.835   3.314  -1.113                          
+ATOM     14  HG5 Val     1       0.320   2.436  -0.937                          
+ATOM     15  HG6 Val     1       1.543   1.866  -2.090                          
+ATOM     16  N   Cys     2       1.908  -2.224   1.041                          
+ATOM     17  CA  Cys     2       2.336  -2.834   2.226                          
+ATOM     18  C   Cys     2       2.264  -4.293   2.348                          
+ATOM     19  O   Cys     2       2.004  -5.077   1.444                          
+ATOM     20  CB  Cys     2       2.790  -1.936   3.186                          
+ATOM     21  SG1 Cys     2       2.449  -0.329   2.665                          
+ATOM     22  CG2 Cys     2       3.413  -2.183   4.527                          
+ATOM     23  HG1 Cys     2       2.652  -2.059   5.305                          
+ATOM     24  HG2 Cys     2       3.839  -3.184   4.631                          
+ATOM     25  OD  Cys     2       4.441  -1.214   4.771                          
+ATOM     26  CE  Cys     2       5.683  -1.559   4.169                          
+ATOM     27  HE1 Cys     2       6.403  -0.769   4.395                          
+ATOM     28  HE2 Cys     2       6.060  -2.499   4.581                          
+ATOM     29  HE2 Cys     2       5.586  -1.637   3.082                          
+TER      30                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    6                                                 
+CONECT    4    3                                                                
+CONECT    5    3   16   21                                                      
+CONECT    6    3    7    8   12                                                 
+CONECT    7    6                                                                
+CONECT    8    6    9   10   11                                                 
+CONECT    9    8                                                                
+CONECT   10    8                                                                
+CONECT   11    8                                                                
+CONECT   12    6   13   14   15                                                 
+CONECT   13   12                                                                
+CONECT   14   12                                                                
+CONECT   15   12                                                                
+CONECT   16    5   17                                                           
+CONECT   17   16   18   20                                                      
+CONECT   18   17   19                                                           
+CONECT   19   18                                                                
+CONECT   20   17   21   22                                                      
+CONECT   21    5   20                                                           
+CONECT   22   20   23   24   25                                                 
+CONECT   23   22                                                                
+CONECT   24   22                                                                
+CONECT   25   22   26                                                           
+CONECT   26   25   27   28   29                                                 
+CONECT   27   26                                                                
+CONECT   28   26                                                                
+CONECT   29   26                                                                
+END                                                                             

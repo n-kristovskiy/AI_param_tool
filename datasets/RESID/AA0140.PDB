@@ -1,0 +1,106 @@
+HEADER    AA0140                                  21-Feb-03                     
+COMPND    tetrakis-L-cysteinyl tetrairon tetrasulfide                           
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REVDAT 004   21-Feb-03                                                          
+REMARK 001 Copyright (C) 2001, 2003 John S. Garavelli                           
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Cys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Cys     1      -0.372  -0.018   0.909                          
+ATOM      3  CA  Cys     1       1.454   0.000   0.000                          
+ATOM      4  HA  Cys     1       1.826  -0.520  -0.888                          
+ATOM      5  C   Cys     1       1.912  -0.774   1.262                          
+ATOM      6  O   Cys     1       1.131  -0.840   2.218                          
+ATOM      7  CB  Cys     1       1.979   1.438   0.000                          
+ATOM      8  HB1 Cys     1       1.580   1.958  -0.875                          
+ATOM      9  HB2 Cys     1       1.629   1.972   0.887                          
+ATOM     10  SG  Cys     1       3.785   1.560  -0.073                          
+ATOM     11  N   Cys     2      10.802   5.055   4.112                          
+ATOM     12  HN  Cys     2      11.125   4.461   3.399                          
+ATOM     13  CA  Cys     2       9.444   4.736   4.523                          
+ATOM     14  HA  Cys     2       9.313   4.966   5.584                          
+ATOM     15  C   Cys     2       9.248   3.214   4.312                          
+ATOM     16  O   Cys     2       9.967   2.644   3.484                          
+ATOM     17  CB  Cys     2       8.443   5.552   3.701                          
+ATOM     18  HB1 Cys     2       8.662   6.614   3.835                          
+ATOM     19  HB2 Cys     2       8.549   5.326   2.637                          
+ATOM     20  SG  Cys     2       6.715   5.289   4.178                          
+ATOM     21  N   Cys     3       8.489  -2.404   7.804                          
+ATOM     22  HN  Cys     3       8.893  -1.723   8.386                          
+ATOM     23  CA  Cys     3       8.805  -2.187   6.401                          
+ATOM     24  HA  Cys     3       8.856  -3.147   5.879                          
+ATOM     25  C   Cys     3      10.198  -1.511   6.345                          
+ATOM     26  O   Cys     3      10.578  -0.880   7.337                          
+ATOM     27  CB  Cys     3       7.728  -1.315   5.749                          
+ATOM     28  HB1 Cys     3       6.759  -1.805   5.869                          
+ATOM     29  HB2 Cys     3       7.670  -0.345   6.249                          
+ATOM     30  SG  Cys     3       7.982  -1.038   3.977                          
+ATOM     31  N   Cys     4       4.754  -1.843   9.208                          
+ATOM     32  HN  Cys     4       4.153  -2.538   9.556                          
+ATOM     33  CA  Cys     4       4.034  -0.654   8.781                          
+ATOM     34  HA  Cys     4       4.655   0.233   8.936                          
+ATOM     35  C   Cys     4       2.770  -0.541   9.670                          
+ATOM     36  O   Cys     4       2.334  -1.572  10.194                          
+ATOM     37  CB  Cys     4       3.671  -0.764   7.298                          
+ATOM     38  HB1 Cys     4       4.589  -0.903   6.722                          
+ATOM     39  HB2 Cys     4       3.039  -1.638   7.124                          
+ATOM     40  SG  Cys     4       2.831   0.698   6.637                          
+ATOM     41 Fe1                  4.470   1.588   2.126                          
+ATOM     42 Fe2                  6.325   0.474   3.723                          
+ATOM     43 Fe3                  4.125   1.236   4.911                          
+ATOM     44 Fe4                  5.925   3.092   3.860                          
+ATOM     45  S1                  6.777   2.004   2.049                          
+ATOM     46  S2                  4.179  -0.422   3.308                          
+ATOM     47  S3                  3.630   3.103   3.697                          
+ATOM     48  S4                  6.316   1.677   5.611                          
+TER      49                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   41                                                           
+CONECT   11   12   13                                                           
+CONECT   12   11                                                                
+CONECT   13   11   14   15   17                                                 
+CONECT   14   13                                                                
+CONECT   15   13   16                                                           
+CONECT   16   15                                                                
+CONECT   17   13   18   19   20                                                 
+CONECT   18   17                                                                
+CONECT   19   17                                                                
+CONECT   20   17   44                                                           
+CONECT   21   22   23                                                           
+CONECT   22   21                                                                
+CONECT   23   21   24   25   27                                                 
+CONECT   24   23                                                                
+CONECT   25   23   26                                                           
+CONECT   26   25                                                                
+CONECT   27   23   28   29   30                                                 
+CONECT   28   27                                                                
+CONECT   29   27                                                                
+CONECT   30   27   42                                                           
+CONECT   31   32   33                                                           
+CONECT   32   31                                                                
+CONECT   33   31   34   35   37                                                 
+CONECT   34   33                                                                
+CONECT   35   33   36                                                           
+CONECT   36   35                                                                
+CONECT   37   33   38   39   40                                                 
+CONECT   38   37                                                                
+CONECT   39   37                                                                
+CONECT   40   37   43                                                           
+CONECT   41   10   45   46   47                                                 
+CONECT   42   30   45   46   48                                                 
+CONECT   43   40   46   47   48                                                 
+CONECT   44   20   45   47   48                                                 
+CONECT   45   41   42   44                                                      
+CONECT   46   41   42   43                                                      
+CONECT   47   41   43   44                                                      
+CONECT   48   42   43   44                                                      
+END                                                                             

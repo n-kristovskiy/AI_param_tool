@@ -1,0 +1,53 @@
+HEADER    AA0370                                  30-Jun-04                     
+COMPND    4,5-dihydroxy-L-lysine                                                
+REVDAT 001   30-Jun-04                                                          
+REMARK 001 Copyright (C) 2004 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Lys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Lys     1      -0.376   0.503   0.889                          
+ATOM      3  CA  Lys     1       1.486   0.000   0.000                          
+ATOM      4  HA  Lys     1       1.826  -0.501  -0.924                          
+ATOM      5  C   Lys     1       1.967  -0.743   1.235                          
+ATOM      6  O   Lys     1       1.167  -1.244   2.009                          
+ATOM      7  CB  Lys     1       1.978   1.480   0.000                          
+ATOM      8  HB1 Lys     1       1.365   2.054  -0.721                          
+ATOM      9  HB2 Lys     1       1.839   1.908   1.010                          
+ATOM     10  CG  Lys     1       3.469   1.613  -0.431                          
+ATOM     11  HG1 Lys     1       4.149   1.053   0.239                          
+ATOM     12  CD1 Lys     1       3.857   3.117  -0.408                          
+ATOM     13  HD1 Lys     1       3.655   3.539   0.592                          
+ATOM     14  CE1 Lys     1       5.369   3.278  -0.738                          
+ATOM     15  HE1 Lys     1       5.964   2.728   0.015                          
+ATOM     16  HE2 Lys     1       5.577   2.867  -1.744                          
+ATOM     17  NZ  Lys     1       5.745   4.712  -0.705                          
+ATOM     18  HZ1 Lys     1       6.824   4.825  -0.795                          
+ATOM     19  HZ2 Lys     1       5.242   5.257  -1.500                          
+ATOM     20  OD2         1       3.642   1.112  -1.777                          
+ATOM     21  HD2         1       4.551   1.063  -2.066                          
+ATOM     22  OE2         1       3.051   3.811  -1.386                          
+ATOM     23  HE2         1       3.224   4.750  -1.432                          
+TER      24                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   20                                                 
+CONECT   11   10                                                                
+CONECT   12   10   13   14   22                                                 
+CONECT   13   12                                                                
+CONECT   14   12   15   16   17                                                 
+CONECT   15   14                                                                
+CONECT   16   14                                                                
+CONECT   17   14   18   19                                                      
+CONECT   18   17                                                                
+CONECT   19   17                                                                
+CONECT   20   10   21                                                           
+CONECT   21   20                                                                
+CONECT   22   12   23                                                           
+CONECT   23   22                                                                
+END                                                                             

@@ -1,0 +1,53 @@
+HEADER    AA0342                                  10-May-03                     
+COMPND    2-(S-L-cysteinyl)-D-allo-threonine                                    
+REVDAT 001   10-May-03                                                          
+REMARK 001 Copyright (C) 2003 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Thr     1       0.000   0.000   0.000                          
+ATOM      2  HN  Thr     1      -0.380  -1.020  -0.039                          
+ATOM      3  CA  Thr     1       1.489   0.000   0.000                          
+ATOM      4  C   Thr     1       1.928  -0.771  -1.233                          
+ATOM      5  O   Thr     1       1.104  -1.369  -1.914                          
+ATOM      6  CB  Thr     1       1.931   1.496   0.000                          
+ATOM      7  HB  Thr     1       1.339   2.022   0.772                          
+ATOM      8  OG1 Thr     1       1.620   2.083  -1.281                          
+ATOM      9  HG1 Thr     1       2.087   1.693  -2.021                          
+ATOM     10  CG2 Thr     1       3.439   1.704   0.331                          
+ATOM     11  HG2 Thr     1       4.072   1.396  -0.518                          
+ATOM     12  HG3 Thr     1       3.611   2.780   0.525                          
+ATOM     13  HG4 Thr     1       3.714   1.128   1.235                          
+ATOM     14  N   Cys     2       5.643  -2.740   1.962                          
+ATOM     15  HN  Cys     2       5.536  -3.486   1.174                          
+ATOM     16  CA  Cys     2       4.319  -2.182   2.333                          
+ATOM     17  HA  Cys     2       4.467  -1.407   3.109                          
+ATOM     18  C   Cys     2       3.434  -3.291   2.865                          
+ATOM     19  O   Cys     2       2.512  -3.742   2.196                          
+ATOM     20  CB  Cys     2       3.678  -1.516   1.077                          
+ATOM     21  HB1 Cys     2       3.540  -2.271   0.281                          
+ATOM     22  HB2 Cys     2       4.349  -0.714   0.721                          
+ATOM     23  SG  Cys     2       2.054  -0.817   1.549                          
+TER      24                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    6   23                                                 
+CONECT    4    3    5                                                           
+CONECT    5    4                                                                
+CONECT    6    3    7    8   10                                                 
+CONECT    7    6                                                                
+CONECT    8    6    9                                                           
+CONECT    9    8                                                                
+CONECT   10    6   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10                                                                
+CONECT   14   15   16                                                           
+CONECT   15   14                                                                
+CONECT   16   14   17   18   20                                                 
+CONECT   17   16                                                                
+CONECT   18   16   19                                                           
+CONECT   19   18                                                                
+CONECT   20   16   21   22   23                                                 
+CONECT   21   20                                                                
+CONECT   22   20                                                                
+CONECT   23    3   20                                                           
+END                                                                             

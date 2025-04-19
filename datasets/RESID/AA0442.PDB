@@ -1,0 +1,47 @@
+HEADER    AA0442                                  08-Aug-08                     
+COMPND    (2S)-4-hydroxyleucine                                                 
+REVDAT 001   08-Aug-08                                                          
+REMARK 001 Copyright (C) 2008 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Leu     1       0.000   0.000   0.000                          
+ATOM      2  HN  Leu     1      -0.312   0.303   0.928                          
+ATOM      3  CA  Leu     1       1.478   0.000   0.000                          
+ATOM      4  HA  Leu     1       1.805  -0.559  -0.880                          
+ATOM      5  C   Leu     1       1.942  -0.752   1.249                          
+ATOM      6  O   Leu     1       1.486  -0.552   2.375                          
+ATOM      7  CB  Leu     1       2.019   1.437   0.000                          
+ATOM      8  HB1 Leu     1       1.454   2.053  -0.713                          
+ATOM      9  HB2 Leu     1       1.839   1.870   0.995                          
+ATOM     10  CG  Leu     1       3.522   1.568  -0.332                          
+ATOM     11  OG          1       4.264   0.669   0.490                          
+ATOM     12  HOG         1       5.208   0.897   0.417                          
+ATOM     13  CD1 Leu     1       3.817   1.219  -1.794                          
+ATOM     14  HD1 Leu     1       4.878   1.372  -2.021                          
+ATOM     15  HD2 Leu     1       3.614   0.164  -2.003                          
+ATOM     16  HD3 Leu     1       3.228   1.834  -2.481                          
+ATOM     17  CD2 Leu     1       3.989   2.998  -0.037                          
+ATOM     18  HD4 Leu     1       3.856   3.240   1.024                          
+ATOM     19  HD5 Leu     1       5.057   3.116  -0.248                          
+ATOM     20  HD6 Leu     1       3.437   3.732  -0.633                          
+TER      21                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   13   17                                                 
+CONECT   11   10   12                                                           
+CONECT   12   11                                                                
+CONECT   13   10   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   13                                                                
+CONECT   17   10   18   19   20                                                 
+CONECT   18   17                                                                
+CONECT   19   17                                                                
+CONECT   20   17                                                                
+END                                                                             

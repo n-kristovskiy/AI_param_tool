@@ -1,0 +1,55 @@
+HEADER    AA0045                                  31-Mar-01                     
+COMPND    N-acetyl-L-glutamine                                                  
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  CH3 ACE     1      -2.198  -0.091  -0.923                          
+ATOM      2  HC1 ACE     1      -2.741   0.093  -1.868                          
+ATOM      3  HC2 ACE     1      -2.401  -1.140  -0.638                          
+ATOM      4  HC3 ACE     1      -2.639   0.572  -0.159                          
+ATOM      5  C   ACE     1      -0.724   0.153  -1.104                          
+ATOM      6  O   ACE     1      -0.269   0.473  -2.200                          
+ATOM      7  N   Gln     1       0.000   0.000   0.000                          
+ATOM      8  HN  Gln     1      -0.560  -0.366   0.772                          
+ATOM      9  CA  Gln     1       1.454   0.000   0.000                          
+ATOM     10  HA  Gln     1       1.755  -0.531  -0.909                          
+ATOM     11  C   Gln     1       1.949  -0.830   1.230                          
+ATOM     12  O   Gln     1       1.563  -0.512   2.360                          
+ATOM     13  CB  Gln     1       2.058   1.407   0.000                          
+ATOM     14  HB1 Gln     1       1.673   1.917  -0.885                          
+ATOM     15  HB2 Gln     1       1.648   1.951   0.857                          
+ATOM     16  CG  Gln     1       3.573   1.575   0.000                          
+ATOM     17  HG1 Gln     1       4.001   1.094   0.884                          
+ATOM     18  HG2 Gln     1       4.013   1.092  -0.875                          
+ATOM     19  CD  Gln     1       4.001   3.014   0.000                          
+ATOM     20  OE1 Gln     1       3.187   3.915   0.000                          
+ATOM     21  NE2 Gln     1       5.295   3.308  -0.002                          
+ATOM     22  HE2 Gln     1       5.550   4.253  -0.004                          
+ATOM     23  HE2 Gln     1       5.989   2.620  -0.008                          
+TER      24                                                                     
+CONECT    1    2    3    4    5                                                 
+CONECT    2    1                                                                
+CONECT    3    1                                                                
+CONECT    4    1                                                                
+CONECT    5    1    6    7                                                      
+CONECT    6    5                                                                
+CONECT    7    5    8    9                                                      
+CONECT    8    7                                                                
+CONECT    9    7   10   11   13                                                 
+CONECT   10    9                                                                
+CONECT   11    9   12                                                           
+CONECT   12   11                                                                
+CONECT   13    9   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   13   17   18   19                                                 
+CONECT   17   16                                                                
+CONECT   18   16                                                                
+CONECT   19   16   20   21                                                      
+CONECT   20   19                                                                
+CONECT   21   19   22   23                                                      
+CONECT   22   21                                                                
+CONECT   23   21                                                                
+END                                                                             

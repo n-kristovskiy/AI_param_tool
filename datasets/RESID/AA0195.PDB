@@ -1,0 +1,31 @@
+HEADER    AA0195                                  31-Mar-01                     
+COMPND    D-serine                                                              
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N           1       0.000   0.000   0.000                          
+ATOM      2  H           2      -0.394  -0.230  -0.987                          
+ATOM      3  C           3       1.485   0.000   0.000                          
+ATOM      4  H           4       1.844  -0.502   0.918                          
+ATOM      5  C           5       1.970  -0.736  -1.230                          
+ATOM      6  O           6       2.997  -1.395  -1.197                          
+ATOM      7  C           7       1.989   1.473   0.000                          
+ATOM      8  H           8       3.095   1.493  -0.006                          
+ATOM      9  H           9       1.599   2.010  -0.883                          
+ATOM     10  O          10       1.515   2.129   1.196                          
+ATOM     11  H          11       1.792   3.039   1.282                          
+TER      12                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11                                                           
+CONECT   11   10                                                                
+END                                                                             

@@ -1,0 +1,43 @@
+HEADER    AA0097                                  31-Mar-01                     
+COMPND    L-threonine amide                                                     
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Thr     1       0.000   0.000   0.000                          
+ATOM      2  HN  Thr     1      -0.373   0.041   1.024                          
+ATOM      3  CA  Thr     1       1.485   0.000   0.000                          
+ATOM      4  HA  Thr     1       1.835  -0.498  -0.921                          
+ATOM      5  C   Thr     1       2.029  -0.728   1.216                          
+ATOM      6  O   Thr     1       1.293  -0.975   2.163                          
+ATOM      7  CB  Thr     1       2.003   1.467   0.000                          
+ATOM      8  HB  Thr     1       1.696   1.958  -0.939                          
+ATOM      9  OG1 Thr     1       3.446   1.468   0.085                          
+ATOM     10  HG1 Thr     1       3.772   1.159   0.929                          
+ATOM     11  CG2 Thr     1       1.405   2.238   1.212                          
+ATOM     12  HG2 Thr     1       1.768   3.282   1.202                          
+ATOM     13  HG3 Thr     1       0.299   2.229   1.153                          
+ATOM     14  HG4 Thr     1       1.727   1.748   2.150                          
+ATOM     15  N   NH2     2       3.355  -1.071   1.184                          
+ATOM     16  HN1 NH2     2       3.924  -0.843   0.372                          
+ATOM     17  HN2 NH2     2       3.746  -1.557   1.989                          
+TER      18                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6   15                                                      
+CONECT    6    5                                                                
+CONECT    7    3    8    9   11                                                 
+CONECT    8    7                                                                
+CONECT    9    7   10                                                           
+CONECT   10    9                                                                
+CONECT   11    7   12   13   14                                                 
+CONECT   12   11                                                                
+CONECT   13   11                                                                
+CONECT   14   11                                                                
+CONECT   15    5   16   17                                                      
+CONECT   16   15                                                                
+CONECT   17   15                                                                
+END                                                                             

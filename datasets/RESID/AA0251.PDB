@@ -1,0 +1,47 @@
+HEADER    AA0251                                  31-Mar-01                     
+COMPND    L-methionine sulfone                                                  
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Met     1       0.000   0.000   0.000                          
+ATOM      2  HN  Met     1      -0.385  -0.235   0.877                          
+ATOM      3  CA  Met     1       1.454   0.000   0.000                          
+ATOM      4  HA  Met     1       1.790  -0.538  -0.894                          
+ATOM      5  C   Met     1       1.909  -0.811   1.247                          
+ATOM      6  O   Met     1       1.210  -0.760   2.264                          
+ATOM      7  CB  Met     1       2.022   1.422   0.000                          
+ATOM      8  HB1 Met     1       1.640   1.922  -0.890                          
+ATOM      9  HB2 Met     1       1.610   1.968   0.853                          
+ATOM     10  CG  Met     1       3.531   1.634   0.000                          
+ATOM     11  HG1 Met     1       3.970   1.157   0.881                          
+ATOM     12  HG2 Met     1       3.976   1.182  -0.892                          
+ATOM     13  SD  Met     1       3.906   3.291   0.000                          
+ATOM     14  OE1         1       3.266   3.832  -1.171                          
+ATOM     15  OE2         1       3.389   3.985   1.127                          
+ATOM     16  CE  Met     1       5.747   3.304   0.000                          
+ATOM     17  HE1 Met     1       6.144   4.320  -0.022                          
+ATOM     18  HE2 Met     1       6.107   2.820   0.908                          
+ATOM     19  HE3 Met     1       6.103   2.786  -0.893                          
+TER      20                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   13   17   18   19                                                 
+CONECT   17   16                                                                
+CONECT   18   16                                                                
+CONECT   19   16                                                                
+END                                                                             

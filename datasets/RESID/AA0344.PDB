@@ -1,0 +1,47 @@
+HEADER    AA0344                                  30-Jun-03                     
+COMPND    4-amino-3-isothiazolidinone-L-serine                                  
+REVDAT 001   30-Jun-03                                                          
+REMARK 001 Copyright (C) 2003 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Cys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Cys     1      -0.367   1.032  -0.109                          
+ATOM      3  CA  Cys     1       1.486   0.000   0.000                          
+ATOM      4  HA  Cys     1       1.852  -0.610  -0.839                          
+ATOM      5  C   Cys     1       1.937  -0.579   1.303                          
+ATOM      6  O   Cys     1       1.280  -1.504   1.767                          
+ATOM      7  CB  Cys     1       2.018   1.415   0.000                          
+ATOM      8  HB1 Cys     1       2.093   1.778  -1.035                          
+ATOM      9  HB2 Cys     1       1.334   2.064   0.567                          
+ATOM     10  SG  Cys     1       3.619   1.261   0.786                          
+ATOM     11  N   Ser     2       3.031   0.004   1.780                          
+ATOM     12  CA  Ser     2       3.546  -0.360   3.117                          
+ATOM     13  HA  Ser     2       3.332  -1.420   3.316                          
+ATOM     14  C   Ser     2       2.815   0.557   4.168                          
+ATOM     15  O   Ser     2       2.749   1.737   4.022                          
+ATOM     16  CB  Ser     2       5.082  -0.255   3.025                          
+ATOM     17  HB1 Ser     2       5.359   0.736   2.636                          
+ATOM     18  HB2 Ser     2       5.519  -0.391   4.025                          
+ATOM     19  OG  Ser     2       5.504  -1.286   2.140                          
+ATOM     20  HG  Ser     2       6.025  -0.840   1.280                          
+TER      21                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6   11                                                      
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11                                                           
+CONECT   11    5   10   12                                                      
+CONECT   12   11   13   14   16                                                 
+CONECT   13   12                                                                
+CONECT   14   12   15                                                           
+CONECT   15   14                                                                
+CONECT   16   12   17   18   19                                                 
+CONECT   17   16                                                                
+CONECT   18   16                                                                
+CONECT   19   16   20                                                           
+CONECT   20   19                                                                
+END                                                                             

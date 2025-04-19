@@ -1,0 +1,33 @@
+HEADER    AA0269                                  31-Mar-01                     
+COMPND    L-cysteine persulfide                                                 
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N           1       0.000   0.000   0.000                          
+ATOM      2  H           1      -0.379   0.450   0.917                          
+ATOM      3  C           1       1.484   0.000   0.000                          
+ATOM      4  H           1       1.839  -0.506  -0.917                          
+ATOM      5  C           1       2.001  -0.719   1.233                          
+ATOM      6  O           1       1.227  -1.144   2.079                          
+ATOM      7  C           1       1.992   1.473   0.000                          
+ATOM      8  H           1       1.589   2.010  -0.878                          
+ATOM      9  H           1       1.664   1.979   0.927                          
+ATOM     10  S           1       3.820   1.471  -0.080                          
+ATOM     11  S           1       4.238   3.223  -1.018                          
+ATOM     12  H           1       5.327   3.137  -1.015                          
+TER      13                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11                                                           
+CONECT   11   10   12                                                           
+CONECT   12   11                                                                
+END                                                                             

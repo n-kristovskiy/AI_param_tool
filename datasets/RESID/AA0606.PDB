@@ -1,0 +1,99 @@
+HEADER    AA0606                                  31-May-13                     
+COMPND    N4-(2,4-diacetamido-2,4,6-trideoxy-D-glucosyl)-L-asparagine           
+REVDAT 001   31-May-13                                                          
+REMARK 001 Copyright (C) 2013 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Asn     1       0.000   0.000   0.000                          
+ATOM      2  HN  Asn     1      -0.374   1.046  -0.143                          
+ATOM      3  CA  Asn     1       1.454   0.000   0.000                          
+ATOM      4  HA  Asn     1       1.817  -0.509  -0.953                          
+ATOM      5  C   Asn     1       1.963  -0.772   1.206                          
+ATOM      6  O   Asn     1       1.825  -0.323   2.344                          
+ATOM      7  CB  Asn     1       2.007   1.426   0.000                          
+ATOM      8  HB1 Asn     1       1.646   1.958  -0.940                          
+ATOM      9  HB2 Asn     1       1.632   1.942   0.945                          
+ATOM     10  CG  Asn     1       3.523   1.459   0.028                          
+ATOM     11  OD1 Asn     1       4.171   0.501   0.450                          
+ATOM     12  ND2 Asn     1       4.097   2.568  -0.424                          
+ATOM     13  HD1 Asn     1       3.491   3.461  -0.499                          
+ATOM     14  C1  B6D             5.307   2.643  -0.774                          
+ATOM     15  H1  B6D             5.651   1.586  -1.024                          
+ATOM     16  C2  B6D             5.746   3.308  -2.071                          
+ATOM     17  H2  B6D             5.282   4.344  -2.184                          
+ATOM     18  N2  B6D             5.388   2.333  -3.091                          
+ATOM     19  HN2 B6D             5.729   1.311  -2.984                          
+ATOM     20  C3  B6D             7.268   3.423  -2.131                          
+ATOM     21  H3  B6D             7.613   2.340  -2.212                          
+ATOM     22  O3  B6D             7.846   3.787  -3.277                          
+ATOM     23  HO3 B6D             7.070   4.024  -4.021                          
+ATOM     24  C4  B6D             7.873   3.922  -0.818                          
+ATOM     25  H4  B6D             7.686   5.038  -0.673                          
+ATOM     26  N4  B6D             9.282   3.544  -0.918                          
+ATOM     27  HN4 B6D             9.543   2.499  -1.029                          
+ATOM     28  C5  B6D             7.277   3.193   0.388                          
+ATOM     29  H5  B6D             7.618   2.107   0.321                          
+ATOM     30  O5R B6D             5.862   3.336   0.339                          
+ATOM     31  C6  B6D             7.753   3.741   1.732                          
+ATOM     32  H61 B6D             8.054   4.833   1.614                          
+ATOM     33  H62 B6D             6.909   3.660   2.495                          
+ATOM     34  H63 B6D             8.650   3.137   2.093                          
+ATOM     35  C7  B6D             4.652   2.661  -4.152                          
+ATOM     36  O7  B6D             4.417   1.855  -5.039                          
+ATOM     37  C8  B6D             3.924   3.971  -4.064                          
+ATOM     38  H81 B6D             3.146   4.030  -4.896                          
+ATOM     39  H82 B6D             3.405   4.050  -3.052                          
+ATOM     40  H83 B6D             4.668   4.827  -4.178                          
+ATOM     41  C10 B6D            10.251   4.458  -0.875                          
+ATOM     42  O10 B6D            10.024   5.650  -0.736                          
+ATOM     43  C9  B6D            11.649   3.928  -0.999                          
+ATOM     44  H91 B6D            12.370   4.793  -1.178                          
+ATOM     45  H92 B6D            11.937   3.388  -0.037                          
+ATOM     46  H93 B6D            11.703   3.200  -1.874                          
+TER      47                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12                                                      
+CONECT   11   10                                                                
+CONECT   12   10   13   14                                                      
+CONECT   13   12                                                                
+CONECT   14   12   15   16   30                                                 
+CONECT   15   14                                                                
+CONECT   16   14   17   18   20                                                 
+CONECT   17   16                                                                
+CONECT   18   16   19   35                                                      
+CONECT   19   18                                                                
+CONECT   20   16   21   22   24                                                 
+CONECT   21   20                                                                
+CONECT   22   20   23                                                           
+CONECT   23   22                                                                
+CONECT   24   20   25   26   28                                                 
+CONECT   25   24                                                                
+CONECT   26   24   27   41                                                      
+CONECT   27   26                                                                
+CONECT   28   24   29   30   31                                                 
+CONECT   29   28                                                                
+CONECT   30   14   28                                                           
+CONECT   31   28   32   33   34                                                 
+CONECT   32   31                                                                
+CONECT   33   31                                                                
+CONECT   34   31                                                                
+CONECT   35   18   36   37                                                      
+CONECT   36   35                                                                
+CONECT   37   35   38   39   40                                                 
+CONECT   38   37                                                                
+CONECT   39   37                                                                
+CONECT   40   37                                                                
+CONECT   41   26   42   43                                                      
+CONECT   42   41                                                                
+CONECT   43   41   44   45   46                                                 
+CONECT   44   43                                                                
+CONECT   45   43                                                                
+CONECT   46   43                                                                
+END                                                                             

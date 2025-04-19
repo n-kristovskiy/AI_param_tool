@@ -1,0 +1,51 @@
+HEADER    AA0467                                  24-Oct-08                     
+COMPND    L-valine thiazole-4-carboxylic acid                                   
+REVDAT 001   24-Oct-08                                                          
+REMARK 001 Copyright (C) 2008 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Val     1       0.010   0.006  -0.000                          
+ATOM      2  HN  Val     1      -0.338   0.576  -0.766                          
+ATOM      3  CA  Val     1       1.484   0.000   0.007                          
+ATOM      4  HA  Val     1       1.810  -0.496  -0.916                          
+ATOM      5  C   Val     1       1.956  -0.801   1.211                          
+ATOM      6  CB  Val     1       2.074   1.442   0.025                          
+ATOM      7  HB  Val     1       1.747   1.958   0.938                          
+ATOM      8  CG1 Val     1       3.611   1.423   0.030                          
+ATOM      9  HG1 Val     1       4.006   0.954   0.936                          
+ATOM     10  HG2 Val     1       4.003   0.879  -0.836                          
+ATOM     11  HG3 Val     1       4.012   2.442  -0.001                          
+ATOM     12  CG2 Val     1       1.608   2.278  -1.176                          
+ATOM     13  HG4 Val     1       1.838   1.774  -2.121                          
+ATOM     14  HG5 Val     1       0.531   2.469  -1.141                          
+ATOM     15  HG6 Val     1       2.102   3.255  -1.186                          
+ATOM     16  N   Cys     2       1.818  -0.415   2.467                          
+ATOM     17  CA  Cys     2       2.348  -1.377   3.321                          
+ATOM     18  C   Cys     2       2.323  -1.191   4.762                          
+ATOM     19  O   Cys     2       2.785  -1.993   5.568                          
+ATOM     20  CB  Cys     2       2.882  -2.482   2.687                          
+ATOM     21  HB  Cys     2       3.344  -3.351   3.137                          
+ATOM     22  SG  Cys     2       2.723  -2.327   0.990                          
+TER      23                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    6                                                 
+CONECT    4    3                                                                
+CONECT    5    3   16   22                                                      
+CONECT    6    3    7    8   12                                                 
+CONECT    7    6                                                                
+CONECT    8    6    9   10   11                                                 
+CONECT    9    8                                                                
+CONECT   10    8                                                                
+CONECT   11    8                                                                
+CONECT   12    6   13   14   15                                                 
+CONECT   13   12                                                                
+CONECT   14   12                                                                
+CONECT   15   12                                                                
+CONECT   16    5   17                                                           
+CONECT   17   16   18   20                                                      
+CONECT   18   17   19                                                           
+CONECT   19   18                                                                
+CONECT   20   17   21   22                                                      
+CONECT   21   20                                                                
+CONECT   22    5   20                                                           
+END                                                                             

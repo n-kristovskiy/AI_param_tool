@@ -1,0 +1,39 @@
+HEADER    AA0200                                  28-Oct-05                     
+COMPND    D-valine                                                              
+REVDAT 001   28-Oct-05                                                          
+REMARK 001 Copyright (C) 2005 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Val     1       0.000   0.000   0.000                          
+ATOM      2  HN  Val     1      -0.378   0.824  -0.605                          
+ATOM      3  CA  Val     1       1.483   0.000   0.000                          
+ATOM      4  HA  Val     1       1.819  -0.485   0.936                          
+ATOM      5  C   Val     1       2.017  -0.772  -1.195                          
+ATOM      6  O   Val     1       2.985  -1.508  -1.077                          
+ATOM      7  CB  Val     1       1.969   1.480   0.000                          
+ATOM      8  HB  Val     1       3.063   1.511  -0.163                          
+ATOM      9  CG1 Val     1       1.243   2.281  -1.118                          
+ATOM     10  HG1 Val     1       1.573   3.336  -1.090                          
+ATOM     11  HG2 Val     1       1.483   1.846  -2.105                          
+ATOM     12  HG3 Val     1       0.151   2.234  -0.951                          
+ATOM     13  CG2 Val     1       1.650   2.113   1.388                          
+ATOM     14  HG4 Val     1       1.979   3.169   1.404                          
+ATOM     15  HG5 Val     1       0.561   2.064   1.576                          
+ATOM     16  HG6 Val     1       2.182   1.550   2.178                          
+TER      17                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   13                                                 
+CONECT    8    7                                                                
+CONECT    9    7   10   11   12                                                 
+CONECT   10    9                                                                
+CONECT   11    9                                                                
+CONECT   12    9                                                                
+CONECT   13    7   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   13                                                                
+END                                                                             

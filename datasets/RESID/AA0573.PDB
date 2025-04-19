@@ -1,0 +1,57 @@
+HEADER    AA0573                                  28-Oct-11                     
+COMPND    L-isoleucine oxazole-4-carboxylic acid                                
+REVDAT 001   28-Oct-11                                                          
+REMARK 001 Copyright (C) 2011 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Ile     1       0.000   0.000   0.000                          
+ATOM      2  HN  Ile     1      -0.302  -0.969  -0.116                          
+ATOM      3  CA  Ile     1       1.478   0.000   0.000                          
+ATOM      4  HA  Ile     1       1.781  -0.457  -0.953                          
+ATOM      5  C   Ile     1       2.000  -0.936   1.067                          
+ATOM      6  CB  Ile     1       2.063   1.446   0.000                          
+ATOM      7  HB  Ile     1       3.156   1.358  -0.074                          
+ATOM      8  CG1 Ile     1       1.758   2.270   1.276                          
+ATOM      9  HG1 Ile     1       2.369   1.893   2.101                          
+ATOM     10  HG2 Ile     1       0.712   2.150   1.578                          
+ATOM     11  CG2 Ile     1       1.593   2.185  -1.268                          
+ATOM     12  HG3 Ile     1       2.175   3.097  -1.434                          
+ATOM     13  HG4 Ile     1       1.722   1.562  -2.160                          
+ATOM     14  HG5 Ile     1       0.537   2.466  -1.199                          
+ATOM     15  CD  Ile     1       2.059   3.760   1.172                          
+ATOM     16  HD1 Ile     1       1.338   4.266   0.522                          
+ATOM     17  HD2 Ile     1       1.990   4.226   2.160                          
+ATOM     18  HD3 Ile     1       3.068   3.936   0.785                          
+ATOM     19  N   Ser     2       1.991  -2.257   1.043                          
+ATOM     20  CA  Ser     2       2.400  -2.630   2.314                          
+ATOM     21  C   Ser     2       2.513  -4.000   2.775                          
+ATOM     22  O   Ser     2       2.298  -5.008   2.115                          
+ATOM     23  CB  Ser     2       2.644  -1.493   3.049                          
+ATOM     24  HB  Ser     2       2.962  -1.297   4.063                          
+ATOM     25  OG  Ser     2       2.383  -0.411   2.271                          
+TER      26                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    6                                                 
+CONECT    4    3                                                                
+CONECT    5    3   19   25                                                      
+CONECT    6    3    7    8   11                                                 
+CONECT    7    6                                                                
+CONECT    8    6    9   10   15                                                 
+CONECT    9    8                                                                
+CONECT   10    8                                                                
+CONECT   11    6   12   13   14                                                 
+CONECT   12   11                                                                
+CONECT   13   11                                                                
+CONECT   14   11                                                                
+CONECT   15    8   16   17   18                                                 
+CONECT   16   15                                                                
+CONECT   17   15                                                                
+CONECT   18   15                                                                
+CONECT   19    5   20                                                           
+CONECT   20   19   21   23                                                      
+CONECT   21   20   22                                                           
+CONECT   22   21                                                                
+CONECT   23   20   24   25                                                      
+CONECT   24   23                                                                
+CONECT   25    5   23                                                           
+END                                                                             

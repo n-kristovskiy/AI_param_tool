@@ -1,0 +1,77 @@
+HEADER    AA0490                                  12-Jun-09                     
+COMPND    3-(O4'-L-tyrosyl)-L-valine                                            
+REVDAT 001   12-Jun-09                                                          
+REMARK 001 Copyright (C) 2009 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Val     1       0.000   0.000   0.000                          
+ATOM      2  HN  Val     1      -0.373   1.014  -0.295                          
+ATOM      3  CA  Val     1       1.470   0.000   0.000                          
+ATOM      4  HA  Val     1       1.817  -0.418  -1.002                          
+ATOM      5  C   Val     1       1.936  -0.895   1.136                          
+ATOM      6  O   Val     1       2.895  -1.681   0.974                          
+ATOM      7  CB  Val     1       2.146   1.402   0.000                          
+ATOM      8  CG1 Val     1       1.746   2.109  -1.288                          
+ATOM      9  HG1 Val     1       1.948   3.226  -1.187                          
+ATOM     10  HG2 Val     1       2.353   1.690  -2.157                          
+ATOM     11  HG3 Val     1       0.635   1.941  -1.484                          
+ATOM     12  CG2 Val     1       1.750   2.264   1.191                          
+ATOM     13  HG4 Val     1       1.659   1.610   2.121                          
+ATOM     14  HG5 Val     1       2.546   3.062   1.365                          
+ATOM     15  HG6 Val     1       0.748   2.766   0.980                          
+ATOM     16  N   Tyr     2       5.815   2.276  -7.210                          
+ATOM     17  HN  Tyr     2       6.192   3.243  -7.630                          
+ATOM     18  CA  Tyr     2       5.602   2.418  -5.763                          
+ATOM     19  HA  Tyr     2       4.486   2.359  -5.537                          
+ATOM     20  C   Tyr     2       6.153   3.768  -5.345                          
+ATOM     21  O   Tyr     2       5.421   4.660  -4.880                          
+ATOM     22  CB  Tyr     2       6.256   1.249  -4.944                          
+ATOM     23  HB1 Tyr     2       7.376   1.436  -4.851                          
+ATOM     24  HB2 Tyr     2       6.067   0.265  -5.488                          
+ATOM     25  CG  Tyr     2       5.661   1.172  -3.592                          
+ATOM     26  CD1 Tyr     2       4.928   0.026  -3.168                          
+ATOM     27  HD1 Tyr     2       4.874  -0.854  -3.829                          
+ATOM     28  CD2 Tyr     2       5.705   2.289  -2.748                          
+ATOM     29  HD2 Tyr     2       6.239   3.194  -3.076                          
+ATOM     30  CE1 Tyr     2       4.273  -0.007  -1.926                          
+ATOM     31  HE1 Tyr     2       3.706  -0.902  -1.626                          
+ATOM     32  CE2 Tyr     2       5.073   2.273  -1.476                          
+ATOM     33  HE2 Tyr     2       5.139   3.147  -0.809                          
+ATOM     34  CZ  Tyr     2       4.340   1.094  -1.072                          
+ATOM     35  OH  Tyr     2       3.599   1.058   0.138                          
+TER      36                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3   12   35    8                                                 
+CONECT    8    9   10   11    7                                                 
+CONECT    9    8                                                                
+CONECT   10    8                                                                
+CONECT   11    8                                                                
+CONECT   12    7   13   14   15                                                 
+CONECT   13   12                                                                
+CONECT   14   12                                                                
+CONECT   15   12                                                                
+CONECT   16   17   18                                                           
+CONECT   17   16                                                                
+CONECT   18   16   19   20   22                                                 
+CONECT   19   18                                                                
+CONECT   20   18   21                                                           
+CONECT   21   20                                                                
+CONECT   22   18   23   24   25                                                 
+CONECT   23   22                                                                
+CONECT   24   22                                                                
+CONECT   25   22   26   28                                                      
+CONECT   26   25   27   30                                                      
+CONECT   27   26                                                                
+CONECT   28   25   29   32                                                      
+CONECT   29   28                                                                
+CONECT   30   26   31   34                                                      
+CONECT   31   30                                                                
+CONECT   32   28   33   34                                                      
+CONECT   33   32                                                                
+CONECT   34   30   32   35                                                      
+CONECT   35   34    7                                                           
+END                                                                             

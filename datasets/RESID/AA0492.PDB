@@ -1,0 +1,31 @@
+HEADER    AA0492                                  12-Jun-09                     
+COMPND    3,3-dihydroxy-L-alanine                                               
+REVDAT 001   12-Jun-09                                                          
+REMARK 001 Copyright (C) 2009 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Ser     1       0.000   0.000   0.000                          
+ATOM      2  H   Ser     1      -0.300   0.321  -0.923                          
+ATOM      3  CA  Ser     1       1.500   0.000   0.000                          
+ATOM      4  HA  Ser     1       1.843  -0.525  -0.899                          
+ATOM      5  C   Ser     1       2.025  -0.788   1.198                          
+ATOM      6  O   Ser     1       1.410  -1.639   1.826                          
+ATOM      7  CB  Ser     1       2.010   1.458   0.000                          
+ATOM      8  HB  Ser     1       3.055   1.549   0.308                          
+ATOM      9  OG1 Ser     1       1.883   1.997  -1.309                          
+ATOM     10  HG1 Ser     1       2.202   2.911  -1.215                          
+ATOM     11  OG2         1       1.205   2.270   0.840                          
+ATOM     12  HG2         1       0.333   1.819   0.833                          
+TER      13                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   11                                                 
+CONECT    8    7                                                                
+CONECT    9    7   10                                                           
+CONECT   10    9                                                                
+CONECT   11    7   12                                                           
+CONECT   12   11                                                                
+END                                                                             

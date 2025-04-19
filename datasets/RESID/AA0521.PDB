@@ -1,0 +1,77 @@
+HEADER    AA0521                                  31-Mar-10                     
+COMPND    N-(DNA-1',2'-dideoxyribos-1'-ylidene)-L-valine                        
+REVDAT 001   31-Mar-10                                                          
+REMARK 001 Copyright (C) 2010 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  P           0      -2.847  -6.695  -0.404                          
+ATOM      2  OP1         0      -1.644  -7.556  -0.274                          
+ATOM      3  OP2         0      -3.352  -6.007   0.941                          
+ATOM      4  HOP         0      -4.282  -5.730   0.862                          
+ATOM      5  C1'         0      -0.532  -1.147  -0.251                          
+ATOM      6  H1'         0       0.077  -2.034  -0.494                          
+ATOM      7  C2'         0      -2.030  -1.308  -0.185                          
+ATOM      8  H21         0      -2.492  -0.673  -0.945                          
+ATOM      9  H22         0      -2.331  -0.909   0.792                          
+ATOM     10  C3'         0      -2.505  -2.761  -0.284                          
+ATOM     11  H3'         0      -3.180  -2.850  -1.143                          
+ATOM     12  O3'         0      -3.273  -3.098   0.880                          
+ATOM     13  C4'         0      -1.385  -3.816  -0.433                          
+ATOM     14  H4'         0      -1.334  -4.398   0.496                          
+ATOM     15  O4'         0      -0.113  -3.173  -0.563                          
+ATOM     16  HO4         0       0.047  -2.759   0.308                          
+ATOM     17  C5'         0      -1.598  -4.781  -1.605                          
+ATOM     18  H51         0      -1.623  -4.239  -2.558                          
+ATOM     19  H52         0      -0.751  -5.471  -1.689                          
+ATOM     20  O5'         0      -2.806  -5.518  -1.488                          
+ATOM     21  N   Val     1       0.000   0.000   0.000                          
+ATOM     22  CA  Val     1       1.485   0.000   0.000                          
+ATOM     23  HA  Val     1       1.845  -0.516  -0.901                          
+ATOM     24  C   Val     1       1.984  -0.766   1.247                          
+ATOM     25  O   Val     1       1.338  -0.962   2.268                          
+ATOM     26  CB  Val     1       1.964   1.471   0.000                          
+ATOM     27  HB  Val     1       1.627   1.957   0.925                          
+ATOM     28  CG1 Val     1       3.490   1.593  -0.062                          
+ATOM     29  HG1 Val     1       3.898   1.043  -0.917                          
+ATOM     30  HG2 Val     1       3.959   1.214   0.850                          
+ATOM     31  HG3 Val     1       3.795   2.641  -0.163                          
+ATOM     32  CG2 Val     1       1.364   2.246  -1.183                          
+ATOM     33  HG4 Val     1       1.737   3.276  -1.204                          
+ATOM     34  HG5 Val     1       0.274   2.300  -1.117                          
+ATOM     35  HG6 Val     1       1.626   1.774  -2.137                          
+TER      36                                                                     
+CONECT    1    2    3   20                                                      
+CONECT    2    1                                                                
+CONECT    3    1    4                                                           
+CONECT    4    3                                                                
+CONECT    5    6    7   21                                                      
+CONECT    6    5                                                                
+CONECT    7    5    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   15   17                                                 
+CONECT   14   13                                                                
+CONECT   15   13   16                                                           
+CONECT   16   15                                                                
+CONECT   17   13   18   19   20                                                 
+CONECT   18   17                                                                
+CONECT   19   17                                                                
+CONECT   20    1   17                                                           
+CONECT   21    5   22                                                           
+CONECT   22   21   23   24   26                                                 
+CONECT   23   22                                                                
+CONECT   24   22   25                                                           
+CONECT   25   24                                                                
+CONECT   26   22   27   28   32                                                 
+CONECT   27   26                                                                
+CONECT   28   26   29   30   31                                                 
+CONECT   29   28                                                                
+CONECT   30   28                                                                
+CONECT   31   28                                                                
+CONECT   32   26   33   34   35                                                 
+CONECT   33   32                                                                
+CONECT   34   32                                                                
+CONECT   35   32                                                                
+END                                                                             

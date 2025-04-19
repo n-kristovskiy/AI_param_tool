@@ -1,0 +1,57 @@
+HEADER    AA0369                                  30-Jun-04                     
+COMPND    3,4-dihydroxy-L-arginine                                              
+REVDAT 001   30-Jun-04                                                          
+REMARK 001 Copyright (C) 2004 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Arg     1       0.000   0.000   0.000                          
+ATOM      2  HN  Arg     1      -0.375   0.438   0.923                          
+ATOM      3  CA  Arg     1       1.484   0.000   0.000                          
+ATOM      4  HA  Arg     1       1.835  -0.494  -0.927                          
+ATOM      5  C   Arg     1       2.007  -0.744   1.215                          
+ATOM      6  O   Arg     1       1.248  -1.121   2.094                          
+ATOM      7  CB  Arg     1       2.003   1.468   0.000                          
+ATOM      8  HB1 Arg     1       1.571   1.996  -0.871                          
+ATOM      9  CG1 Arg     1       3.554   1.470  -0.130                          
+ATOM     10  HG1 Arg     1       3.834   0.822  -0.979                          
+ATOM     11  CD1 Arg     1       4.065   2.916  -0.373                          
+ATOM     12  HD1 Arg     1       3.583   3.334  -1.273                          
+ATOM     13  HD2 Arg     1       3.846   3.555   0.501                          
+ATOM     14  NE  Arg     1       5.241   2.883  -0.549                          
+ATOM     15  CZ  Arg     1       5.977   3.721  -0.968                          
+ATOM     16  NH1 Arg     1       7.073   3.433  -1.274                          
+ATOM     17  HH1 Arg     1       7.719   4.131  -1.663                          
+ATOM     18  HH2 Arg     1       7.417   2.469  -1.174                          
+ATOM     19  NH2 Arg     1       5.613   4.833  -1.077                          
+ATOM     20  HH3 Arg     1       6.227   5.557  -1.472                          
+ATOM     21  HH4 Arg     1       4.670   5.118  -0.786                          
+ATOM     22  OG2         1       1.610   2.133   1.203                          
+ATOM     23  HG2         1       0.725   2.491   1.097                          
+ATOM     24  OD2         1       4.155   0.933   1.071                          
+ATOM     25  HD3         1       3.847   0.056   1.295                          
+TER      26                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   22                                                 
+CONECT    8    7                                                                
+CONECT    9    7   10   11   24                                                 
+CONECT   10    9                                                                
+CONECT   11    9   12   13   14                                                 
+CONECT   12   11                                                                
+CONECT   13   11                                                                
+CONECT   14   11   15                                                           
+CONECT   15   14   16   19                                                      
+CONECT   16   15   17   18                                                      
+CONECT   17   16                                                                
+CONECT   18   16                                                                
+CONECT   19   15   20   21                                                      
+CONECT   20   19                                                                
+CONECT   21   19                                                                
+CONECT   22    7   23                                                           
+CONECT   23   22                                                                
+CONECT   24    9   25                                                           
+CONECT   25   24                                                                
+END                                                                             

@@ -1,0 +1,39 @@
+HEADER    AA0303                                  24-Aug-01                     
+COMPND    L-glutamimide                                                         
+REVDAT 001   24-Aug-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Gln     1       0.000   0.000   0.000                          
+ATOM      2  HN  Gln     1      -0.373  -1.012   0.085                          
+ATOM      3  CA  Gln     1       1.243   0.000   0.000                          
+ATOM      4  HA  Gln     1       1.585  -0.573  -0.800                          
+ATOM      5  C   Gln     1       1.603  -0.519   0.926                          
+ATOM      6  O   Gln     1       1.220  -1.522   1.156                          
+ATOM      7  CB  Gln     1       1.766   1.121   0.000                          
+ATOM      8  HB1 Gln     1       1.480   1.659  -0.919                          
+ATOM      9  HB2 Gln     1       1.423   1.676   0.889                          
+ATOM     10  CG  Gln     1       2.955   1.022   0.050                          
+ATOM     11  HG1 Gln     1       3.353   0.411  -0.685                          
+ATOM     12  HG2 Gln     1       3.442   1.937   0.014                          
+ATOM     13  CD  Gln     1       3.176   0.568   1.003                          
+ATOM     14  OE1 Gln     1       4.176   0.699   1.415                          
+ATOM     15  NE2 Gln     1       2.611  -0.310   1.310                          
+ATOM     16  HE1 Gln     1       2.940  -0.839   2.101                          
+TER      17                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6   15                                                      
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   15                                                      
+CONECT   14   13                                                                
+CONECT   15    5   13   16                                                      
+CONECT   16   15                                                                
+END                                                                             

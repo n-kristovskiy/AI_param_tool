@@ -1,0 +1,55 @@
+HEADER    AA0338                                  14-Mar-03                     
+COMPND    N-methyl-L-tyrosine                                                   
+REVDAT 001   14-Mar-03                                                          
+REMARK 001 Copyright (C) 2003 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  CH3         1      -0.582  -1.067  -0.849                          
+ATOM      2  HC1         1      -1.686  -1.016  -0.798                          
+ATOM      3  HC2         1      -0.240  -2.051  -0.481                          
+ATOM      4  HC3         1      -0.253  -0.925  -1.894                          
+ATOM      5  N   Tyr     1       0.000   0.000   0.000                          
+ATOM      6  CA  Tyr     1       1.482   0.000   0.000                          
+ATOM      7  HA  Tyr     1       1.833  -0.495  -0.925                          
+ATOM      8  C   Tyr     1       2.009  -0.729   1.221                          
+ATOM      9  O   Tyr     1       1.270  -1.314   1.995                          
+ATOM     10  CB  Tyr     1       1.976   1.477   0.000                          
+ATOM     11  HB1 Tyr     1       1.645   1.976   0.931                          
+ATOM     12  HB2 Tyr     1       1.542   2.004  -0.871                          
+ATOM     13  CG  Tyr     1       3.513   1.524  -0.097                          
+ATOM     14  CD1 Tyr     1       4.291   1.590   1.071                          
+ATOM     15  HD1 Tyr     1       3.808   1.585   2.048                          
+ATOM     16  CD2 Tyr     1       4.136   1.510  -1.357                          
+ATOM     17  HD2 Tyr     1       3.534   1.441  -2.261                          
+ATOM     18  CE1 Tyr     1       5.692   1.666   0.979                          
+ATOM     19  HE1 Tyr     1       6.298   1.719   1.881                          
+ATOM     20  CE2 Tyr     1       5.536   1.588  -1.449                          
+ATOM     21  HE2 Tyr     1       6.021   1.583  -2.424                          
+ATOM     22  CZ  Tyr     1       6.314   1.676  -0.281                          
+ATOM     23  OH  Tyr     1       7.716   1.773  -0.372                          
+ATOM     24  HH  Tyr     1       8.048   1.806  -1.268                          
+TER      25                                                                     
+CONECT    1    2    3    4    5                                                 
+CONECT    2    1                                                                
+CONECT    3    1                                                                
+CONECT    4    1                                                                
+CONECT    5    1    6                                                           
+CONECT    6    5    7    8   10                                                 
+CONECT    7    6                                                                
+CONECT    8    6    9                                                           
+CONECT    9    8                                                                
+CONECT   10    6   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   16                                                      
+CONECT   14   13   15   18                                                      
+CONECT   15   14                                                                
+CONECT   16   13   17   20                                                      
+CONECT   17   16                                                                
+CONECT   18   14   19   22                                                      
+CONECT   19   18                                                                
+CONECT   20   16   21   22                                                      
+CONECT   21   20                                                                
+CONECT   22   18   20   23                                                      
+CONECT   23   22   24                                                           
+CONECT   24   23                                                                
+END                                                                             

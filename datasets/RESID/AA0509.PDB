@@ -1,0 +1,49 @@
+HEADER    AA0509                                  31-Dec-09                     
+COMPND    3'-iodo-L-tyrosine                                                    
+REVDAT 001   31-Dec-09                                                          
+REMARK 001 Copyright (C) 2009 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Tyr     1       0.000   0.000   0.000                          
+ATOM      2  HN  Tyr     1      -0.335   0.960  -0.063                          
+ATOM      3  CA  Tyr     1       1.486   0.000   0.000                          
+ATOM      4  HA  Tyr     1       1.823   0.717  -0.758                          
+ATOM      5  C   Tyr     1       1.966  -1.385  -0.467                          
+ATOM      6  O   Tyr     1       1.354  -2.129  -1.223                          
+ATOM      7  CB  Tyr     1       1.987   0.382   1.405                          
+ATOM      8  HB1 Tyr     1       1.239   0.997   1.925                          
+ATOM      9  HB2 Tyr     1       2.115  -0.508   2.035                          
+ATOM     10  CG  Tyr     1       3.268   1.191   1.384                          
+ATOM     11  CD1 Tyr     1       3.228   2.567   1.108                          
+ATOM     12  HD1 Tyr     1       2.270   3.049   0.920                          
+ATOM     13  CE1 Tyr     1       4.407   3.321   1.082                          
+ATOM     14  IE1         1       4.263   5.366   0.671                          
+ATOM     15  CD2 Tyr     1       4.505   0.587   1.636                          
+ATOM     16  HD2 Tyr     1       4.561  -0.478   1.855                          
+ATOM     17  CE2 Tyr     1       5.684   1.336   1.605                          
+ATOM     18  HE2 Tyr     1       6.628   0.836   1.799                          
+ATOM     19  CZ  Tyr     1       5.634   2.702   1.328                          
+ATOM     20  OH  Tyr     1       6.794   3.426   1.300                          
+ATOM     21  HH  Tyr     1       7.541   2.840   1.500                          
+TER      22                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   15                                                      
+CONECT   11   10   12   13                                                      
+CONECT   12   11                                                                
+CONECT   13   11   14   19                                                      
+CONECT   14   13                                                                
+CONECT   15   10   16   17                                                      
+CONECT   16   15                                                                
+CONECT   17   15   18   19                                                      
+CONECT   18   17                                                                
+CONECT   19   13   17   20                                                      
+CONECT   20   19   21                                                           
+CONECT   21   20                                                                
+END                                                                             

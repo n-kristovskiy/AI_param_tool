@@ -1,0 +1,47 @@
+HEADER    AA0482                                  30-Jan-09                     
+COMPND    L-proline thiazole-4-carboxylic acid                                  
+REVDAT 001   30-Jan-09                                                          
+REMARK 001 Copyright (C) 2009 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Pro     1       0.000   0.000   0.000                          
+ATOM      2  CA  Pro     1       1.474   0.000   0.000                          
+ATOM      3  HA  Pro     1       1.812  -0.434  -0.952                          
+ATOM      4  C   Pro     1       2.055  -0.842   1.108                          
+ATOM      5  CB  Pro     1       1.855   1.481   0.000                          
+ATOM      6  HB1 Pro     1       2.654   1.667  -0.727                          
+ATOM      7  HB2 Pro     1       2.203   1.865   0.965                          
+ATOM      8  CG  Pro     1       0.580   2.213  -0.414                          
+ATOM      9  HG1 Pro     1       0.165   2.746   0.450                          
+ATOM     10  HG2 Pro     1       0.764   2.947  -1.205                          
+ATOM     11  CD  Pro     1      -0.371   1.118  -0.860                          
+ATOM     12  HD1 Pro     1      -1.419   1.402  -0.729                          
+ATOM     13  HD2 Pro     1      -0.207   0.865  -1.915                          
+ATOM     14  N   Cys     2       2.594  -2.028   0.900                          
+ATOM     15  CA  Cys     2       2.982  -2.624   2.100                          
+ATOM     16  C   Cys     2       3.560  -3.973   2.123                          
+ATOM     17  O   Cys     2       3.299  -4.844   1.303                          
+ATOM     18  CB  Cys     2       2.737  -1.839   3.213                          
+ATOM     19  HB  Cys     2       2.908  -2.063   4.256                          
+ATOM     20  SG  Cys     2       1.993  -0.363   2.761                          
+TER      21                                                                     
+CONECT    1    2   11                                                           
+CONECT    2    1    3    4    5                                                 
+CONECT    3    2                                                                
+CONECT    4    2   14   20                                                      
+CONECT    5    2    6    7    8                                                 
+CONECT    6    5                                                                
+CONECT    7    5                                                                
+CONECT    8    5    9   10   11                                                 
+CONECT    9    8                                                                
+CONECT   10    8                                                                
+CONECT   11    1    8   12   13                                                 
+CONECT   12   11                                                                
+CONECT   13   11                                                                
+CONECT   14    4   15                                                           
+CONECT   15   14   16   18                                                      
+CONECT   16   15   17                                                           
+CONECT   17   16                                                                
+CONECT   18   15   19   20                                                      
+CONECT   19   18                                                                
+CONECT   20    4   18                                                           
+END                                                                             

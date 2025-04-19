@@ -1,0 +1,49 @@
+HEADER    AA0515                                  29-Jan-10                     
+COMPND    alanine isoaspartyl cyclopeptide                                      
+REVDAT 001   29-Jan-10                                                          
+REMARK 001 Copyright (C) 2010 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Ala     1       0.000   0.000   0.000                          
+ATOM      2  HN  Ala     1      -0.458   0.853  -0.305                          
+ATOM      3  CA  Ala     1       1.461   0.000   0.000                          
+ATOM      4  HA  Ala     1       1.775  -0.476  -0.938                          
+ATOM      5  C   Ala     1       2.164  -0.795   1.133                          
+ATOM      6  O   Ala     1       3.322  -0.554   1.481                          
+ATOM      7  CB  Ala     1       1.973   1.440   0.000                          
+ATOM      8  HB1 Ala     1       1.690   1.957   0.925                          
+ATOM      9  HB2 Ala     1       3.064   1.480  -0.085                          
+ATOM     10  HB3 Ala     1       1.552   2.005  -0.839                          
+ATOM     11  N   Asn     2       1.607  -1.940   1.628                          
+ATOM     12  HN  Asn     2       2.278  -2.490   2.157                          
+ATOM     13  CA  Asn     2       0.240  -2.431   1.433                          
+ATOM     14  HA  Asn     2      -0.407  -1.753   2.008                          
+ATOM     15  C   Asn     2       0.057  -3.796   2.109                          
+ATOM     16  O   Asn     2       0.691  -3.876   3.308                          
+ATOM     17  CB  Asn     2      -0.170  -2.443  -0.030                          
+ATOM     18  HB1 Asn     2      -0.953  -3.183  -0.231                          
+ATOM     19  HB2 Asn     2       0.663  -2.656  -0.709                          
+ATOM     20  CG  Asn     2      -0.754  -1.091  -0.336                          
+ATOM     21  OD1 Asn     2      -1.872  -0.940  -0.818                          
+TER      22                                                                     
+CONECT    1    2    3   20                                                      
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6   11                                                      
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7                                                                
+CONECT   11    5   12   13                                                      
+CONECT   12   11                                                                
+CONECT   13   11   14   15   17                                                 
+CONECT   14   13                                                                
+CONECT   15   13   16                                                           
+CONECT   16   15                                                                
+CONECT   17   13   18   19   20                                                 
+CONECT   18   17                                                                
+CONECT   19   17                                                                
+CONECT   20    1   17   21                                                      
+CONECT   21   20                                                                
+END                                                                             

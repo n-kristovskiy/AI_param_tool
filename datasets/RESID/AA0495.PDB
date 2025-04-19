@@ -1,0 +1,41 @@
+HEADER    AA0495                                  28-Aug-09                     
+COMPND    O-glycyl-L-serine                                                     
+REVDAT 001   28-Aug-09                                                          
+REMARK 001 Copyright (C) 2009 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Ser     1       0.000   0.000   0.000                          
+ATOM      2  HN  Ser     1      -0.316  -0.923   0.314                          
+ATOM      3  CA  Ser     1       1.474   0.000   0.000                          
+ATOM      4  HA  Ser     1       1.849  -0.569  -0.858                          
+ATOM      5  C   Ser     1       1.982  -0.724   1.245                          
+ATOM      6  O   Ser     1       1.328  -1.554   1.876                          
+ATOM      7  CB  Ser     1       2.020   1.433   0.000                          
+ATOM      8  HB1 Ser     1       1.463   2.080  -0.690                          
+ATOM      9  HB2 Ser     1       1.933   1.887   0.995                          
+ATOM     10  OG  Ser     1       3.420   1.453  -0.344                          
+ATOM     11  N   Gly     2       5.939   0.573  -1.052                          
+ATOM     12  HN  Gly     2       5.791   0.868  -0.088                          
+ATOM     13  CA  Gly     2       5.192   1.478  -1.941                          
+ATOM     14  HA1 Gly     2       5.520   2.512  -1.799                          
+ATOM     15  HA2 Gly     2       5.378   1.188  -2.979                          
+ATOM     16  C   Gly     2       3.691   1.407  -1.685                          
+ATOM     17  O   Gly     2       2.841   1.366  -2.566                          
+TER      18                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   16                                                           
+CONECT   11   12   13                                                           
+CONECT   12   11                                                                
+CONECT   13   11   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   10   13   17                                                      
+CONECT   17   16                                                                
+END                                                                             

@@ -1,0 +1,51 @@
+HEADER    AA0610                                  13-Sep-13                     
+COMPND    3-methyl-L-lanthionine                                                
+REVDAT 001   13-Sep-13                                                          
+REMARK 001 Copyright (C) 2013 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Thr     1       0.000   0.000   0.000                          
+ATOM      2  HN  Thr     1      -0.315  -0.969  -0.080                          
+ATOM      3  CA  Thr     1       1.494  -0.000   0.000                          
+ATOM      4  HA  Thr     1       1.791  -0.533  -0.910                          
+ATOM      5  C   Thr     1       1.982  -0.811   1.208                          
+ATOM      6  O   Thr     1       1.341  -1.024   2.228                          
+ATOM      7  CB  Thr     1       2.026   1.454   0.000                          
+ATOM      8  HB  Thr     1       1.438   2.042  -0.717                          
+ATOM      9  CG  Thr     1       1.911   2.161   1.353                          
+ATOM     10  HG1 Thr     1       2.548   1.702   2.118                          
+ATOM     11  HG2 Thr     1       0.879   2.140   1.720                          
+ATOM     12  HG3 Thr     1       2.197   3.216   1.268                          
+ATOM     13  N   Cys     2       4.655   1.727  -4.548                          
+ATOM     14  HN  Cys     2       4.783   2.738  -4.510                          
+ATOM     15  CA  Cys     2       4.753   1.176  -3.169                          
+ATOM     16  HA  Cys     2       5.639   1.619  -2.696                          
+ATOM     17  C   Cys     2       5.015  -0.334  -3.280                          
+ATOM     18  O   Cys     2       5.836  -0.845  -4.033                          
+ATOM     19  CB  Cys     2       3.481   1.534  -2.385                          
+ATOM     20  HB1 Cys     2       3.145   2.543  -2.649                          
+ATOM     21  HB2 Cys     2       2.668   0.842  -2.625                          
+ATOM     22  SG  Cys     2       3.773   1.570  -0.572                          
+TER      23                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   22                                                 
+CONECT    8    7                                                                
+CONECT    9    7   10   11   12                                                 
+CONECT   10    9                                                                
+CONECT   11    9                                                                
+CONECT   12    9                                                                
+CONECT   13   14   15                                                           
+CONECT   14   13                                                                
+CONECT   15   13   16   17   19                                                 
+CONECT   16   15                                                                
+CONECT   17   15   18                                                           
+CONECT   18   17                                                                
+CONECT   19   15   20   21   22                                                 
+CONECT   20   19                                                                
+CONECT   21   19                                                                
+CONECT   22    7   19                                                           
+END                                                                             

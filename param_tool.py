@@ -185,7 +185,7 @@ def pdb_to_chem(path_to_pdb, removeHs=False, make_N_root=False):
 
     # Присваиваем имена атомов
     for atom, name in zip(rdkit_mol.GetAtoms(), atom_names):
-        atom.SetProp("_Name", name)
+        atom.SetProp("AtomName", name)
 
     # Преобразование трехмерных координат в двумерные
     AllChem.Compute2DCoords(rdkit_mol)
@@ -228,7 +228,7 @@ def restore_original_atomic_numbers(mol):
             atom.SetAtomicNum(atom.GetIntProp("OriginalAtomicNum"))
             atom.ClearProp("OriginalAtomicNum")
 
-def match_chem (mol_chem_1, mol_chem_2, compare_any_bond = False ):
+def match_chem(mol_chem_1, mol_chem_2, compare_any_bond = False ):
     """
     Принимает на вход мономер и полимер (RDKit.Chem) и соотносит их между собой
     Возвращает:
@@ -486,8 +486,8 @@ def generate_atom_names_by_ref_aa(mod_aa_mol, ref_aa_mol, dict_match, output_pat
         output_path: Путь для сохранения модифицированного PDB файла.
     """
     # Получаем текущие имена атомов модифицированной молекулы
-    all_mod_atom_names = [str(atom.GetProp("_Name")) if atom.HasProp("_Name") else "" for atom in mod_aa_mol.GetAtoms()]
-    all_ref_atom_names = [str(atom.GetProp("_Name")) if atom.HasProp("_Name") else "" for atom in ref_aa_mol.GetAtoms()]
+    all_mod_atom_names = [str(atom.GetProp("AtomName")) if atom.HasProp("AtomName") else "" for atom in mod_aa_mol.GetAtoms()]
+    all_ref_atom_names = [str(atom.GetProp("AtomName")) if atom.HasProp("AtomName") else "" for atom in ref_aa_mol.GetAtoms()]
     print(all_mod_atom_names)
 
     for mod_indx, ref_indx in dict_match.items():

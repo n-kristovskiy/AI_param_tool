@@ -1,0 +1,77 @@
+HEADER    AA0124                                  31-Mar-01                     
+COMPND    N6-(L-isoglutamyl)-L-lysine                                           
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Lys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Lys     1      -0.373   0.168   1.009                          
+ATOM      3  CA  Lys     1       1.484   0.000  -0.000                          
+ATOM      4  HA  Lys     1       1.821  -0.479  -0.938                          
+ATOM      5  C   Lys     1       1.995  -0.777   1.201                          
+ATOM      6  O   Lys     1       1.263  -1.008   2.150                          
+ATOM      7  CB  Lys     1       1.986   1.475   0.000                          
+ATOM      8  HB1 Lys     1       1.457   2.016  -0.808                          
+ATOM      9  HB2 Lys     1       1.757   1.960   0.968                          
+ATOM     10  CG  Lys     1       3.512   1.542  -0.292                          
+ATOM     11  HG1 Lys     1       4.085   1.185   0.583                          
+ATOM     12  HG2 Lys     1       3.736   0.900  -1.165                          
+ATOM     13  CD  Lys     1       3.903   3.007  -0.643                          
+ATOM     14  HD1 Lys     1       3.261   3.345  -1.478                          
+ATOM     15  HD2 Lys     1       3.742   3.668   0.229                          
+ATOM     16  CE  Lys     1       5.390   3.074  -1.099                          
+ATOM     17  HE1 Lys     1       6.056   2.903  -0.233                          
+ATOM     18  HE2 Lys     1       5.558   2.284  -1.855                          
+ATOM     19  NZ  Lys     1       5.671   4.377  -1.718                          
+ATOM     20  HZ1 Lys     1       6.368   4.977  -1.301                          
+ATOM     21  N   Gln     2       5.820   7.497  -6.084                          
+ATOM     22  HN  Gln     2       6.329   8.448  -6.233                          
+ATOM     23  CA  Gln     2       4.564   7.697  -5.320                          
+ATOM     24  HA  Gln     2       3.758   7.923  -6.042                          
+ATOM     25  C   Gln     2       4.722   8.858  -4.356                          
+ATOM     26  O   Gln     2       5.814   9.361  -4.145                          
+ATOM     27  CB  Gln     2       4.207   6.387  -4.556                          
+ATOM     28  HB1 Gln     2       3.233   6.503  -4.043                          
+ATOM     29  HB2 Gln     2       4.140   5.551  -5.276                          
+ATOM     30  CG  Gln     2       5.302   6.058  -3.496                          
+ATOM     31  HG1 Gln     2       6.283   6.002  -4.005                          
+ATOM     32  HG2 Gln     2       5.334   6.862  -2.737                          
+ATOM     33  CD  Gln     2       4.980   4.720  -2.849                          
+ATOM     34  OE1 Gln     2       4.124   4.008  -3.362                          
+TER      35                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   13   17   18   19                                                 
+CONECT   17   16                                                                
+CONECT   18   16                                                                
+CONECT   19   16   20   33                                                      
+CONECT   20   19                                                                
+CONECT   21   22   23                                                           
+CONECT   22   21                                                                
+CONECT   23   21   24   25   27                                                 
+CONECT   24   23                                                                
+CONECT   25   23   26                                                           
+CONECT   26   25                                                                
+CONECT   27   23   28   29   30                                                 
+CONECT   28   27                                                                
+CONECT   29   27                                                                
+CONECT   30   27   31   32   33                                                 
+CONECT   31   30                                                                
+CONECT   32   30                                                                
+CONECT   33   19   30   34                                                      
+CONECT   34   33                                                                
+END                                                                             

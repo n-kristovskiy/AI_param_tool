@@ -1,0 +1,10 @@
+
+verbosity 1
+source leaprc.protein.ff14SB
+source leaprc.gaff
+mods = loadamberparams Lysine_1M_rn_H_3D_AC.frcmod
+KCR = loadmol2 Lysine_1M_rn_H_3D_gas_amber.mol2
+check KCR
+saveamberparm KCR Lysine_1M_rn_H_3D_AC.prmtop Lysine_1M_rn_H_3D_AC.inpcrd
+saveoff KCR Lysine_1M_rn_H_3D_AC.lib
+quit

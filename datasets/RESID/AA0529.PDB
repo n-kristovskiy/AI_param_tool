@@ -1,0 +1,47 @@
+HEADER    AA0529                                  30-Sep-10                     
+COMPND    N-(glycyl)-L-cysteine                                                 
+REVDAT 001   30-Sep-10                                                          
+REMARK 001 Copyright (C) 2010 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Gly     1       0.000   0.000   0.000                          
+ATOM      2  HN  Gly     1      -0.339   0.467  -0.839                          
+ATOM      3  CA  Gly     1       1.465   0.000   0.000                          
+ATOM      4  HA1 Gly     1       1.838  -0.495  -0.903                          
+ATOM      5  HA2 Gly     1       1.849   1.025   0.000                          
+ATOM      6  C   Gly     1       1.999  -0.713   1.245                          
+ATOM      7  O   Gly     1       2.160  -0.154   2.327                          
+ATOM      8  N   Cys     1       2.256  -2.054   1.063                          
+ATOM      9  HN  Cys     1       2.138  -2.479   0.148                          
+ATOM     10  CA  Cys     1       2.801  -2.897   2.140                          
+ATOM     11  HA  Cys     1       3.610  -2.327   2.612                          
+ATOM     12  C   Cys     1       3.386  -4.125   1.446                          
+ATOM     13  O   Cys     1       3.122  -4.485   0.304                          
+ATOM     14  CB  Cys     1       1.706  -3.293   3.136                          
+ATOM     15  HB1 Cys     1       1.064  -4.075   2.715                          
+ATOM     16  HB2 Cys     1       1.061  -2.438   3.364                          
+ATOM     17  SG  Cys     1       2.351  -3.899   4.730                          
+ATOM     18  HG  Cys     1       1.165  -3.997   5.348                          
+ATOM     19  OXT Cys     1       4.262  -4.822   2.191                          
+ATOM     20  HXT Cys     1       4.540  -5.575   1.630                          
+TER      21                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    6                                                 
+CONECT    4    3                                                                
+CONECT    5    3                                                                
+CONECT    6    3    7    8                                                      
+CONECT    7    6                                                                
+CONECT    8    6    9   10                                                      
+CONECT    9    8                                                                
+CONECT   10    8   11   12   14                                                 
+CONECT   11   10                                                                
+CONECT   12   10   13   19                                                      
+CONECT   13   12                                                                
+CONECT   14   10   15   16   17                                                 
+CONECT   15   14                                                                
+CONECT   16   14                                                                
+CONECT   17   14   18                                                           
+CONECT   18   17                                                                
+CONECT   19   12   20                                                           
+CONECT   20   19                                                                
+END                                                                             

@@ -1,0 +1,65 @@
+HEADER    AA0570                                  28-Oct-11                     
+COMPND    L-arginine thiazole-4-carboxylic acid                                 
+REVDAT 001   28-Oct-11                                                          
+REMARK 001 Copyright (C) 2011 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Arg     1       0.000   0.000   0.000                          
+ATOM      2  HN  Arg     1      -0.492  -0.956  -0.194                          
+ATOM      3  CA  Arg     1       1.527   0.000   0.000                          
+ATOM      4  HA  Arg     1       1.913  -0.543  -0.946                          
+ATOM      5  C   Arg     1       2.065  -0.753   1.281                          
+ATOM      6  CB  Arg     1       2.047   1.507   0.000                          
+ATOM      7  HB1 Arg     1       1.753   2.015  -0.993                          
+ATOM      8  HB2 Arg     1       1.528   2.078   0.856                          
+ATOM      9  CG  Arg     1       3.625   1.590   0.201                          
+ATOM     10  HG1 Arg     1       3.920   2.698   0.331                          
+ATOM     11  HG2 Arg     1       3.899   1.001   1.158                          
+ATOM     12  CD  Arg     1       4.457   0.990  -1.010                          
+ATOM     13  HD1 Arg     1       4.266   1.607  -1.966                          
+ATOM     14  HD2 Arg     1       4.124  -0.105  -1.181                          
+ATOM     15  NE  Arg     1       5.940   0.994  -0.626                          
+ATOM     16  CZ  Arg     1       6.898   1.682  -1.288                          
+ATOM     17  NH1 Arg     1       6.618   2.473  -2.450                          
+ATOM     18  HH1 Arg     1       7.343   3.001  -2.988                          
+ATOM     19  HH2 Arg     1       5.695   2.589  -2.925                          
+ATOM     20  NH2 Arg     1       8.242   1.609  -0.804                          
+ATOM     21  HH3 Arg     1       8.545   1.091   0.055                          
+ATOM     22  HH4 Arg     1       9.057   2.124  -1.209                          
+ATOM     23  N   Cys     2       1.294  -1.459   2.215                          
+ATOM     24  CA  Cys     2       2.082  -2.009   3.239                          
+ATOM     25  C   Cys     2       1.509  -2.822   4.395                          
+ATOM     26  O   Cys     2       0.308  -2.678   4.728                          
+ATOM     27  CB  Cys     2       3.479  -1.726   3.089                          
+ATOM     28  HB  Cys     2       4.320  -2.068   3.798                          
+ATOM     29  SG  Cys     2       3.665  -0.819   1.719                          
+TER      30                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    6                                                 
+CONECT    4    3                                                                
+CONECT    5    3   23   29                                                      
+CONECT    6    3    7    8    9                                                 
+CONECT    7    6                                                                
+CONECT    8    6                                                                
+CONECT    9    6   10   11   12                                                 
+CONECT   10    9                                                                
+CONECT   11    9                                                                
+CONECT   12    9   13   14   15                                                 
+CONECT   13   12                                                                
+CONECT   14   12                                                                
+CONECT   15   12   16                                                           
+CONECT   16   15   17   20                                                      
+CONECT   17   16   18   19                                                      
+CONECT   18   17                                                                
+CONECT   19   17                                                                
+CONECT   20   16   21   22                                                      
+CONECT   21   20                                                                
+CONECT   22   20                                                                
+CONECT   23    5   24                                                           
+CONECT   24   23   25   27                                                      
+CONECT   25   24   26                                                           
+CONECT   26   25                                                                
+CONECT   27   24   28   29                                                      
+CONECT   28   27                                                                
+CONECT   29    5   27                                                           
+END                                                                             

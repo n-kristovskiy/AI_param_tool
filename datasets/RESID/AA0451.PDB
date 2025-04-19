@@ -1,0 +1,77 @@
+HEADER    AA0451                                  08-Aug-08                     
+COMPND    2'-(S-L-cysteinyl)-6'-hydroxy-L-tryptophan sulfoxide                  
+REVDAT 001   08-Aug-08                                                          
+REMARK 001 Copyright (C) 2008 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Trp     1       0.000   0.000   0.000                          
+ATOM      2  HN  Trp     1      -0.364  -0.277   0.911                          
+ATOM      3  CA  Trp     1       1.480   0.000   0.000                          
+ATOM      4  HA  Trp     1       1.808   0.476  -0.927                          
+ATOM      5  C   Trp     1       1.954  -1.445  -0.034                          
+ATOM      6  O   Trp     1       2.678  -1.912  -0.908                          
+ATOM      7  CB  Trp     1       2.026   0.729   1.237                          
+ATOM      8  HB1 Trp     1       1.618   1.749   1.263                          
+ATOM      9  HB2 Trp     1       1.650   0.229   2.140                          
+ATOM     10  CG  Trp     1       3.522   0.840   1.338                          
+ATOM     11  CD1 Trp     1       4.271   0.529   2.447                          
+ATOM     12  CD2 Trp     1       4.426   1.390   0.360                          
+ATOM     13  NE1 Trp     1       5.590   0.856   2.177                          
+ATOM     14  HE1 Trp     1       6.352   0.740   2.842                          
+ATOM     15  CE2 Trp     1       5.709   1.363   0.911                          
+ATOM     16  CE3 Trp     1       4.282   1.929  -0.938                          
+ATOM     17  HE3 Trp     1       3.308   2.001  -1.411                          
+ATOM     18  CZ2 Trp     1       6.846   1.813   0.231                          
+ATOM     19  HZ2 Trp     1       7.832   1.778   0.683                          
+ATOM     20  CZ3 Trp     1       5.409   2.382  -1.639                          
+ATOM     21  HZ3 Trp     1       5.277   2.784  -2.639                          
+ATOM     22  CH2 Trp     1       6.666   2.316  -1.053                          
+ATOM     23  OH2         1       7.777   2.753  -1.715                          
+ATOM     24  HOH         1       7.513   3.048  -2.601                          
+ATOM     25  N   Cys     2       3.894  -4.081   4.724                          
+ATOM     26  HN  Cys     2       3.859  -4.604   5.600                          
+ATOM     27  CA  Cys     2       3.727  -2.636   4.981                          
+ATOM     28  HA  Cys     2       4.473  -2.342   5.727                          
+ATOM     29  C   Cys     2       2.344  -2.390   5.574                          
+ATOM     30  O   Cys     2       2.018  -1.352   6.141                          
+ATOM     31  CB  Cys     2       3.867  -1.827   3.689                          
+ATOM     32  HB1 Cys     2       4.708  -2.193   3.088                          
+ATOM     33  HB2 Cys     2       2.954  -1.876   3.086                          
+ATOM     34  SG  Cys     2       4.213  -0.073   4.079                          
+ATOM     35  OD          2       5.683  -0.002   4.637                          
+TER      36                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12                                                      
+CONECT   11   10   13   34                                                      
+CONECT   12   10   15   16                                                      
+CONECT   13   11   14   15                                                      
+CONECT   14   13                                                                
+CONECT   15   12   13   18                                                      
+CONECT   16   12   17   20                                                      
+CONECT   17   16                                                                
+CONECT   18   15   19   22                                                      
+CONECT   19   18                                                                
+CONECT   20   16   21   22                                                      
+CONECT   21   20                                                                
+CONECT   22   18   20   23                                                      
+CONECT   23   22   24                                                           
+CONECT   24   23                                                                
+CONECT   25   26   27                                                           
+CONECT   26   25                                                                
+CONECT   27   25   28   29   31                                                 
+CONECT   28   27                                                                
+CONECT   29   27   30                                                           
+CONECT   30   29                                                                
+CONECT   31   27   32   33   34                                                 
+CONECT   32   31                                                                
+CONECT   33   31                                                                
+CONECT   34   11   31   35                                                      
+CONECT   35   34                                                                
+END                                                                             

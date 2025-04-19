@@ -1,0 +1,36 @@
+HEADER    AA0533                                  29-Oct-10                     
+COMPND    N-methyl-L-serine                                                     
+REVDAT 001   30-Sep-10                                                          
+REVDAT 002   29-Oct-10                                                          
+REMARK 001 Copyright (C) 2010 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Ser     1       0.000   0.000   0.000                          
+ATOM      2  CA  Ser     1       1.486   0.000   0.000                          
+ATOM      3  HA  Ser     1       1.876  -0.569  -0.855                          
+ATOM      4  C   Ser     1       1.953  -0.774   1.245                          
+ATOM      5  O   Ser     1       1.357  -1.701   1.775                          
+ATOM      6  CB  Ser     1       2.059   1.428   0.000                          
+ATOM      7  HB1 Ser     1       1.579   2.048  -0.763                          
+ATOM      8  HB2 Ser     1       1.922   1.926   0.968                          
+ATOM      9  OG  Ser     1       3.454   1.430  -0.314                          
+ATOM     10  HG  Ser     1       3.895   0.953   0.418                          
+ATOM     11  C1          1      -0.549   0.233  -1.330                          
+ATOM     12  H11         1      -0.298   1.229  -1.705                          
+ATOM     13  H12         1      -0.204  -0.519  -2.046                          
+ATOM     14  H13         1      -1.641   0.173  -1.282                          
+TER      15                                                                     
+CONECT    1    2   11                                                           
+CONECT    2    1    3    4    6                                                 
+CONECT    3    2                                                                
+CONECT    4    2    5                                                           
+CONECT    5    4                                                                
+CONECT    6    2    7    8    9                                                 
+CONECT    7    6                                                                
+CONECT    8    6                                                                
+CONECT    9    6   10                                                           
+CONECT   10    9                                                                
+CONECT   11    1   12   13   14                                                 
+CONECT   12   11                                                                
+CONECT   13   11                                                                
+CONECT   14   11                                                                
+END                                                                             

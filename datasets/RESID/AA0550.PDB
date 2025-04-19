@@ -1,0 +1,55 @@
+HEADER    AA0550                                  31-Mar-11                     
+COMPND    2-(3-methylbutanoyl)-5-hydroxy-oxazole-4-carbothionic acid            
+REVDAT 001   31-Mar-11                                                          
+REMARK 001 Copyright (C) 2011 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  O1  Leu     1       0.000   0.000   0.000                          
+ATOM      2  CA  Leu     1       1.226   0.000   0.000                          
+ATOM      3  C   Leu     1       1.965  -1.318   0.026                          
+ATOM      4  CB  Leu     1       2.056   1.261   0.000                          
+ATOM      5  HB1 Leu     1       1.449   2.067  -0.432                          
+ATOM      6  HB2 Leu     1       2.899   1.116  -0.686                          
+ATOM      7  CG  Leu     1       2.543   1.640   1.404                          
+ATOM      8  HG  Leu     1       3.013   0.768   1.875                          
+ATOM      9  CD1 Leu     1       1.388   2.095   2.300                          
+ATOM     10  HD1 Leu     1       0.926   3.013   1.918                          
+ATOM     11  HD2 Leu     1       0.611   1.329   2.373                          
+ATOM     12  HD3 Leu     1       1.746   2.297   3.315                          
+ATOM     13  CD2 Leu     1       3.588   2.755   1.312                          
+ATOM     14  HD4 Leu     1       3.165   3.660   0.863                          
+ATOM     15  HD5 Leu     1       3.967   3.016   2.305                          
+ATOM     16  HD6 Leu     1       4.441   2.440   0.701                          
+ATOM     17  N   Cys     2       3.247  -1.472  -0.084                          
+ATOM     18  CA  Cys     2       3.368  -2.839  -0.022                          
+ATOM     19  C   Cys     2       2.035  -3.474   0.141                          
+ATOM     20  O   Cys     2       1.750  -4.650   0.233                          
+ATOM     21  OX  Cys     2       1.193  -2.407   0.162                          
+ATOM     22  CB  Cys     2       4.484  -3.574  -0.100                          
+ATOM     23  SG  Cys     2       6.058  -2.887  -0.296                          
+ATOM     24  HG  Cys     2       5.745  -1.581  -0.319                          
+TER      25                                                                     
+CONECT    1    2                                                                
+CONECT    2    1    3    4                                                      
+CONECT    3    2   17   21                                                      
+CONECT    4    2    5    6    7                                                 
+CONECT    5    4                                                                
+CONECT    6    4                                                                
+CONECT    7    4    8    9   13                                                 
+CONECT    8    7                                                                
+CONECT    9    7   10   11   12                                                 
+CONECT   10    9                                                                
+CONECT   11    9                                                                
+CONECT   12    9                                                                
+CONECT   13    7   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   13                                                                
+CONECT   17    3   18                                                           
+CONECT   18   17   19   22                                                      
+CONECT   19   18   20   21                                                      
+CONECT   20   19                                                                
+CONECT   21    3   19                                                           
+CONECT   22   18   23                                                           
+CONECT   23   22   24                                                           
+CONECT   24   23                                                                
+END                                                                             

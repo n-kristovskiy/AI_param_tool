@@ -1,0 +1,49 @@
+HEADER    AA0194                                  31-Mar-01                     
+COMPND    D-phenylalanine                                                       
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N           1       0.000   0.000   0.000                          
+ATOM      2  H           2      -0.390  -0.417  -0.927                          
+ATOM      3  C           3       1.486  -0.000  -0.000                          
+ATOM      4  H           4       1.844  -0.506   0.916                          
+ATOM      5  C           5       1.985  -0.747  -1.219                          
+ATOM      6  O           6       2.937  -1.507  -1.138                          
+ATOM      7  C           7       2.009   1.468   0.000                          
+ATOM      8  H           8       3.106   1.464  -0.145                          
+ATOM      9  H           9       1.533   2.039  -0.819                          
+ATOM     10  C          10       1.687   2.116   1.360                          
+ATOM     11  C          11       0.480   2.810   1.553                          
+ATOM     12  H          12      -0.219   2.929   0.727                          
+ATOM     13  C          13       2.609   2.004   2.416                          
+ATOM     14  H          14       3.555   1.491   2.259                          
+ATOM     15  C          15       0.174   3.350   2.813                          
+ATOM     16  H          16      -0.770   3.872   2.968                          
+ATOM     17  C          17       2.306   2.552   3.675                          
+ATOM     18  H          18       3.018   2.461   4.494                          
+ATOM     19  C          19       1.085   3.217   3.876                          
+ATOM     20  H          20       0.844   3.630   4.855                          
+TER      21                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   13                                                      
+CONECT   11   10   12   15                                                      
+CONECT   12   11                                                                
+CONECT   13   10   14   17                                                      
+CONECT   14   13                                                                
+CONECT   15   11   16   19                                                      
+CONECT   16   15                                                                
+CONECT   17   13   18   19                                                      
+CONECT   18   17                                                                
+CONECT   19   15   17   20                                                      
+CONECT   20   19                                                                
+END                                                                             

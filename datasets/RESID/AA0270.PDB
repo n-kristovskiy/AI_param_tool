@@ -1,0 +1,81 @@
+HEADER    AA0270                                  31-Mar-01                     
+COMPND    3'-(1'-L-histidyl)-L-tyrosine                                         
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N           1       0.000   0.000   0.000                          
+ATOM      2  H           1      -0.375   0.502   0.890                          
+ATOM      3  C           1       1.485   0.000   0.000                          
+ATOM      4  H           1       1.827  -0.504  -0.923                          
+ATOM      5  C           1       1.997  -0.737   1.224                          
+ATOM      6  O           1       1.225  -1.307   1.980                          
+ATOM      7  C           1       1.999   1.471   0.000                          
+ATOM      8  H           1       1.581   2.003  -0.877                          
+ATOM      9  H           1       1.656   1.973   0.924                          
+ATOM     10  C           1       3.539   1.516  -0.064                          
+ATOM     11  C           1       4.204   2.733   0.167                          
+ATOM     12  H           1       3.627   3.636   0.361                          
+ATOM     13  C           1       5.608   2.786   0.148                          
+ATOM     14  C           1       4.284   0.358  -0.347                          
+ATOM     15  H           1       3.780  -0.585  -0.552                          
+ATOM     16  C           1       5.689   0.411  -0.367                          
+ATOM     17  H           1       6.266  -0.489  -0.575                          
+ATOM     18  C           1       6.352   1.625  -0.119                          
+ATOM     19  O           1       7.759   1.674  -0.138                          
+ATOM     20  H           1       8.179   0.830  -0.303                          
+ATOM     21  N           1      10.305   8.053   1.198                          
+ATOM     22  C           1       9.041   7.285   1.326                          
+ATOM     23  H           1       8.190   7.988   1.253                          
+ATOM     24  C           1       8.989   6.550   2.654                          
+ATOM     25  O           1       9.940   6.554   3.418                          
+ATOM     26  C           1       8.932   6.247   0.168                          
+ATOM     27  H           1       8.867   6.773  -0.803                          
+ATOM     28  H           1       9.826   5.594   0.176                          
+ATOM     29  C           1       7.674   5.395   0.399                          
+ATOM     30  N           1       6.676   5.703   1.277                          
+ATOM     31  C           1       7.299   4.175  -0.188                          
+ATOM     32  H           1       7.833   3.611  -0.946                          
+ATOM     33  C           1       5.748   4.712   1.232                          
+ATOM     34  N           1       6.183   3.857   0.371                          
+ATOM     35  H           1       4.831   4.652   1.805                          
+ATOM     36  H           1      11.152   7.447   1.518                          
+TER      37                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   14                                                      
+CONECT   11   10   12   13                                                      
+CONECT   12   11                                                                
+CONECT   13   11   18   34                                                      
+CONECT   14   10   15   16                                                      
+CONECT   15   14                                                                
+CONECT   16   14   17   18                                                      
+CONECT   17   16                                                                
+CONECT   18   13   16   19                                                      
+CONECT   19   18   20                                                           
+CONECT   20   19                                                                
+CONECT   21   22   36                                                           
+CONECT   22   21   23   24   26                                                 
+CONECT   23   22                                                                
+CONECT   24   22   25                                                           
+CONECT   25   24                                                                
+CONECT   26   22   27   28   29                                                 
+CONECT   27   26                                                                
+CONECT   28   26                                                                
+CONECT   29   26   30   31                                                      
+CONECT   30   29   33                                                           
+CONECT   31   29   32   34                                                      
+CONECT   32   31                                                                
+CONECT   33   30   34   35                                                      
+CONECT   34   13   31   33                                                      
+CONECT   35   33                                                                
+CONECT   36   21                                                                
+END                                                                             

@@ -1,0 +1,51 @@
+HEADER    AA0540                                  29-Nov-10                     
+COMPND    L-cysteine 3-hydroxypyridine-2,5-dicarboxylic acid                    
+REVDAT 001   29-Nov-10                                                          
+REMARK 001 Copyright (C) 2010 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  CA  Ser     1       1.779  -0.631  -2.493                          
+ATOM      2  C   Ser     1       1.010   0.501  -3.064                          
+ATOM      3  O   Ser     1       1.347   1.008  -4.124                          
+ATOM      4  CB  Ser     1       2.351  -1.509  -3.430                          
+ATOM      5  HB  Ser     1       2.191  -1.327  -4.491                          
+ATOM      6  N   Cys     2       0.000   0.000   0.000                          
+ATOM      7  HN  Cys     2      -0.285   0.593   0.792                          
+ATOM      8  CA  Cys     2       1.489   0.000   0.000                          
+ATOM      9  HA  Cys     2       1.785  -0.481   0.943                          
+ATOM     10  C   Cys     2       2.017  -0.865  -1.135                          
+ATOM     11  CB  Cys     2       2.135   1.405   0.000                          
+ATOM     12  HB1 Cys     2       1.984   1.930  -0.946                          
+ATOM     13  HB2 Cys     2       3.217   1.309   0.149                          
+ATOM     14  SG  Cys     2       1.480   2.474   1.328                          
+ATOM     15  HG  Cys     2       0.366   2.850   0.681                          
+ATOM     16  N   Ser     3       2.752  -1.934  -0.718                          
+ATOM     17  CA  Ser     3       3.293  -2.784  -1.637                          
+ATOM     18  C   Ser     3       4.091  -3.923  -1.056                          
+ATOM     19  O   Ser     3       4.229  -4.093   0.146                          
+ATOM     20  CB  Ser     3       3.112  -2.593  -3.003                          
+ATOM     21  OG  Ser     3       3.664  -3.441  -3.926                          
+ATOM     22  HG  Ser     3       3.437  -3.130  -4.826                          
+TER      23                                                                     
+CONECT    1    2    4   10                                                      
+CONECT    2    1    3                                                           
+CONECT    3    2                                                                
+CONECT    4    1    5   20                                                      
+CONECT    5    4                                                                
+CONECT    6    7    8                                                           
+CONECT    7    6                                                                
+CONECT    8    6    9   10   11                                                 
+CONECT    9    8                                                                
+CONECT   10    1    8   16                                                      
+CONECT   11    8   12   13   14                                                 
+CONECT   12   11                                                                
+CONECT   13   11                                                                
+CONECT   14   11   15                                                           
+CONECT   15   14                                                                
+CONECT   16   10   17                                                           
+CONECT   17   16   18   20                                                      
+CONECT   18   17   19                                                           
+CONECT   19   18                                                                
+CONECT   20    4   17   21                                                      
+CONECT   21   20   22                                                           
+CONECT   22   21                                                                
+END                                                                             

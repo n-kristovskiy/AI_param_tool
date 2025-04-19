@@ -1,0 +1,47 @@
+HEADER    AA0192                                  31-Mar-01                     
+COMPND    D-allo-isoleucine                                                     
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N           1       0.000   0.000   0.000                          
+ATOM      2  H           2      -0.387  -0.165  -1.004                          
+ATOM      3  C           3       1.485   0.000   0.000                          
+ATOM      4  H           4       1.849  -0.508   0.913                          
+ATOM      5  C           5       1.961  -0.750  -1.225                          
+ATOM      6  O           6       2.955  -1.459  -1.181                          
+ATOM      7  C           7       2.013   1.468  -0.000                          
+ATOM      8  H           8       3.104   1.460  -0.180                          
+ATOM      9  C           9       1.743   2.111   1.392                          
+ATOM     10  H          10       0.656   2.133   1.589                          
+ATOM     11  H          11       2.241   1.506   2.173                          
+ATOM     12  C          12       1.310   2.293  -1.117                          
+ATOM     13  H          13       1.710   3.325  -1.121                          
+ATOM     14  H          14       1.498   1.823  -2.100                          
+ATOM     15  H          15       0.221   2.324  -0.926                          
+ATOM     16  C          16       2.305   3.561   1.440                          
+ATOM     17  H          17       2.137   3.989   2.446                          
+ATOM     18  H          18       3.389   3.545   1.223                          
+ATOM     19  H          19       1.788   4.185   0.686                          
+TER      20                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   12                                                 
+CONECT    8    7                                                                
+CONECT    9    7   10   11   16                                                 
+CONECT   10    9                                                                
+CONECT   11    9                                                                
+CONECT   12    7   13   14   15                                                 
+CONECT   13   12                                                                
+CONECT   14   12                                                                
+CONECT   15   12                                                                
+CONECT   16    9   17   18   19                                                 
+CONECT   17   16                                                                
+CONECT   18   16                                                                
+CONECT   19   16                                                                
+END                                                                             

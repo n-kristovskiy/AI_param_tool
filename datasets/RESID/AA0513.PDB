@@ -1,0 +1,53 @@
+HEADER    AA0513                                  29-Jan-10                     
+COMPND    trithiocystine                                                        
+REVDAT 001   29-Jan-10                                                          
+REMARK 001 Copyright (C) 2010 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Cys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Cys     1      -0.374   0.825   0.659                          
+ATOM      3  CA  Cys     1       1.471   0.000   0.000                          
+ATOM      4  HA  Cys     1       1.859  -0.529  -0.932                          
+ATOM      5  C   Cys     1       1.945  -0.717   1.274                          
+ATOM      6  O   Cys     1       2.114  -0.089   2.317                          
+ATOM      7  CB  Cys     1       2.005   1.445   0.000                          
+ATOM      8  HB1 Cys     1       2.228   1.738   1.079                          
+ATOM      9  HB2 Cys     1       1.194   2.080  -0.489                          
+ATOM     10  SG  Cys     1       3.515   1.716  -0.979                          
+ATOM     11  N   Cys     2       6.048  -7.085  -5.202                          
+ATOM     12  HN  Cys     2       5.414  -6.744  -6.061                          
+ATOM     13  CA  Cys     2       6.838  -5.963  -4.704                          
+ATOM     14  HA  Cys     2       6.992  -5.198  -5.536                          
+ATOM     15  C   Cys     2       8.198  -6.495  -4.240                          
+ATOM     16  O   Cys     2       8.270  -7.345  -3.352                          
+ATOM     17  CB  Cys     2       6.104  -5.250  -3.558                          
+ATOM     18  HB1 Cys     2       5.341  -5.975  -3.119                          
+ATOM     19  HB2 Cys     2       6.905  -4.933  -2.812                          
+ATOM     20  SG  Cys     2       5.223  -3.723  -4.044                          
+ATOM     21  S3  S3H             5.926  -2.034  -3.036                          
+ATOM     22  S2  S3H             4.335  -1.257  -1.949                          
+ATOM     23  S1  S3H             4.098   0.739  -2.559                          
+TER      24                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   23                                                           
+CONECT   11   12   13                                                           
+CONECT   12   11                                                                
+CONECT   13   11   14   15   17                                                 
+CONECT   14   13                                                                
+CONECT   15   13   16                                                           
+CONECT   16   15                                                                
+CONECT   17   13   18   19   20                                                 
+CONECT   18   17                                                                
+CONECT   19   17                                                                
+CONECT   20   17   21                                                           
+CONECT   21   20   22                                                           
+CONECT   22   21   23                                                           
+CONECT   23   10   22                                                           
+END                                                                             

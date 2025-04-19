@@ -1,0 +1,43 @@
+HEADER    AA0444                                  08-Aug-08                     
+COMPND    (2S,4R)-5-oxoleucine                                                  
+REVDAT 001   08-Aug-08                                                          
+REMARK 001 Copyright (C) 2008 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Leu     1       0.000   0.000   0.000                          
+ATOM      2  HN  Leu     1      -0.330   0.594   0.765                          
+ATOM      3  CA  Leu     1       1.473   0.000   0.000                          
+ATOM      4  HA  Leu     1       1.806  -0.533  -0.895                          
+ATOM      5  C   Leu     1       1.935  -0.812   1.207                          
+ATOM      6  O   Leu     1       2.462  -0.337   2.210                          
+ATOM      7  CB  Leu     1       2.011   1.437   0.000                          
+ATOM      8  HB1 Leu     1       1.558   1.990  -0.836                          
+ATOM      9  HB2 Leu     1       1.682   1.954   0.913                          
+ATOM     10  CG  Leu     1       3.545   1.555  -0.102                          
+ATOM     11  HG  Leu     1       4.015   1.121   0.788                          
+ATOM     12  CD1 Leu     1       4.117   0.867  -1.338                          
+ATOM     13  HD1 Leu     1       5.185   1.081  -1.452                          
+ATOM     14  HD2 Leu     1       4.010  -0.220  -1.273                          
+ATOM     15  HD3 Leu     1       3.614   1.209  -2.249                          
+ATOM     16  CD2 Leu     1       3.975   3.012  -0.121                          
+ATOM     17  OE          1       3.215   3.965   0.016                          
+ATOM     18  HD4 Leu     1       5.062   3.181  -0.228                          
+TER      19                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   16                                                 
+CONECT   11   10                                                                
+CONECT   12   10   13   14   15                                                 
+CONECT   13   12                                                                
+CONECT   14   12                                                                
+CONECT   15   12                                                                
+CONECT   16   10   17   18                                                      
+CONECT   17   16                                                                
+CONECT   18   16                                                                
+END                                                                             

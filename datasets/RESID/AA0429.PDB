@@ -1,0 +1,209 @@
+HEADER    AA0429                                  30-Jun-08                     
+COMPND    15,16-dihydrobiliverdin-bis-L-cysteine                                
+REVDAT 001   30-Jun-08                                                          
+REMARK 001 Copyright (C) 2008 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Cys     1       0.123   0.033  -0.109                          
+ATOM      2  HN  Cys     1      -0.215  -0.906   0.114                          
+ATOM      3  CA  Cys     1       1.589   0.061   0.054                          
+ATOM      4  HA  Cys     1       2.027  -0.464  -0.801                          
+ATOM      5  C   Cys     1       1.984  -0.706   1.317                          
+ATOM      6  O   Cys     1       1.233  -0.942   2.260                          
+ATOM      7  CB  Cys     1       2.064   1.514   0.149                          
+ATOM      8  HB1 Cys     1       1.667   2.107  -0.680                          
+ATOM      9  HB2 Cys     1       1.669   1.970   1.065                          
+ATOM     10  SG  Cys     1       3.885   1.717   0.218                          
+ATOM     11  N   Cys     2      -4.180  -1.241   3.813                          
+ATOM     12  HN  Cys     2      -4.275  -1.168   4.826                          
+ATOM     13  CA  Cys     2      -5.511  -1.384   3.186                          
+ATOM     14  HA  Cys     2      -6.056  -0.444   3.333                          
+ATOM     15  C   Cys     2      -6.304  -2.490   3.879                          
+ATOM     16  O   Cys     2      -5.821  -3.415   4.526                          
+ATOM     17  CB  Cys     2      -5.320  -1.685   1.696                          
+ATOM     18  HB1 Cys     2      -4.723  -0.873   1.287                          
+ATOM     19  HB2 Cys     2      -4.767  -2.622   1.568                          
+ATOM     20  SG  Cys     2      -6.850  -1.841   0.719                          
+ATOM     21  NA  DBV     0       4.440   1.308  -5.974                          
+ATOM     22  HA  DBV     0       4.273   0.778  -6.813                          
+ATOM     23  C1A DBV     0       5.258   2.404  -5.953                          
+ATOM     24  C2A DBV     0       5.176   2.940  -4.576                          
+ATOM     25  C3A DBV     0       4.320   2.138  -3.903                          
+ATOM     26  C4A DBV     0       3.884   1.040  -4.760                          
+ATOM     27  CMA DBV     0       5.918   4.169  -4.205                          
+ATOM     28  HMA DBV     0       5.628   4.553  -3.224                          
+ATOM     29  HMA DBV     0       6.994   3.966  -4.178                          
+ATOM     30  HMA DBV     0       5.740   4.964  -4.936                          
+ATOM     31  CBA DBV     0       4.364   1.325  -1.502                          
+ATOM     32  HBA DBV     0       4.039   0.308  -1.732                          
+ATOM     33  HBA DBV     0       5.460   1.319  -1.530                          
+ATOM     34  OA  DBV     0       5.911   2.859  -6.874                          
+ATOM     35  CHA DBV     0       3.114  -0.022  -4.468                          
+ATOM     36  HHA DBV     0       2.657  -0.094  -3.487                          
+ATOM     37  CAA DBV     0       3.827   2.349  -2.503                          
+ATOM     38  HAA DBV     0       4.103   3.355  -2.163                          
+ATOM     39  HAA DBV     0       2.732   2.336  -2.530                          
+ATOM     40  NB  DBV     0       1.644  -1.719  -5.340                          
+ATOM     41  HNB DBV     0       0.859  -1.463  -4.753                          
+ATOM     42  C1B DBV     0       2.893  -1.118  -5.354                          
+ATOM     43  C2B DBV     0       3.699  -1.860  -6.216                          
+ATOM     44  C3B DBV     0       2.839  -2.790  -6.884                          
+ATOM     45  C4B DBV     0       1.596  -2.726  -6.268                          
+ATOM     46  CHB DBV     0       0.436  -3.512  -6.497                          
+ATOM     47  HHB DBV     0       0.461  -4.050  -7.439                          
+ATOM     48  CMB DBV     0       5.183  -1.777  -6.401                          
+ATOM     49  HMB DBV     0       5.513  -0.809  -6.774                          
+ATOM     50  HMB DBV     0       5.690  -1.979  -5.452                          
+ATOM     51  HMB DBV     0       5.542  -2.514  -7.124                          
+ATOM     52  CAB DBV     0       3.208  -3.701  -8.024                          
+ATOM     53  HAB DBV     0       4.213  -4.107  -7.865                          
+ATOM     54  HAB DBV     0       2.545  -4.575  -8.046                          
+ATOM     55  CBB DBV     0       3.159  -2.979  -9.366                          
+ATOM     56  HBB DBV     0       3.855  -2.133  -9.389                          
+ATOM     57  HBB DBV     0       3.470  -3.654 -10.172                          
+ATOM     58  CGB DBV     0       1.759  -2.518  -9.686                          
+ATOM     59  O1B DBV     0       0.848  -3.281  -9.973                          
+ATOM     60  O2B DBV     0       1.586  -1.182  -9.603                          
+ATOM     61  HOB DBV     0       2.366  -0.698  -9.271                          
+ATOM     62  CHC DBV     0      -2.733  -3.416  -2.816                          
+ATOM     63  HHC DBV     0      -3.369  -4.243  -2.484                          
+ATOM     64  HHC DBV     0      -1.958  -3.294  -2.050                          
+ATOM     65  NC  DBV     0      -0.913  -3.187  -4.477                          
+ATOM     66  C1C DBV     0      -0.612  -3.755  -5.697                          
+ATOM     67  C2C DBV     0      -1.633  -4.756  -5.998                          
+ATOM     68  C3C DBV     0      -2.550  -4.789  -5.023                          
+ATOM     69  C4C DBV     0      -2.026  -3.770  -4.099                          
+ATOM     70  CMC DBV     0      -3.752  -5.638  -4.869                          
+ATOM     71  HMC DBV     0      -4.389  -5.323  -4.040                          
+ATOM     72  HMC DBV     0      -4.369  -5.603  -5.773                          
+ATOM     73  HMC DBV     0      -3.466  -6.678  -4.684                          
+ATOM     74  CAC DBV     0      -1.617  -5.641  -7.220                          
+ATOM     75  HAC DBV     0      -2.608  -6.081  -7.385                          
+ATOM     76  HAC DBV     0      -1.435  -5.020  -8.106                          
+ATOM     77  CBC DBV     0      -0.556  -6.749  -7.156                          
+ATOM     78  HBC DBV     0      -0.348  -7.122  -8.165                          
+ATOM     79  HBC DBV     0       0.384  -6.364  -6.748                          
+ATOM     80  CGC DBV     0      -1.017  -7.932  -6.339                          
+ATOM     81  O1C DBV     0      -2.164  -8.349  -6.310                          
+ATOM     82  O2C DBV     0      -0.016  -8.544  -5.667                          
+ATOM     83  HOC DBV     0       0.863  -8.137  -5.782                          
+ATOM     84  ND  DBV     0      -4.751  -2.328  -3.726                          
+ATOM     85  HND DBV     0      -4.810  -2.477  -4.726                          
+ATOM     86  C1D DBV     0      -3.540  -2.131  -2.994                          
+ATOM     87  H1D DBV     0      -2.958  -1.361  -3.516                          
+ATOM     88  C2D DBV     0      -4.094  -1.568  -1.705                          
+ATOM     89  C3D DBV     0      -5.439  -1.449  -1.699                          
+ATOM     90  C4D DBV     0      -5.857  -1.873  -3.060                          
+ATOM     91  CMD DBV     0      -3.107  -1.136  -0.679                          
+ATOM     92  HMD DBV     0      -3.312  -0.125  -0.318                          
+ATOM     93  HMD DBV     0      -3.069  -1.843   0.152                          
+ATOM     94  HMD DBV     0      -2.105  -1.118  -1.114                          
+ATOM     95  CAD DBV     0      -6.479  -0.855  -0.790                          
+ATOM     96  H   DBV     0      -7.435  -0.903  -1.325                          
+ATOM     97  CBD DBV     0      -6.290   0.630  -0.483                          
+ATOM     98  H   DBV     0      -5.514   0.829   0.259                          
+ATOM     99  HBD DBV     0      -6.028   1.182  -1.392                          
+ATOM    100  HBD DBV     0      -7.227   1.060  -0.107                          
+ATOM    101  OD  DBV     0      -6.972  -1.776  -3.536                          
+TER     102                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   31                                                           
+CONECT   11   12   13                                                           
+CONECT   12   11                                                                
+CONECT   13   11   14   15   17                                                 
+CONECT   14   13                                                                
+CONECT   15   13   16                                                           
+CONECT   16   15                                                                
+CONECT   17   13   18   19   20                                                 
+CONECT   18   17                                                                
+CONECT   19   17                                                                
+CONECT   20   17   95                                                           
+CONECT   21   22   23   26                                                      
+CONECT   22   21                                                                
+CONECT   23   21   24   34                                                      
+CONECT   24   23   25   27                                                      
+CONECT   25   24   26   37                                                      
+CONECT   26   21   25   35                                                      
+CONECT   27   24   28   29   30                                                 
+CONECT   28   27                                                                
+CONECT   29   27                                                                
+CONECT   30   27                                                                
+CONECT   31   10   32   33   37                                                 
+CONECT   32   31                                                                
+CONECT   33   31                                                                
+CONECT   34   23                                                                
+CONECT   35   26   36   42                                                      
+CONECT   36   35                                                                
+CONECT   37   25   31   38   39                                                 
+CONECT   38   37                                                                
+CONECT   39   37                                                                
+CONECT   40   41   42   45                                                      
+CONECT   41   40                                                                
+CONECT   42   35   40   43                                                      
+CONECT   43   42   44   48                                                      
+CONECT   44   43   45   52                                                      
+CONECT   45   40   44   46                                                      
+CONECT   46   45   47   66                                                      
+CONECT   47   46                                                                
+CONECT   48   43   49   50   51                                                 
+CONECT   49   48                                                                
+CONECT   50   48                                                                
+CONECT   51   48                                                                
+CONECT   52   44   53   54   55                                                 
+CONECT   53   52                                                                
+CONECT   54   52                                                                
+CONECT   55   52   56   57   58                                                 
+CONECT   56   55                                                                
+CONECT   57   55                                                                
+CONECT   58   55   59   60                                                      
+CONECT   59   58                                                                
+CONECT   60   58   61                                                           
+CONECT   61   60                                                                
+CONECT   62   63   64   69   86                                                 
+CONECT   63   62                                                                
+CONECT   64   62                                                                
+CONECT   65   66   69                                                           
+CONECT   66   46   65   67                                                      
+CONECT   67   66   68   74                                                      
+CONECT   68   67   69   70                                                      
+CONECT   69   62   65   68                                                      
+CONECT   70   68   71   72   73                                                 
+CONECT   71   70                                                                
+CONECT   72   70                                                                
+CONECT   73   70                                                                
+CONECT   74   67   75   76   77                                                 
+CONECT   75   74                                                                
+CONECT   76   74                                                                
+CONECT   77   74   78   79   80                                                 
+CONECT   78   77                                                                
+CONECT   79   77                                                                
+CONECT   80   77   81   82                                                      
+CONECT   81   80                                                                
+CONECT   82   80   83                                                           
+CONECT   83   82                                                                
+CONECT   84   85   86   90                                                      
+CONECT   85   84                                                                
+CONECT   86   62   84   87   88                                                 
+CONECT   87   86                                                                
+CONECT   88   86   89   91                                                      
+CONECT   89   88   90   95                                                      
+CONECT   90   84   89  101                                                      
+CONECT   91   88   92   93   94                                                 
+CONECT   92   91                                                                
+CONECT   93   91                                                                
+CONECT   94   91                                                                
+CONECT   95   20   89   97   96                                                 
+CONECT   96   95                                                                
+CONECT   97   95   99  100   98                                                 
+CONECT   98   97                                                                
+CONECT   99   97                                                                
+CONECT  100   97                                                                
+CONECT  101   90                                                                
+END                                                                             

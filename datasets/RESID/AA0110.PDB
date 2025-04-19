@@ -1,0 +1,48 @@
+HEADER    AA0110                                  24-Oct-08                     
+COMPND    L-lanthionine                                                         
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REVDAT 004   24-Oct-08                                                          
+REMARK 001 Copyright (C) 2008 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Ser     1       0.000   0.000   0.000                          
+ATOM      2  HN  Ser     1      -0.319   0.404   0.887                          
+ATOM      3  CA  Ser     1       1.481  -0.000   0.000                          
+ATOM      4  HA  Ser     1       1.813  -0.547  -0.888                          
+ATOM      5  C   Ser     1       1.984  -0.756   1.233                          
+ATOM      6  O   Ser     1       1.243  -1.307   2.045                          
+ATOM      7  CB  Ser     1       2.019   1.438  -0.000                          
+ATOM      8  HB1 Ser     1       1.895   1.892   0.990                          
+ATOM      9  HB2 Ser     1       1.472   2.065  -0.714                          
+ATOM     10  N   Cys     2       3.215   3.123  -4.166                          
+ATOM     11  HN  Cys     2       2.260   2.789  -4.303                          
+ATOM     12  CA  Cys     2       3.547   3.085  -2.727                          
+ATOM     13  HA  Cys     2       2.746   3.600  -2.184                          
+ATOM     14  C   Cys     2       4.852   3.849  -2.527                          
+ATOM     15  O   Cys     2       4.989   4.778  -1.736                          
+ATOM     16  CB  Cys     2       3.699   1.638  -2.234                          
+ATOM     17  HB1 Cys     2       2.866   1.017  -2.580                          
+ATOM     18  HB2 Cys     2       4.617   1.195  -2.638                          
+ATOM     19  SG  Cys     2       3.805   1.502  -0.413                          
+TER      20                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   19                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10   11   12                                                           
+CONECT   11   10                                                                
+CONECT   12   10   13   14   16                                                 
+CONECT   13   12                                                                
+CONECT   14   12   15                                                           
+CONECT   15   14                                                                
+CONECT   16   12   17   18   19                                                 
+CONECT   17   16                                                                
+CONECT   18   16                                                                
+CONECT   19    7   16                                                           
+END                                                                             

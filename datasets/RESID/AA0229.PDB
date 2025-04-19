@@ -1,0 +1,102 @@
+HEADER    AA0229                                  31-Mar-11                     
+COMPND    L-cysteine glutathione disulfide                                      
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REVDAT 004   31-Mar-11                                                          
+REMARK 001 Copyright (C) 2001, 2011 John S. Garavelli                           
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Cys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Cys     1      -0.385   0.502  -0.886                          
+ATOM      3  CA  Cys     1       1.485   0.000   0.000                          
+ATOM      4  HA  Cys     1       1.844  -0.517  -0.910                          
+ATOM      5  C   Cys     1       1.996  -0.730   1.226                          
+ATOM      6  O   Cys     1       2.662  -1.746   1.110                          
+ATOM      7  CB  Cys     1       2.003   1.470   0.000                          
+ATOM      8  HB1 Cys     1       1.606   2.006   0.882                          
+ATOM      9  HB2 Cys     1       1.665   1.980  -0.921                          
+ATOM     10  SG  Cys     1       3.831   1.469   0.061                          
+ATOM     11  N   Glu     1       9.573  -0.644  -5.467                          
+ATOM     12  HN1 Glu     1      10.649  -0.731  -5.608                          
+ATOM     13  HN2 Glu     1       9.093  -0.365  -6.402                          
+ATOM     14  CA  Glu     1       9.013  -1.915  -4.952                          
+ATOM     15  HA  Glu     1       9.587  -2.238  -4.067                          
+ATOM     16  C   Glu     1       9.093  -2.745  -5.775                          
+ATOM     17  O   Glu     1       9.993  -2.890  -6.511                          
+ATOM     18  OX  Glu     1       8.370  -3.559  -5.718                          
+ATOM     19  HX  Glu     1       7.881  -3.859  -6.547                          
+ATOM     20  CB  Glu     1       7.517  -1.733  -4.572                          
+ATOM     21  HB1 Glu     1       7.432  -0.955  -3.792                          
+ATOM     22  HB2 Glu     1       7.119  -2.688  -4.182                          
+ATOM     23  CG  Glu     1       6.691  -1.306  -5.821                          
+ATOM     24  HG1 Glu     1       7.097  -0.356  -6.218                          
+ATOM     25  HG2 Glu     1       6.774  -2.089  -6.598                          
+ATOM     26  CD  Glu     1       5.235  -1.122  -5.430                          
+ATOM     27  OE  Glu     1       4.382  -1.864  -5.902                          
+ATOM     28  N   Cys     1       4.954  -0.116  -4.546                          
+ATOM     29  HN  Cys     1       5.672   0.494  -4.177                          
+ATOM     30  CA  Cys     1       3.560   0.083  -4.125                          
+ATOM     31  HA  Cys     1       3.132  -0.898  -3.840                          
+ATOM     32  C   Cys     1       2.736   0.689  -5.245                          
+ATOM     33  O   Cys     1       2.392   1.862  -5.157                          
+ATOM     34  CB  Cys     1       3.508   1.043  -2.900                          
+ATOM     35  HB1 Cys     1       2.452   1.243  -2.642                          
+ATOM     36  HB2 Cys     1       4.012   1.997  -3.144                          
+ATOM     37  SG  Cys     1       4.331   0.245  -1.478                          
+ATOM     38  N   Gly     1       2.399  -0.119  -6.294                          
+ATOM     39  HN  Gly     1       2.689  -1.090  -6.350                          
+ATOM     40  CA  Gly     1       1.549   0.437  -7.355                          
+ATOM     41  HA1 Gly     1       1.360   1.505  -7.126                          
+ATOM     42  HA2 Gly     1       2.077   0.357  -8.324                          
+ATOM     43  C   Gly     1       0.242  -0.330  -7.398                          
+ATOM     44  O   Gly     1       0.155  -1.451  -6.911                          
+ATOM     45  OX  Gly     1      -0.796   0.299  -8.011                          
+ATOM     46  HX  Gly     1      -0.635   1.176  -8.364                          
+TER      47                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   37                                                           
+CONECT   11   12   13   14                                                      
+CONECT   12   11                                                                
+CONECT   13   11                                                                
+CONECT   14   11   15   16   20                                                 
+CONECT   15   14                                                                
+CONECT   16   14   17   18                                                      
+CONECT   17   16                                                                
+CONECT   18   16   19                                                           
+CONECT   19   18                                                                
+CONECT   20   14   21   22   23                                                 
+CONECT   21   20                                                                
+CONECT   22   20                                                                
+CONECT   23   20   24   25   26                                                 
+CONECT   24   23                                                                
+CONECT   25   23                                                                
+CONECT   26   23   27   28                                                      
+CONECT   27   26                                                                
+CONECT   28   26   29   30                                                      
+CONECT   29   28                                                                
+CONECT   30   28   31   32   34                                                 
+CONECT   31   30                                                                
+CONECT   32   30   33   38                                                      
+CONECT   33   32                                                                
+CONECT   34   30   35   36   37                                                 
+CONECT   35   34                                                                
+CONECT   36   34                                                                
+CONECT   37   10   34                                                           
+CONECT   38   32   39   40                                                      
+CONECT   39   38                                                                
+CONECT   40   38   41   42   43                                                 
+CONECT   41   40                                                                
+CONECT   42   40                                                                
+CONECT   43   40   44   45                                                      
+CONECT   44   43                                                                
+CONECT   45   43   46                                                           
+CONECT   46   45                                                                
+END                                                                             

@@ -1,0 +1,51 @@
+HEADER    AA0578                                  31-Mar-12                     
+COMPND    (2S,5S)-5-hydroxylysine                                               
+REVDAT 001   31-Mar-12                                                          
+REMARK 001 Copyright (C) 2012 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Lys     1       0.163  -0.059  -0.351                          
+ATOM      2  HN  Lys     1      -0.283   0.297   0.500                          
+ATOM      3  CA  Lys     1       1.628   0.044  -0.170                          
+ATOM      4  HA  Lys     1       2.094  -0.395  -1.058                          
+ATOM      5  C   Lys     1       2.042  -0.760   1.076                          
+ATOM      6  O   Lys     1       1.361  -0.860   2.088                          
+ATOM      7  CB  Lys     1       2.014   1.522  -0.025                          
+ATOM      8  HB1 Lys     1       1.588   2.083  -0.867                          
+ATOM      9  HB2 Lys     1       1.575   1.940   0.890                          
+ATOM     10  CG  Lys     1       3.534   1.745   0.010                          
+ATOM     11  HG1 Lys     1       3.958   1.269   0.902                          
+ATOM     12  HG2 Lys     1       3.980   1.266  -0.870                          
+ATOM     13  CD  Lys     1       3.895   3.234   0.017                          
+ATOM     14  HD1 Lys     1       3.368   3.741   0.835                          
+ATOM     15  O           1       3.460   3.821  -1.212                          
+ATOM     16  H           1       3.626   4.776  -1.101                          
+ATOM     17  CE  Lys     1       5.414   3.443   0.164                          
+ATOM     18  HE1 Lys     1       5.741   3.100   1.151                          
+ATOM     19  HE2 Lys     1       5.954   2.861  -0.591                          
+ATOM     20  NZ  Lys     1       5.774   4.856  -0.009                          
+ATOM     21  HZ1 Lys     1       5.736   5.078  -1.005                          
+ATOM     22  HZ2 Lys     1       6.755   4.976   0.247                          
+TER      23                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   15   17                                                 
+CONECT   14   13                                                                
+CONECT   15   13   16                                                           
+CONECT   16   15                                                                
+CONECT   17   13   18   19   20                                                 
+CONECT   18   17                                                                
+CONECT   19   17                                                                
+CONECT   20   17   21   22                                                      
+CONECT   21   20                                                                
+CONECT   22   20                                                                
+END                                                                             

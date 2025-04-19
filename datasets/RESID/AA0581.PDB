@@ -1,0 +1,44 @@
+HEADER    AA0581                                  31-Mar-12                     
+COMPND    L-methionine sulfoxide                                                
+REVDAT 001   31-Mar-12                                                          
+REVDAT 002   31-Aug-13                                                          
+REMARK 001 Copyright (C) 2012, 2013 John S. Garavelli                           
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Met     1       0.000   0.000   0.000                          
+ATOM      2  HN  Met     1      -0.374  -0.387  -0.982                          
+ATOM      3  CA  Met     1       1.482   0.000   0.000                          
+ATOM      4  HA  Met     1       1.823  -0.472  -0.980                          
+ATOM      5  C   Met     1       2.005  -0.838   1.133                          
+ATOM      6  O   Met     1       3.230  -1.010   1.201                          
+ATOM      7  CB  Met     1       2.084   1.421   0.000                          
+ATOM      8  HB1 Met     1       1.407   2.089   0.628                          
+ATOM      9  HB2 Met     1       3.140   1.311   0.417                          
+ATOM     10  CG  Met     1       2.245   2.075  -1.382                          
+ATOM     11  HG1 Met     1       3.012   2.913  -1.301                          
+ATOM     12  HG2 Met     1       2.578   1.262  -2.109                          
+ATOM     13  SD  Met     1       0.751   2.744  -1.995                          
+ATOM     14  OE1         1      -0.493   2.008  -1.873                          
+ATOM     15  CE2 Met     1       1.283   3.290  -3.563                          
+ATOM     16  HE1 Met     1       0.400   3.292  -4.284                          
+ATOM     17  HE2 Met     1       1.704   4.345  -3.475                          
+ATOM     18  HE3 Met     1       2.092   2.590  -3.955                          
+TER      19                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   15                                                      
+CONECT   14   13                                                                
+CONECT   15   13   16   17   18                                                 
+CONECT   16   15                                                                
+CONECT   17   15                                                                
+CONECT   18   15                                                                
+END                                                                             

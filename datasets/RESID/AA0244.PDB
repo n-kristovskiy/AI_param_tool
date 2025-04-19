@@ -1,0 +1,44 @@
+HEADER    AA0244                                  05-Dec-08                     
+COMPND    L-cysteine thiazole-4-carboxylic acid                                 
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REVDAT 004   05-Dec-08                                                          
+REMARK 001 Copyright (C) 2001, 2008 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Cys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Cys     1      -0.387   0.075  -1.013                          
+ATOM      3  CA  Cys     1       1.487   0.000   0.000                          
+ATOM      4  HA  Cys     1       1.847  -0.540  -0.895                          
+ATOM      5  C   Cys     1       1.857  -0.767   1.251                          
+ATOM      6  CB  Cys     1       2.049   1.452   0.000                          
+ATOM      7  HB1 Cys     1       1.659   1.998  -0.878                          
+ATOM      8  HB2 Cys     1       1.741   1.972   0.926                          
+ATOM      9  SG  Cys     1       3.876   1.384  -0.098                          
+ATOM     10  HG  Cys     1       4.074   2.458  -0.086                          
+ATOM     11  N   Cys     2       1.241  -1.848   1.525                          
+ATOM     12  CA  Cys     2       1.574  -2.512   2.769                          
+ATOM     13  C   Cys     2       0.880  -3.750   3.178                          
+ATOM     14  O   Cys     2       0.054  -4.291   2.460                          
+ATOM     15  CB  Cys     2       2.543  -1.821   3.411                          
+ATOM     16  HB  Cys     2       2.975  -2.102   4.375                          
+ATOM     17  SG  Cys     2       3.084  -0.328   2.498                          
+TER      18                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    6                                                 
+CONECT    4    3                                                                
+CONECT    5    3   11   17                                                      
+CONECT    6    3    7    8    9                                                 
+CONECT    7    6                                                                
+CONECT    8    6                                                                
+CONECT    9    6   10                                                           
+CONECT   10    9                                                                
+CONECT   11    5   12                                                           
+CONECT   12   11   13   15                                                      
+CONECT   13   12   14                                                           
+CONECT   14   13                                                                
+CONECT   15   12   16   17                                                      
+CONECT   16   15                                                                
+CONECT   17    5   15                                                           
+END                                                                             

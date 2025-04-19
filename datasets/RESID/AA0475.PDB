@@ -1,0 +1,65 @@
+HEADER    AA0475                                  05-Dec-08                     
+COMPND    N6-propanoyl-L-lysine                                                 
+REVDAT 001   05-Dec-08                                                          
+REMARK 001 Copyright (C) 2008 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Lys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Lys     1      -0.316   0.385   0.894                          
+ATOM      3  CA  Lys     1       1.476   0.000   0.000                          
+ATOM      4  HA  Lys     1       1.821  -0.530  -0.894                          
+ATOM      5  C   Lys     1       1.980  -0.769   1.224                          
+ATOM      6  O   Lys     1       1.253  -1.207   2.112                          
+ATOM      7  CB  Lys     1       1.982   1.449   0.000                          
+ATOM      8  HB1 Lys     1       1.469   2.014  -0.789                          
+ATOM      9  HB2 Lys     1       1.736   1.935   0.954                          
+ATOM     10  CG  Lys     1       3.492   1.543  -0.238                          
+ATOM     11  HG1 Lys     1       4.028   1.037   0.573                          
+ATOM     12  HG2 Lys     1       3.748   1.023  -1.169                          
+ATOM     13  CD  Lys     1       3.973   2.995  -0.319                          
+ATOM     14  HD1 Lys     1       3.469   3.514  -1.143                          
+ATOM     15  HD2 Lys     1       3.707   3.527   0.602                          
+ATOM     16  CE  Lys     1       5.484   3.041  -0.524                          
+ATOM     17  HE1 Lys     1       5.991   2.493   0.278                          
+ATOM     18  HE2 Lys     1       5.758   2.568  -1.474                          
+ATOM     19  NZ  Lys     1       5.995   4.395  -0.559                          
+ATOM     20  HZ1 Lys     1       5.468   5.098  -1.062                          
+ATOM     21  C           1       7.333   4.632  -0.325                          
+ATOM     22  O           1       8.127   3.760   0.017                          
+ATOM     23  C           1       7.769   6.059  -0.567                          
+ATOM     24  H           1       6.954   6.748  -0.321                          
+ATOM     25  H           1       8.595   6.281   0.117                          
+ATOM     26  C           1       8.206   6.245  -2.007                          
+ATOM     27  H           1       8.940   5.485  -2.300                          
+ATOM     28  H           1       7.354   6.165  -2.690                          
+ATOM     29  H           1       8.664   7.230  -2.143                          
+TER      30                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   13   17   18   19                                                 
+CONECT   17   16                                                                
+CONECT   18   16                                                                
+CONECT   19   16   20   21                                                      
+CONECT   20   19                                                                
+CONECT   21   19   22   23                                                      
+CONECT   22   21                                                                
+CONECT   23   21   24   25   26                                                 
+CONECT   24   23                                                                
+CONECT   25   23                                                                
+CONECT   26   23   27   28   29                                                 
+CONECT   27   26                                                                
+CONECT   28   26                                                                
+CONECT   29   26                                                                
+END                                                                             

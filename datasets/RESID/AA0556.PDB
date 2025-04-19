@@ -1,0 +1,35 @@
+HEADER    AA0556                                  31-Mar-11                     
+COMPND    L-cysteine sulfonic acid                                              
+REVDAT 001   31-Mar-11                                                          
+REMARK 001 Copyright (C) 2011 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Cys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Cys     1      -0.329   0.249   0.939                          
+ATOM      3  CA  Cys     1       1.485   0.000   0.000                          
+ATOM      4  HA  Cys     1       1.785  -0.561  -0.890                          
+ATOM      5  C   Cys     1       1.972  -0.745   1.253                          
+ATOM      6  O   Cys     1       1.483  -0.571   2.363                          
+ATOM      7  CB  Cys     1       2.042   1.416   0.000                          
+ATOM      8  HB1 Cys     1       1.502   2.050  -0.713                          
+ATOM      9  HB2 Cys     1       1.979   1.887   0.987                          
+ATOM     10  SG  Cys     1       3.713   1.450  -0.496                          
+ATOM     11  OD1         1       4.503   0.900   0.561                          
+ATOM     12  OD2         1       4.036   2.812  -0.799                          
+ATOM     13  OD3         1       3.819   0.563  -1.819                          
+ATOM     14  HD          1       4.332   1.054  -2.501                          
+TER      15                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14                                                           
+CONECT   14   13                                                                
+END                                                                             

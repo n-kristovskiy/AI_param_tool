@@ -1,0 +1,54 @@
+HEADER    AA0184                                  31-Dec-04                     
+COMPND    L-serine 5-imidazolinone glycine                                      
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REVDAT 004   02-Nov-01                                                          
+REVDAT 005   31-Dec-04                                                          
+REMARK 001 Copyright (C) 2001, 2004 John S. Garavelli                           
+REMARK 002 This model is provisional.                                           
+REMARK 003 Atoms 11-14 from residue N+1 are included to complete the            
+REMARK 003 5-imidazolinone ring. These phantom atoms are indicated with         
+REMARK 003 an occupancy field value of 0.00.                                    
+ATOM      1  N   Ser     1       0.000   0.000   0.000                          
+ATOM      2  HN  Ser     1      -0.379  -1.000  -0.205                          
+ATOM      3  CA  Ser     1       1.485   0.000   0.000                          
+ATOM      4  HA  Ser     1       1.827  -0.493  -0.929                          
+ATOM      5  C   Ser     1       1.987  -0.727   1.234                          
+ATOM      6  CB  Ser     1       1.992   1.472   0.000                          
+ATOM      7  HB1 Ser     1       1.712   1.980   0.941                          
+ATOM      8  HB2 Ser     1       3.090   1.486  -0.115                          
+ATOM      9  OG  Ser     1       1.398   2.182  -1.108                          
+ATOM     10  HG  Ser     1       0.444   2.228  -1.081                          
+ATOM     11  N           2       2.931  -1.590   1.260  0.00                    
+ATOM     12  C           2       3.163  -2.105   2.608  0.00                    
+ATOM     13  C           2       2.131  -1.336   3.395  0.00                    
+ATOM     14  O           2       1.937  -1.429   4.601  0.00                    
+ATOM     15  N   Gly     3       1.461  -0.518   2.491                          
+ATOM     16  CA  Gly     3       0.356   0.380   2.838                          
+ATOM     17  HA1 Gly     3      -0.604  -0.164   2.735                          
+ATOM     18  HA2 Gly     3       0.353   1.251   2.155                          
+ATOM     19  C   Gly     3       0.523   0.864   4.264                          
+ATOM     20  O   Gly     3       0.371   2.048   4.518                          
+TER      21                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    6                                                 
+CONECT    4    3                                                                
+CONECT    5    3   11   15                                                      
+CONECT    6    3    7    8    9                                                 
+CONECT    7    6                                                                
+CONECT    8    6                                                                
+CONECT    9    6   10                                                           
+CONECT   10    9                                                                
+CONECT   11    5   12                                                           
+CONECT   12   11   13                                                           
+CONECT   13   12   14   15                                                      
+CONECT   14   13                                                                
+CONECT   15    5   13   16                                                      
+CONECT   16   15   17   18   19                                                 
+CONECT   17   16                                                                
+CONECT   18   16                                                                
+CONECT   19   16   20                                                           
+CONECT   20   19                                                                
+END                                                                             

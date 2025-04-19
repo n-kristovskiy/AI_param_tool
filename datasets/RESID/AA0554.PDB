@@ -1,0 +1,50 @@
+HEADER    AA0554                                  30-Jun-11                     
+COMPND    L-threonine 5-hydroxy-oxazole-4-carbonthionic acid                    
+REVDAT 001   30-Jun-11                                                          
+REMARK 001 Copyright (C) 2011 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Thr     1      -2.455  -1.524  -1.349                          
+ATOM      2  H   Thr     1      -2.411  -0.498  -1.491                          
+ATOM      3  C   Thr     1      -1.843  -1.749   0.012                          
+ATOM      4  H   Thr     1      -2.418  -1.139   0.793                          
+ATOM      5  C   Thr     1      -0.360  -1.294   0.002                          
+ATOM      6  O   Thr     1       0.724  -2.214  -0.001                          
+ATOM      7  C   Thr     1      -1.924  -3.270   0.377                          
+ATOM      8  H   Thr     1      -2.936  -3.493   0.862                          
+ATOM      9  O   Thr     1      -0.858  -3.607   1.311                          
+ATOM     10  H   Thr     1      -0.149  -4.321   1.054                          
+ATOM     11  C   Thr     1      -1.766  -4.128  -0.928                          
+ATOM     12  H   Thr     1      -1.673  -5.234  -0.666                          
+ATOM     13  H   Thr     1      -2.687  -3.971  -1.582                          
+ATOM     14  H   Thr     1      -0.834  -3.811  -1.502                          
+ATOM     15  N   Cys     2       0.000   0.000   0.000                          
+ATOM     16  C   Cys     2       1.476   0.000   0.000                          
+ATOM     17  C   Cys     2       1.876  -1.418   0.004                          
+ATOM     18  O   Cys     2       3.044  -1.841   0.020                          
+ATOM     19  C   Cys     2       2.299   1.102   0.000                          
+ATOM     20  S   Cys     2       1.602   2.738  -0.004                          
+ATOM     21  H   Cys     2       2.471   3.893  -0.006                          
+TER      22                                                                     
+TER      23                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6   15                                                      
+CONECT    6    5   17                                                           
+CONECT    7    3    8    9   11                                                 
+CONECT    8    7                                                                
+CONECT    9    7   10                                                           
+CONECT   10    9                                                                
+CONECT   11    7   12   13   14                                                 
+CONECT   12   11                                                                
+CONECT   13   11                                                                
+CONECT   14   11                                                                
+CONECT   15    5   16                                                           
+CONECT   16   15   17   19                                                      
+CONECT   17    6   16   18                                                      
+CONECT   18   17                                                                
+CONECT   19   16   20                                                           
+CONECT   20   19   21                                                           
+CONECT   21   20                                                                
+END                                                                             

@@ -1,0 +1,67 @@
+HEADER    AA0596                                  31-Dec-12                     
+COMPND    O-(L-isoglutamyl)-L-threonine                                         
+REVDAT 001   31-Dec-12                                                          
+REMARK 001 Copyright (C) 2012 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Glu     1       0.000   0.000   0.000                          
+ATOM      2  H   Glu     1      -0.319  -0.971   0.035                          
+ATOM      3  CA  Glu     1       1.483   0.000  -0.000                          
+ATOM      4  HA  Glu     1       1.810  -0.532  -0.900                          
+ATOM      5  C   Glu     1       1.984  -0.767   1.235                          
+ATOM      6  O   Glu     1       1.333  -1.029   2.235                          
+ATOM      7  C   Glu     1       1.973   1.453   0.000                          
+ATOM      8  H   Glu     1       1.369   2.051  -0.697                          
+ATOM      9  H   Glu     1       1.832   1.903   0.993                          
+ATOM     10  C   Glu     1       3.438   1.574  -0.413                          
+ATOM     11  H   Glu     1       3.579   1.206  -1.436                          
+ATOM     12  H   Glu     1       4.092   0.978   0.230                          
+ATOM     13  C   Glu     1       3.923   3.003  -0.324                          
+ATOM     14  O   Glu     1       4.488   3.434   0.675                          
+ATOM     15  N           1       3.680   3.761  -1.448                          
+ATOM     16  H           1       3.251   3.328  -2.256                          
+ATOM     17  CA          1       4.222   5.103  -1.577                          
+ATOM     18  HA1         1       3.603   5.632  -2.310                          
+ATOM     19  HA2         1       4.121   5.621  -0.616                          
+ATOM     20  CB          1       5.688   5.078  -2.026                          
+ATOM     21  HB1         1       5.767   4.562  -2.991                          
+ATOM     22  HB2         1       6.285   4.487  -1.318                          
+ATOM     23  CG          1       6.272   6.441  -2.132                          
+ATOM     24  ND1         1       6.291   7.177  -3.290                          
+ATOM     25  HD1         1       5.921   6.902  -4.189                          
+ATOM     26  CD2         1       6.907   7.239  -1.203                          
+ATOM     27  HD2         1       7.106   7.017  -0.162                          
+ATOM     28  NE1         1       7.297   8.426  -1.763                          
+ATOM     29  CE2         1       6.916   8.361  -3.019                          
+ATOM     30  HE1         1       7.066   9.127  -3.766                          
+TER      31                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   15                                                      
+CONECT   14   13                                                                
+CONECT   15   13   16   17                                                      
+CONECT   16   15                                                                
+CONECT   17   15   18   19   20                                                 
+CONECT   18   17                                                                
+CONECT   19   17                                                                
+CONECT   20   17   21   22   23                                                 
+CONECT   21   20                                                                
+CONECT   22   20                                                                
+CONECT   23   20   24   26                                                      
+CONECT   24   23   25   29                                                      
+CONECT   25   24                                                                
+CONECT   26   23   27   28                                                      
+CONECT   27   26                                                                
+CONECT   28   26   29                                                           
+CONECT   29   24   28   30                                                      
+CONECT   30   29                                                                
+END                                                                             

@@ -1,0 +1,37 @@
+HEADER    AA0361                                  27-Feb-04                     
+COMPND    O-sulfo-L-serine                                                      
+REVDAT 001   27-Feb-04                                                          
+REMARK 001 Copyright (C) 2004 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Ser     1       0.000   0.000   0.000                          
+ATOM      2  HN  Ser     1      -0.378   0.383   0.947                          
+ATOM      3  CA  Ser     1       1.485   0.000   0.000                          
+ATOM      4  HA  Ser     1       1.838  -0.505  -0.919                          
+ATOM      5  C   Ser     1       2.011  -0.721   1.227                          
+ATOM      6  O   Ser     1       1.236  -1.221   2.027                          
+ATOM      7  CB  Ser     1       1.984   1.473   0.000                          
+ATOM      8  HB1 Ser     1       1.643   2.000  -0.910                          
+ATOM      9  HB2 Ser     1       1.621   2.003   0.899                          
+ATOM     10  OG  Ser     1       3.432   1.466   0.026                          
+ATOM     11  S                   4.107   2.835   0.043                          
+ATOM     12  O                   4.292   3.560  -1.292                          
+ATOM     13  O                   5.457   2.625   0.559                          
+ATOM     14  O                   3.225   3.692   0.831                          
+ATOM     15  H                   4.848   4.344  -1.262                          
+TER      16                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11                                                           
+CONECT   11   10   12   13   14                                                 
+CONECT   12   11   15                                                           
+CONECT   13   11                                                                
+CONECT   14   11                                                                
+CONECT   15   12                                                                
+END                                                                             

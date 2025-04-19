@@ -1,0 +1,39 @@
+HEADER    AA0548                                  25-Feb-11                     
+COMPND    S-(2-aminovinyl)-L-cysteine                                           
+REVDAT 001   25-Feb-11                                                          
+REMARK 001 Copyright (C) 2011 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Cys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Cys     1      -0.380  -0.059   1.019                          
+ATOM      3  CA  Cys     1       1.484   0.000   0.000                          
+ATOM      4  HA  Cys     1       1.818  -0.467   0.945                          
+ATOM      5  C   Cys     1       1.988  -0.797  -1.190                          
+ATOM      6  O   Cys     1       1.327  -0.864  -2.215                          
+ATOM      7  CB  Cys     1       1.968   1.482   0.000                          
+ATOM      8  HB1 Cys     1       1.757   1.944   0.982                          
+ATOM      9  HB2 Cys     1       1.416   2.013  -0.775                          
+ATOM     10  N   Cys     2       6.195   3.020  -1.327                          
+ATOM     11  HN  Cys     2       7.064   3.573  -0.963                          
+ATOM     12  CA  Cys     2       5.069   3.751  -1.246                          
+ATOM     13  HA  Cys     2       5.117   4.805  -1.538                          
+ATOM     14  CB  Cys     2       3.904   3.231  -0.818                          
+ATOM     15  HB  Cys     2       3.022   3.872  -0.757                          
+ATOM     16  SG  Cys     2       3.769   1.503  -0.348                          
+TER      17                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   16                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10   11   12                                                           
+CONECT   11   10                                                                
+CONECT   12   10   13   14                                                      
+CONECT   13   12                                                                
+CONECT   14   12   15   16                                                      
+CONECT   15   14                                                                
+CONECT   16    7   14                                                           
+END                                                                             

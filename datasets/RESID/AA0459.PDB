@@ -1,0 +1,91 @@
+HEADER    AA0459                                  26-Feb-10                     
+COMPND    5'-(L-tyros-5'-yl)amino-L-tyrosine                                    
+REVDAT 001   26-Feb-10                                                          
+REMARK 001 Copyright (C) 2010 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Tyr     1       0.000   0.000   0.000                          
+ATOM      2  HN  Tyr     1      -0.282   0.459   0.875                          
+ATOM      3  CA  Tyr     1       1.486   0.000   0.000                          
+ATOM      4  HA  Tyr     1       1.828  -0.516  -0.906                          
+ATOM      5  C   Tyr     1       2.016  -0.751   1.168                          
+ATOM      6  O   Tyr     1       2.645  -1.336   1.976                          
+ATOM      7  CB  Tyr     1       2.030   1.449   0.000                          
+ATOM      8  HB1 Tyr     1       1.371   2.101  -0.592                          
+ATOM      9  HB2 Tyr     1       2.024   1.874   1.013                          
+ATOM     10  CG  Tyr     1       3.421   1.563  -0.597                          
+ATOM     11  CD1 Tyr     1       3.574   1.552  -1.990                          
+ATOM     12  HD1 Tyr     1       2.693   1.482  -2.625                          
+ATOM     13  CD2 Tyr     1       4.561   1.644   0.221                          
+ATOM     14  HD2 Tyr     1       4.436   1.618   1.301                          
+ATOM     15  CE1 Tyr     1       4.842   1.605  -2.563                          
+ATOM     16  HE1 Tyr     1       4.935   1.584  -3.642                          
+ATOM     17  CE2 Tyr     1       5.847   1.687  -0.331                          
+ATOM     18  CZ  Tyr     1       5.961   1.665  -1.734                          
+ATOM     19  OH  Tyr     1       7.219   1.694  -2.290                          
+ATOM     20  HOH Tyr     1       7.110   1.831  -3.242                          
+ATOM     21  NE2                 7.021   1.782   0.434                          
+ATOM     22  HE2                 7.842   1.448  -0.065                          
+ATOM     23  N   Tyr     2       6.303   6.784   5.634                          
+ATOM     24  HN  Tyr     2       6.915   7.587   5.426                          
+ATOM     25  CA  Tyr     2       6.653   5.997   4.403                          
+ATOM     26  HA  Tyr     2       7.748   5.926   4.334                          
+ATOM     27  C   Tyr     2       6.160   6.679   3.179                          
+ATOM     28  O   Tyr     2       6.077   7.112   2.085                          
+ATOM     29  CB  Tyr     2       6.051   4.573   4.496                          
+ATOM     30  HB1 Tyr     2       6.002   4.245   5.544                          
+ATOM     31  HB2 Tyr     2       5.012   4.554   4.138                          
+ATOM     32  CG  Tyr     2       6.873   3.541   3.743                          
+ATOM     33  CD1 Tyr     2       8.031   3.023   4.340                          
+ATOM     34  HD1 Tyr     2       8.307   3.348   5.341                          
+ATOM     35  CD2 Tyr     2       6.521   3.132   2.445                          
+ATOM     36  HD2 Tyr     2       5.640   3.564   1.978                          
+ATOM     37  CE1 Tyr     2       8.838   2.122   3.651                          
+ATOM     38  HE1 Tyr     2       9.735   1.746   4.128                          
+ATOM     39  CE2 Tyr     2       7.324   2.235   1.728                          
+ATOM     40  CZ  Tyr     2       8.484   1.744   2.357                          
+ATOM     41  OH  Tyr     2       9.290   0.875   1.657                          
+ATOM     42  HOH Tyr     2       9.940   0.520   2.281                          
+TER      43                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   13                                                      
+CONECT   11   10   12   15                                                      
+CONECT   12   11                                                                
+CONECT   13   10   14   17                                                      
+CONECT   14   13                                                                
+CONECT   15   11   16   18                                                      
+CONECT   16   15                                                                
+CONECT   17   13   18   21                                                      
+CONECT   18   15   17   19                                                      
+CONECT   19   18   20                                                           
+CONECT   20   19                                                                
+CONECT   21   17   22   39                                                      
+CONECT   22   21                                                                
+CONECT   23   24   25                                                           
+CONECT   24   23                                                                
+CONECT   25   23   26   27   29                                                 
+CONECT   26   25                                                                
+CONECT   27   25   28                                                           
+CONECT   28   27                                                                
+CONECT   29   25   30   31   32                                                 
+CONECT   30   29                                                                
+CONECT   31   29                                                                
+CONECT   32   29   33   35                                                      
+CONECT   33   32   34   37                                                      
+CONECT   34   33                                                                
+CONECT   35   32   36   39                                                      
+CONECT   36   35                                                                
+CONECT   37   33   38   40                                                      
+CONECT   38   37                                                                
+CONECT   39   21   35   40                                                      
+CONECT   40   37   39   41                                                      
+CONECT   41   40   42                                                           
+CONECT   42   41                                                                
+END                                                                             

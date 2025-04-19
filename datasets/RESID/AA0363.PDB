@@ -1,0 +1,49 @@
+HEADER    AA0363                                  27-Feb-04                     
+COMPND    N-carboxy-L-methionine                                                
+REVDAT 001   27-Feb-04                                                          
+REMARK 001 Copyright (C) 2004 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Met     1       0.000   0.000   0.000                          
+ATOM      2  HN  Met     1      -0.525   0.953  -0.161                          
+ATOM      3  CA  Met     1       1.471   0.000   0.000                          
+ATOM      4  HA  Met     1       1.838  -0.518  -0.898                          
+ATOM      5  C   Met     1       2.121  -0.733   1.169                          
+ATOM      6  O   Met     1       3.268  -1.176   1.051                          
+ATOM      7  CB  Met     1       2.021   1.422   0.000                          
+ATOM      8  HB1 Met     1       1.539   2.002   0.800                          
+ATOM      9  HB2 Met     1       3.109   1.395   0.171                          
+ATOM     10  CG  Met     1       1.796   2.177  -1.294                          
+ATOM     11  HG1 Met     1       2.443   1.762  -2.079                          
+ATOM     12  HG2 Met     1       0.742   2.079  -1.597                          
+ATOM     13  SD  Met     1       2.193   3.965  -1.064                          
+ATOM     14  CE  Met     1       3.898   3.898  -0.668                          
+ATOM     15  HE1 Met     1       4.471   4.466  -1.414                          
+ATOM     16  HE2 Met     1       4.059   4.334   0.330                          
+ATOM     17  HE3 Met     1       4.233   2.850  -0.668                          
+ATOM     18  C                  -0.673  -1.146  -0.049                          
+ATOM     19  O                  -0.040  -2.221   0.047                          
+ATOM     20  O                  -1.925  -1.154  -0.281                          
+ATOM     21  H                  -2.292  -2.191  -0.280                          
+TER      22                                                                     
+CONECT    1    2    3   18                                                      
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14                                                           
+CONECT   14   13   15   16   17                                                 
+CONECT   15   14                                                                
+CONECT   16   14                                                                
+CONECT   17   14                                                                
+CONECT   18    1   19   20                                                      
+CONECT   19   18                                                                
+CONECT   20   18   21                                                           
+CONECT   21   20                                                                
+END                                                                             

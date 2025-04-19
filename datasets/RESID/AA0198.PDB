@@ -1,0 +1,57 @@
+HEADER    AA0198                                  31-Mar-01                     
+COMPND    D-tryptophan                                                          
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N           1       0.000   0.000   0.000                          
+ATOM      2  H           2      -0.389  -0.062  -1.013                          
+ATOM      3  C           3       1.485   0.000  -0.000                          
+ATOM      4  H           4       1.848  -0.510   0.912                          
+ATOM      5  C           5       1.955  -0.734  -1.238                          
+ATOM      6  O           6       2.873  -1.536  -1.179                          
+ATOM      7  C           7       1.990   1.475   0.000                          
+ATOM      8  H           8       3.096   1.491  -0.043                          
+ATOM      9  H           9       1.583   1.984  -0.895                          
+ATOM     10  C          10       1.511   2.189   1.252                          
+ATOM     11  C          11       2.215   2.194   2.601                          
+ATOM     12  C          12       1.369   2.986   3.381                          
+ATOM     13  C          13       0.385   2.942   1.381                          
+ATOM     14  H          14      -0.325   3.127   0.571                          
+ATOM     15  N          15       0.220   3.451   2.638                          
+ATOM     16  H          16      -0.705   3.091   3.094                          
+ATOM     17  C          17       3.390   1.634   3.122                          
+ATOM     18  H          18       4.046   1.015   2.513                          
+ATOM     19  C          19       1.651   3.265   4.727                          
+ATOM     20  H          20       0.984   3.877   5.332                          
+ATOM     21  C          21       3.689   1.916   4.471                          
+ATOM     22  H          22       4.597   1.511   4.914                          
+ATOM     23  C          23       2.835   2.717   5.260                          
+ATOM     24  H          24       3.096   2.915   6.298                          
+TER      25                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   13                                                      
+CONECT   11   10   12   17                                                      
+CONECT   12   11   15   19                                                      
+CONECT   13   10   14   15                                                      
+CONECT   14   13                                                                
+CONECT   15   12   13   16                                                      
+CONECT   16   15                                                                
+CONECT   17   11   18   21                                                      
+CONECT   18   17                                                                
+CONECT   19   12   20   23                                                      
+CONECT   20   19                                                                
+CONECT   21   17   22   23                                                      
+CONECT   22   21                                                                
+CONECT   23   19   21   24                                                      
+CONECT   24   23                                                                
+END                                                                             

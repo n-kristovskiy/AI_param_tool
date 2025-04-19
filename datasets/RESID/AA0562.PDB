@@ -1,0 +1,65 @@
+HEADER    AA0562                                  20-May-11                     
+COMPND    L-cysteinyl L-phenylalanine sulfenamide                               
+REVDAT 001   20-May-11                                                          
+REMARK 001 Copyright (C) 2011 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Cys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Cys     1      -0.339   0.076  -0.958                          
+ATOM      3  CA  Cys     1       1.473   0.000   0.000                          
+ATOM      4  HA  Cys     1       1.839  -0.590  -0.850                          
+ATOM      5  C   Cys     1       2.029  -0.627   1.265                          
+ATOM      6  O   Cys     1       1.483  -1.534   1.885                          
+ATOM      7  CB  Cys     1       2.053   1.399   0.000                          
+ATOM      8  HB1 Cys     1       2.023   1.857  -0.992                          
+ATOM      9  HB2 Cys     1       1.533   2.060   0.704                          
+ATOM     10  SG  Cys     1       3.793   1.228   0.571                          
+ATOM     11  N   Phe     2       3.285  -0.097   1.546                          
+ATOM     12  CA  Phe     2       4.074  -0.601   2.674                          
+ATOM     13  HA  Phe     2       5.057  -0.115   2.629                          
+ATOM     14  C   Phe     2       4.356  -2.081   2.394                          
+ATOM     15  O   Phe     2       4.761  -2.536   1.332                          
+ATOM     16  CB  Phe     2       3.423  -0.283   4.032                          
+ATOM     17  HB1 Phe     2       2.572  -0.947   4.227                          
+ATOM     18  HB2 Phe     2       3.003   0.732   4.013                          
+ATOM     19  CG  Phe     2       4.398  -0.342   5.190                          
+ATOM     20  CD1 Phe     2       5.397   0.631   5.339                          
+ATOM     21  HD1 Phe     2       5.469   1.461   4.639                          
+ATOM     22  CD2 Phe     2       4.327  -1.384   6.124                          
+ATOM     23  HD2 Phe     2       3.560  -2.152   6.032                          
+ATOM     24  CE1 Phe     2       6.317   0.547   6.385                          
+ATOM     25  HE1 Phe     2       7.093   1.301   6.489                          
+ATOM     26  CE2 Phe     2       5.248  -1.468   7.169                          
+ATOM     27  HE2 Phe     2       5.189  -2.289   7.879                          
+ATOM     28  CZ  Phe     2       6.245  -0.505   7.298                          
+ATOM     29  HZ  Phe     2       6.965  -0.573   8.109                          
+TER      30                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6   11                                                      
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11                                                           
+CONECT   11    5   10   12                                                      
+CONECT   12   11   13   14   16                                                 
+CONECT   13   12                                                                
+CONECT   14   12   15                                                           
+CONECT   15   14                                                                
+CONECT   16   12   17   18   19                                                 
+CONECT   17   16                                                                
+CONECT   18   16                                                                
+CONECT   19   16   20   22                                                      
+CONECT   20   19   21   24                                                      
+CONECT   21   20                                                                
+CONECT   22   19   23   26                                                      
+CONECT   23   22                                                                
+CONECT   24   20   25   28                                                      
+CONECT   25   24                                                                
+CONECT   26   22   27   28                                                      
+CONECT   27   26                                                                
+CONECT   28   24   26   29                                                      
+CONECT   29   28                                                                
+END                                                                             

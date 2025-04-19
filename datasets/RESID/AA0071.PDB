@@ -1,0 +1,49 @@
+HEADER    AA0071                                  31-Mar-01                     
+COMPND    N5-methyl-L-glutamine                                                 
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Gln     1       0.000   0.000   0.000                          
+ATOM      2  HN  Gln     1      -0.376  -1.008  -0.168                          
+ATOM      3  CA  Gln     1       1.485   0.000   0.000                          
+ATOM      4  HA  Gln     1       1.833  -0.505  -0.920                          
+ATOM      5  C   Gln     1       1.978  -0.740   1.229                          
+ATOM      6  O   Gln     1       1.194  -1.197   2.046                          
+ATOM      7  CB  Gln     1       2.002   1.470   0.000                          
+ATOM      8  HB1 Gln     1       1.590   1.997  -0.881                          
+ATOM      9  HB2 Gln     1       1.662   1.985   0.919                          
+ATOM     10  CG  Gln     1       3.558   1.515  -0.070                          
+ATOM     11  HG1 Gln     1       3.982   1.065   0.848                          
+ATOM     12  HG2 Gln     1       3.896   0.934  -0.950                          
+ATOM     13  CD  Gln     1       4.009   2.959  -0.209                          
+ATOM     14  OE1 Gln     1       3.162   3.846  -0.236                          
+ATOM     15  NE2 Gln     1       5.354   3.195  -0.303                          
+ATOM     16  HE2 Gln     1       6.043   2.457  -0.259                          
+ATOM     17  CH3 CH3     1       5.807   4.581  -0.451                          
+ATOM     18  HC1 CH3     1       5.094   5.125  -1.099                          
+ATOM     19  HC2 CH3     1       5.840   5.070   0.541                          
+ATOM     20  HC3 CH3     1       6.813   4.605  -0.911                          
+TER      21                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   15                                                      
+CONECT   14   13                                                                
+CONECT   15   13   16   17                                                      
+CONECT   16   15                                                                
+CONECT   17   15   18   19   20                                                 
+CONECT   18   17                                                                
+CONECT   19   17                                                                
+CONECT   20   17                                                                
+END                                                                             

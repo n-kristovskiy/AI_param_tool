@@ -1,0 +1,45 @@
+HEADER    AA0122                                  02-Nov-01                     
+COMPND    L-2-aminoadipic acid                                                  
+REVDAT 001   02-Nov-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Lys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Lys     1      -0.374   0.440   0.924                          
+ATOM      3  CA  Lys     1       1.484  -0.000   0.000                          
+ATOM      4  HA  Lys     1       1.824  -0.499  -0.926                          
+ATOM      5  C   Lys     1       1.974  -0.756   1.222                          
+ATOM      6  O   Lys     1       1.187  -1.174   2.056                          
+ATOM      7  CB  Lys     1       1.997   1.470  -0.000                          
+ATOM      8  HB1 Lys     1       1.455   2.033  -0.782                          
+ATOM      9  HB2 Lys     1       1.799   1.935   0.984                          
+ATOM     10  CG  Lys     1       3.520   1.525  -0.320                          
+ATOM     11  HG1 Lys     1       4.094   1.013   0.474                          
+ATOM     12  HG2 Lys     1       3.703   1.021  -1.288                          
+ATOM     13  CD  Lys     1       3.968   3.014  -0.425                          
+ATOM     14  HD1 Lys     1       3.329   3.524  -1.172                          
+ATOM     15  HD1 Lys     1       3.834   3.500   0.561                          
+ATOM     16  CE  Lys     1       5.420   3.106  -0.857                          
+ATOM     17  OZ1         1       5.742   3.620  -1.921                          
+ATOM     18  OZ2         1       6.328   2.586   0.006                          
+ATOM     19  HZ1         1       7.243   2.659  -0.281                          
+TER      20                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   13   17   18                                                      
+CONECT   17   16                                                                
+CONECT   18   16   19                                                           
+CONECT   19   18                                                                
+END                                                                             

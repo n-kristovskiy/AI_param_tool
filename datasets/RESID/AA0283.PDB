@@ -1,0 +1,69 @@
+HEADER    AA0283                                  31-Mar-01                     
+COMPND    pyrroloquinoline quinone                                              
+REVDAT 001   18-Feb-00                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  C           1      -2.455   3.518   0.168                          
+ATOM      2  C           1      -3.163   2.224   0.108                          
+ATOM      3  C           1      -2.296   1.024   0.037                          
+ATOM      4  C           1      -0.815   1.204   0.030                          
+ATOM      5  C           1      -0.216   2.420   0.057                          
+ATOM      6  C           1      -1.106   3.627   0.131                          
+ATOM      7  C           1      -2.992   4.912   0.287                          
+ATOM      8  O           1      -2.774  -0.100  -0.014                          
+ATOM      9  O           1      -4.383   2.183   0.117                          
+ATOM     10  C           1      -1.890   5.701   0.305                          
+ATOM     11  H           1      -4.040   5.216   0.352                          
+ATOM     12  C           1      -1.879   7.175   0.430                          
+ATOM     13  O           1      -0.815   7.780   0.378                          
+ATOM     14  N           1      -0.757   4.946   0.189                          
+ATOM     15  H           1      -0.168   5.259  -0.682                          
+ATOM     16  O           1      -3.055   7.836   0.602                          
+ATOM     17  H           1      -2.969   8.790   0.680                          
+ATOM     18  N           1       0.000   0.000   0.000                          
+ATOM     19  C           1       1.280  -0.000  -0.000                          
+ATOM     20  C           1       2.062  -1.258   0.002                          
+ATOM     21  O           1       1.490  -2.343  -0.009                          
+ATOM     22  C           1       1.979   1.310   0.000                          
+ATOM     23  H           1       3.076   1.322  -0.021                          
+ATOM     24  C           1       1.286   2.467   0.024                          
+ATOM     25  C           1       2.095   3.713   0.013                          
+ATOM     26  O           1       3.449   3.617  -0.025                          
+ATOM     27  O           1       1.552   4.809   0.033                          
+ATOM     28  H           1       3.914   4.459  -0.034                          
+ATOM     29  O           1       3.419  -1.192   0.022                          
+ATOM     30  H           1       3.862  -2.047   0.030                          
+TER      31                                                                     
+CONECT    1    2    6    7                                                      
+CONECT    2    1    3    9                                                      
+CONECT    3    2    4    8                                                      
+CONECT    4    3    5   18                                                      
+CONECT    5    4    6   24                                                      
+CONECT    6    1    5   14                                                      
+CONECT    7    1   10   11                                                      
+CONECT    8    3                                                                
+CONECT    9    2                                                                
+CONECT   10    7   12   14                                                      
+CONECT   11    7                                                                
+CONECT   12   10   13   16                                                      
+CONECT   13   12                                                                
+CONECT   14    6   10   15                                                      
+CONECT   15   14                                                                
+CONECT   16   12   17                                                           
+CONECT   17   16                                                                
+CONECT   18    4   19                                                           
+CONECT   19   18   20   22                                                      
+CONECT   20   19   21   29                                                      
+CONECT   21   20                                                                
+CONECT   22   19   23   24                                                      
+CONECT   23   22                                                                
+CONECT   24    5   22   25                                                      
+CONECT   25   24   26   27                                                      
+CONECT   26   25   28                                                           
+CONECT   27   25                                                                
+CONECT   28   26                                                                
+CONECT   29   20   30                                                           
+CONECT   30   29                                                                
+END                                                                             

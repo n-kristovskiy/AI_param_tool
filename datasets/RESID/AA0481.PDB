@@ -1,0 +1,47 @@
+HEADER    AA0481                                  30-Jan-09                     
+COMPND    L-asparagine thiazole-4-carboxylic acid                               
+REVDAT 001   30-Jan-09                                                          
+REMARK 001 Copyright (C) 2009 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Asn     1       0.000   0.000   0.000                          
+ATOM      2  HN  Asn     1      -0.290  -0.894   0.417                          
+ATOM      3  CA  Asn     1       1.488   0.000   0.000                          
+ATOM      4  HA  Asn     1       1.812  -0.517  -0.912                          
+ATOM      5  C   Asn     1       1.977  -0.840   1.179                          
+ATOM      6  CB  Asn     1       1.935   1.464   0.000                          
+ATOM      7  HB1 Asn     1       1.204   2.082  -0.542                          
+ATOM      8  HB2 Asn     1       2.015   1.872   1.015                          
+ATOM      9  CG  Asn     1       3.251   1.660  -0.719                          
+ATOM     10  OD1 Asn     1       3.980   0.758  -1.110                          
+ATOM     11  ND2 Asn     1       3.590   2.968  -0.921                          
+ATOM     12  HD1 Asn     1       4.431   3.154  -1.454                          
+ATOM     13  HD2 Asn     1       2.947   3.730  -0.758                          
+ATOM     14  N   Cys     2       1.254  -1.829   1.680                          
+ATOM     15  CA  Cys     2       1.930  -2.473   2.715                          
+ATOM     16  C   Cys     2       1.332  -3.602   3.424                          
+ATOM     17  O   Cys     2       0.228  -4.085   3.213                          
+ATOM     18  CB  Cys     2       3.182  -1.946   2.973                          
+ATOM     19  HB  Cys     2       3.901  -2.265   3.715                          
+ATOM     20  SG  Cys     2       3.517  -0.643   1.915                          
+TER      21                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    6                                                 
+CONECT    4    3                                                                
+CONECT    5    3   14   20                                                      
+CONECT    6    3    7    8    9                                                 
+CONECT    7    6                                                                
+CONECT    8    6                                                                
+CONECT    9    6   10   11                                                      
+CONECT   10    9                                                                
+CONECT   11    9   12   13                                                      
+CONECT   12   11                                                                
+CONECT   13   11                                                                
+CONECT   14    5   15                                                           
+CONECT   15   14   16   18                                                      
+CONECT   16   15   17                                                           
+CONECT   17   16                                                                
+CONECT   18   15   19   20                                                      
+CONECT   19   18                                                                
+CONECT   20    5   18                                                           
+END                                                                             

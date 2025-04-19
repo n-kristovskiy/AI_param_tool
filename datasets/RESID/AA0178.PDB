@@ -1,0 +1,73 @@
+HEADER    AA0178                                  31-Mar-01                     
+COMPND    L-thyroxine                                                           
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N           1       0.000   0.000   0.000                          
+ATOM      2  H           2      -0.560  -0.366   0.772                          
+ATOM      3  C           3       1.454   0.000   0.000                          
+ATOM      4  H           4       1.815  -0.551  -0.872                          
+ATOM      5  C           5       1.798  -0.764   1.252                          
+ATOM      6  O           6       0.970  -0.862   2.161                          
+ATOM      7  C           7       2.105   1.387   0.000                          
+ATOM      8  H           8       1.704   1.898  -0.881                          
+ATOM      9  H           9       1.741   1.962   0.860                          
+ATOM     10  C          10       3.608   1.531   0.000                          
+ATOM     11  C          11       4.178   2.866   0.059                          
+ATOM     12  H          12       3.541   3.756   0.108                          
+ATOM     13  C          13       5.586   3.087   0.085                          
+ATOM     14  I          14       6.324   5.036   0.300                          
+ATOM     15  C          15       4.562   0.435   0.000                          
+ATOM     16  H          16       4.248  -0.609  -0.001                          
+ATOM     17  C          17       5.971   0.651   0.010                          
+ATOM     18  I          18       7.266  -0.997   0.008                          
+ATOM     19  C          19       6.475   1.981   0.025                          
+ATOM     20  O          20       7.830   2.214  -0.130                          
+ATOM     21  C          21       8.424   2.212   1.120                          
+ATOM     22  C          22       8.518   3.467   1.847                          
+ATOM     23  H          23       8.125   4.400   1.426                          
+ATOM     24  C          24       9.094   3.547   3.147                          
+ATOM     25  I          25       9.073   5.371   4.179                          
+ATOM     26  C          26       8.927   1.040   1.815                          
+ATOM     27  H          27       8.872   0.039   1.384                          
+ATOM     28  C          28       9.519   1.117   3.109                          
+ATOM     29  I          29      10.218  -0.632   4.028                          
+ATOM     30  C          30       9.624   2.378   3.758                          
+ATOM     31  O          31      10.338   2.500   4.935                          
+ATOM     32  H          32      10.112   1.754   5.511                          
+TER      33                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   15                                                      
+CONECT   11   10   12   13                                                      
+CONECT   12   11                                                                
+CONECT   13   11   14   19                                                      
+CONECT   14   13                                                                
+CONECT   15   10   16   17                                                      
+CONECT   16   15                                                                
+CONECT   17   15   18   19                                                      
+CONECT   18   17                                                                
+CONECT   19   13   17   20                                                      
+CONECT   20   19   21                                                           
+CONECT   21   20   22   26                                                      
+CONECT   22   21   23   24                                                      
+CONECT   23   22                                                                
+CONECT   24   22   25   30                                                      
+CONECT   25   24                                                                
+CONECT   26   21   27   28                                                      
+CONECT   27   26                                                                
+CONECT   28   26   29   30                                                      
+CONECT   29   28                                                                
+CONECT   30   24   28   31                                                      
+CONECT   31   30   32                                                           
+CONECT   32   31                                                                
+END                                                                             

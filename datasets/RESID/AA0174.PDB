@@ -1,0 +1,49 @@
+HEADER    AA0174                                  31-Mar-01                     
+COMPND    L-2'-bromophenylalanine                                               
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N           1       0.000   0.000   0.000                          
+ATOM      2  H           2      -0.374   0.356   0.959                          
+ATOM      3  C           3       1.483   0.000   0.000                          
+ATOM      4  H           4       1.826  -0.507  -0.920                          
+ATOM      5  C           5       1.989  -0.733   1.229                          
+ATOM      6  O           6       1.213  -1.209   2.042                          
+ATOM      7  C           7       2.010   1.466   0.000                          
+ATOM      8  H           8       1.629   1.992  -0.895                          
+ATOM      9  H           9       1.643   1.980   0.909                          
+ATOM     10  C          10       3.554   1.488  -0.009                          
+ATOM     11  C          11       4.233   2.681   0.299                          
+ATOM     12  C          12       4.284   0.328  -0.319                          
+ATOM     13  H          13       3.767  -0.592  -0.589                          
+ATOM     14  C          14       5.639   2.701   0.324                          
+ATOM     15  H          15       6.165   3.625   0.564                          
+ATOM     16  C          16       5.688   0.346  -0.284                          
+ATOM     17  H          17       6.252  -0.558  -0.509                          
+ATOM     18  C          18       6.367   1.534   0.040                          
+ATOM     19  H          19       7.455   1.548   0.069                          
+ATOM     20 Br          20       3.276   4.236   0.673                          
+TER      21                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12                                                      
+CONECT   11   10   14   20                                                      
+CONECT   12   10   13   16                                                      
+CONECT   13   12                                                                
+CONECT   14   11   15   18                                                      
+CONECT   15   14                                                                
+CONECT   16   12   17   18                                                      
+CONECT   17   16                                                                
+CONECT   18   14   16   19                                                      
+CONECT   19   18                                                                
+CONECT   20   11                                                                
+END                                                                             

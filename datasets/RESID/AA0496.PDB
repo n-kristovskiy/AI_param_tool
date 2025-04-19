@@ -1,0 +1,47 @@
+HEADER    AA0496                                  28-Aug-09                     
+COMPND    O-glycyl-L-threonine                                                  
+REVDAT 001   28-Aug-09                                                          
+REMARK 001 Copyright (C) 2009 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Thr     1       0.000   0.000   0.000                          
+ATOM      2  HN  Thr     1      -0.316   0.408  -0.878                          
+ATOM      3  CA  Thr     1       1.489   0.000   0.000                          
+ATOM      4  HA  Thr     1       1.828  -0.531  -0.895                          
+ATOM      5  C   Thr     1       1.957  -0.847   1.190                          
+ATOM      6  O   Thr     1       1.816  -2.059   1.283                          
+ATOM      7  CB  Thr     1       2.061   1.440   0.000                          
+ATOM      8  HB  Thr     1       1.827   1.910   0.963                          
+ATOM      9  OG1 Thr     1       1.436   2.322  -0.978                          
+ATOM     10  CG2 Thr     1       3.581   1.498  -0.176                          
+ATOM     11  HG1 Thr     1       3.914   2.540  -0.252                          
+ATOM     12  HG2 Thr     1       3.899   0.997  -1.096                          
+ATOM     13  HG3 Thr     1       4.109   1.031   0.658                          
+ATOM     14  N   Gly     2       1.326   4.490  -2.610                          
+ATOM     15  HN  Gly     2       0.805   5.211  -3.106                          
+ATOM     16  CA  Gly     2       0.972   3.169  -3.156                          
+ATOM     17  HA1 Gly     2      -0.115   3.058  -3.209                          
+ATOM     18  HA2 Gly     2       1.392   3.086  -4.163                          
+ATOM     19  C   Gly     2       1.531   2.046  -2.298                          
+ATOM     20  O   Gly     2       1.940   0.972  -2.767                          
+TER      21                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7   19                                                           
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10                                                                
+CONECT   14   15   16                                                           
+CONECT   15   14                                                                
+CONECT   16   14   17   18   19                                                 
+CONECT   17   16                                                                
+CONECT   18   16                                                                
+CONECT   19    9   16   20                                                      
+CONECT   20   19                                                                
+END                                                                             

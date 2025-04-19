@@ -1,0 +1,43 @@
+HEADER    AA0512                                  31-Dec-09                     
+COMPND    glycyl cysteine dithioester                                           
+REVDAT 001   31-Dec-09                                                          
+REMARK 001 Copyright (C) 2009 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Cys     1       0.000   0.000   0.000                          
+ATOM      2  HN  Cys     1      -0.335   0.403  -0.875                          
+ATOM      3  CA  Cys     1       1.487   0.000   0.000                          
+ATOM      4  HA  Cys     1       1.816  -0.519  -0.908                          
+ATOM      5  C   Cys     1       1.949  -0.848   1.191                          
+ATOM      6  O   Cys     1       1.938  -2.071   1.221                          
+ATOM      7  CB  Cys     1       2.027   1.438   0.000                          
+ATOM      8  HB1 Cys     1       1.384   2.064  -0.630                          
+ATOM      9  HB2 Cys     1       2.025   1.902   0.992                          
+ATOM     10  SG  Cys     1       3.694   1.606  -0.754                          
+ATOM     11  S           1       4.953   0.738   0.624                          
+ATOM     12  N   Gly     2       6.008   2.543   4.108                          
+ATOM     13  HN  Gly     2       6.844   2.952   3.684                          
+ATOM     14  CA  Gly     2       5.511   1.469   3.224                          
+ATOM     15  HA1 Gly     2       6.289   0.704   3.138                          
+ATOM     16  HA2 Gly     2       4.619   1.025   3.674                          
+ATOM     17  C   Gly     2       5.145   2.008   1.842                          
+ATOM     18  O   Gly     2       4.985   3.202   1.599                          
+TER      19                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11                                                           
+CONECT   11   10   17                                                           
+CONECT   12   13   14                                                           
+CONECT   13   12                                                                
+CONECT   14   12   15   16   17                                                 
+CONECT   15   14                                                                
+CONECT   16   14                                                                
+CONECT   17   11   14   18                                                      
+CONECT   18   17                                                                
+END                                                                             

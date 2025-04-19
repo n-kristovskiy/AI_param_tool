@@ -1,0 +1,47 @@
+HEADER    AA0100                                  31-Mar-01                     
+COMPND    L-valine amide                                                        
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Val     1       0.000   0.000   0.000                          
+ATOM      2  HN  Val     1      -0.377  -0.171   1.009                          
+ATOM      3  CA  Val     1       1.485   0.000   0.000                          
+ATOM      4  HA  Val     1       1.821  -0.486  -0.934                          
+ATOM      5  C   Val     1       2.014  -0.756   1.207                          
+ATOM      6  O   Val     1       1.284  -0.948   2.173                          
+ATOM      7  CB  Val     1       1.997   1.471   0.000                          
+ATOM      8  HB  Val     1       1.792   1.930   0.986                          
+ATOM      9  CG1 Val     1       3.524   1.503  -0.287                          
+ATOM     10  HG1 Val     1       3.869   2.554  -0.328                          
+ATOM     11  HG2 Val     1       4.068   0.969   0.514                          
+ATOM     12  HG3 Val     1       3.726   1.015  -1.259                          
+ATOM     13  CG2 Val     1       1.236   2.273  -1.096                          
+ATOM     14  HG4 Val     1       1.596   3.318  -1.111                          
+ATOM     15  HG5 Val     1       1.413   1.807  -2.084                          
+ATOM     16  HG6 Val     1       0.153   2.258  -0.875                          
+ATOM     17  N   NH2     2       3.309  -1.197   1.155                          
+ATOM     18  HN1 NH2     2       3.883  -1.027   0.334                          
+ATOM     19  HN2 NH2     2       3.672  -1.703   1.960                          
+TER      20                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6   17                                                      
+CONECT    6    5                                                                
+CONECT    7    3    8    9   13                                                 
+CONECT    8    7                                                                
+CONECT    9    7   10   11   12                                                 
+CONECT   10    9                                                                
+CONECT   11    9                                                                
+CONECT   12    9                                                                
+CONECT   13    7   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   13                                                                
+CONECT   17    5   18   19                                                      
+CONECT   18   17                                                                
+CONECT   19   17                                                                
+END                                                                             

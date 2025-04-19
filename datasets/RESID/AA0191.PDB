@@ -1,0 +1,29 @@
+HEADER    AA0191                                  31-Mar-01                     
+COMPND    D-alanine                                                             
+REVDAT 001   30-Sep-99                                                          
+REVDAT 002   31-Dec-00                                                          
+REVDAT 003   31-Mar-01                                                          
+REMARK 001 Copyright (C) 2001 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N           1       0.000   0.000   0.000                          
+ATOM      2  H           2      -0.387   0.421  -0.926                          
+ATOM      3  C           3       1.485   0.000   0.000                          
+ATOM      4  H           4       1.837  -0.507   0.919                          
+ATOM      5  C           5       1.998  -0.739  -1.220                          
+ATOM      6  O           6       2.796  -1.656  -1.103                          
+ATOM      7  C           7       2.006   1.468  -0.000                          
+ATOM      8  H           8       3.111   1.470  -0.002                          
+ATOM      9  H           9       1.635   1.996  -0.898                          
+ATOM     10  H          10       1.640   1.986   0.907                          
+TER      11                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7                                                                
+END                                                                             

@@ -1,0 +1,61 @@
+HEADER    AA0525                                  30-Apr-10                     
+COMPND    O-isoaspartyl-L-threonine                                             
+REVDAT 001   30-Apr-10                                                          
+REMARK 001 Copyright (C) 2010 John S. Garavelli                                 
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Thr     1       0.000   0.000   0.000                          
+ATOM      2  HN  Thr     1      -0.374   1.052  -0.090                          
+ATOM      3  CA  Thr     1       1.485   0.000   0.000                          
+ATOM      4  HA  Thr     1       1.821  -0.549  -0.941                          
+ATOM      5  C   Thr     1       2.045  -0.720   1.241                          
+ATOM      6  O   Thr     1       3.139  -1.318   1.212                          
+ATOM      7  CB  Thr     1       2.040   1.491   0.000                          
+ATOM      8  HB  Thr     1       1.626   2.005   0.930                          
+ATOM      9  OG1 Thr     1       1.594   2.195  -1.169                          
+ATOM     10  CG2 Thr     1       3.534   1.531   0.083                          
+ATOM     11  HG1 Thr     1       3.889   2.613   0.042                          
+ATOM     12  HG2 Thr     1       3.873   1.057   1.063                          
+ATOM     13  HG3 Thr     1       3.978   0.952  -0.793                          
+ATOM     14  NH  Asn     2      -1.352   3.347  -4.640                          
+ATOM     15  HN1 Asn     2      -0.431   3.625  -5.214                          
+ATOM     16  HN2 Asn     2      -2.013   2.711  -5.280                          
+ATOM     17  CA  Asn     2      -0.968   2.592  -3.424                          
+ATOM     18  HA  Asn     2      -0.334   1.667  -3.632                          
+ATOM     19  C   Asn     2      -2.313   2.320  -2.818                          
+ATOM     20  O   Asn     2      -2.569   1.163  -2.466                          
+ATOM     21  OXT Asn     2      -3.108   3.275  -2.776                          
+ATOM     22  HXT Asn     2      -2.819   4.224  -3.159                          
+ATOM     23  CB  Asn     2      -0.149   3.460  -2.486                          
+ATOM     24  HB1 Asn     2      -0.779   4.359  -2.178                          
+ATOM     25  HB2 Asn     2       0.794   3.774  -3.046                          
+ATOM     26  CG  Asn     2       0.291   2.724  -1.229                          
+ATOM     27  OD  Asn     2      -0.494   2.679  -0.289                          
+TER      28                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7   26                                                           
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10                                                                
+CONECT   14   15   16   17                                                      
+CONECT   15   14                                                                
+CONECT   16   14                                                                
+CONECT   17   14   18   19   23                                                 
+CONECT   18   17                                                                
+CONECT   19   17   20   21                                                      
+CONECT   20   19                                                                
+CONECT   21   19   22                                                           
+CONECT   22   21                                                                
+CONECT   23   17   24   25   26                                                 
+CONECT   24   23                                                                
+CONECT   25   23                                                                
+CONECT   26    9   23   27                                                      
+CONECT   27   26                                                                
+END                                                                             

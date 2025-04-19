@@ -1,0 +1,96 @@
+HEADER    AA0327                                  28-Oct-05                     
+COMPND    omega-N-glucosyl-L-arginine                                           
+REVDAT 001   06-Sep-02                                                          
+REVDAT 002   28-Oct-05                                                          
+REMARK 001 Copyright (C) 2002, 2005 John S. Garavelli                           
+REMARK 002 This model is provisional.                                           
+ATOM      1  N   Arg     1       0.000   0.000   0.000                          
+ATOM      2  HN  Arg     1      -0.375   0.210   1.000                          
+ATOM      3  CA  Arg     1       1.486   0.000   0.000                          
+ATOM      4  HA  Arg     1       1.829  -0.477  -0.936                          
+ATOM      5  C   Arg     1       2.005  -0.764   1.210                          
+ATOM      6  O   Arg     1       1.252  -1.039   2.132                          
+ATOM      7  CB  Arg     1       1.953   1.488   0.000                          
+ATOM      8  HB1 Arg     1       1.407   2.019  -0.803                          
+ATOM      9  HB2 Arg     1       1.705   1.954   0.972                          
+ATOM     10  CG  Arg     1       3.478   1.635  -0.279                          
+ATOM     11  HG1 Arg     1       4.059   1.194   0.552                          
+ATOM     12  HG2 Arg     1       3.730   1.114  -1.222                          
+ATOM     13  CD  Arg     1       3.817   3.146  -0.427                          
+ATOM     14  HD1 Arg     1       3.217   3.581  -1.246                          
+ATOM     15  HD2 Arg     1       3.595   3.678   0.515                          
+ATOM     16  NE  Arg     1       4.970   3.290  -0.688                          
+ATOM     17  CZ  Arg     1       5.563   4.279  -0.994                          
+ATOM     18  NH1 Arg     1       6.668   4.190  -1.507                          
+ATOM     19  HH1 Arg     1       7.009   3.239  -1.737                          
+ATOM     20  NH2 Arg     1       5.083   5.333  -0.804                          
+ATOM     21  HH3 Arg     1       5.606   6.199  -0.992                          
+ATOM     22  HH4 Arg     1       4.128   5.425  -0.436                          
+ATOM     23  C1  Glc     1       7.449   5.123  -1.656                          
+ATOM     24  HC1 Glc     1       8.120   5.158  -0.784                          
+ATOM     25  C2  Glc     1       8.268   4.890  -2.957                          
+ATOM     26  HC2 Glc     1       7.581   4.806  -3.818                          
+ATOM     27  OC2 Glc     1       9.035   3.670  -2.837                          
+ATOM     28  HO2 Glc     1       8.514   2.876  -2.737                          
+ATOM     29  C3  Glc     1       9.244   6.079  -3.187                          
+ATOM     30  HC3 Glc     1      10.006   6.091  -2.387                          
+ATOM     31  OC3 Glc     1       9.912   5.945  -4.462                          
+ATOM     32  HO3 Glc     1       9.324   5.904  -5.214                          
+ATOM     33  C4  Glc     1       8.453   7.416  -3.167                          
+ATOM     34  HC4 Glc     1       7.775   7.470  -4.038                          
+ATOM     35  OC4 Glc     1       9.386   8.517  -3.216                          
+ATOM     36  HO4 Glc     1       9.952   8.503  -3.988                          
+ATOM     37  C5  Glc     1       7.617   7.519  -1.864                          
+ATOM     38  HC5 Glc     1       8.287   7.530  -0.985                          
+ATOM     39  OCR Glc     1       6.735   6.377  -1.751                          
+ATOM     40  C6  Glc     1       6.796   8.838  -1.909                          
+ATOM     41  H61 Glc     1       6.093   8.879  -1.058                          
+ATOM     42  H62 Glc     1       7.487   9.701  -1.869                          
+ATOM     43  OC6 Glc     1       6.062   8.906  -3.152                          
+ATOM     44  HO6 Glc     1       5.541   9.702  -3.251                          
+TER      45                                                                     
+CONECT    1    2    3                                                           
+CONECT    2    1                                                                
+CONECT    3    1    4    5    7                                                 
+CONECT    4    3                                                                
+CONECT    5    3    6                                                           
+CONECT    6    5                                                                
+CONECT    7    3    8    9   10                                                 
+CONECT    8    7                                                                
+CONECT    9    7                                                                
+CONECT   10    7   11   12   13                                                 
+CONECT   11   10                                                                
+CONECT   12   10                                                                
+CONECT   13   10   14   15   16                                                 
+CONECT   14   13                                                                
+CONECT   15   13                                                                
+CONECT   16   13   17                                                           
+CONECT   17   16   18   20                                                      
+CONECT   18   17   19   23                                                      
+CONECT   19   18                                                                
+CONECT   20   17   21   22                                                      
+CONECT   21   20                                                                
+CONECT   22   20                                                                
+CONECT   23   18   24   25   39                                                 
+CONECT   24   23                                                                
+CONECT   25   23   26   27   29                                                 
+CONECT   26   25                                                                
+CONECT   27   25   28                                                           
+CONECT   28   27                                                                
+CONECT   29   25   30   31   33                                                 
+CONECT   30   29                                                                
+CONECT   31   29   32                                                           
+CONECT   32   31                                                                
+CONECT   33   29   34   35   37                                                 
+CONECT   34   33                                                                
+CONECT   35   33   36                                                           
+CONECT   36   35                                                                
+CONECT   37   33   38   39   40                                                 
+CONECT   38   37                                                                
+CONECT   39   23   37                                                           
+CONECT   40   37   41   42   43                                                 
+CONECT   41   40                                                                
+CONECT   42   40                                                                
+CONECT   43   40   44                                                           
+CONECT   44   43                                                                
+END                                                                             
