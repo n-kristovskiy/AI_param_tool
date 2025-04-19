@@ -536,49 +536,104 @@ def generate_atom_names_by_ref_aa(mod_aa_mol, ref_aa_mol, dict_match, output_pat
     return all_mod_atom_names        
 
 
-def rdkit_pdb_modification(rdkit_mol, resname='MOD', resid=1, segid='A', atom_names_list=None):
+def rdkit_pdb_modification(rdkit_mol, resname='MOD', resid=1, segid='A'):
     """
-    Модифицирует атрибуты атомов RDKit молекулы для сохранения в PDB формате.
-
-    Аргументы:
-        rdkit_mol: RDKit молекула, которую нужно модифицировать.
-        resname: Имя остатка (3 символа, стандарт PDB).
-        resid: Номер остатка.
-        segid: Идентификатор сегмента (например, цепи).
-        atom_names_list: Список имён атомов. Если не указан, используются стандартные.
-
-    Возвращает:
-        RDKit молекулу с обновлёнными атрибутами.
+    Модифицирует имена атомов в молекуле по правилам аминокислот:
+    - N, H, CA, C, O имеют стандартные имена
+    - Боковые атомы получают буквенные метки по греческому алфавиту
+    - Протоны наследуют имя родительского атома и получают числовой суффикс
     """
-    if atom_names_list is None or len(rdkit_mol.GetAtoms()) != len(atom_names_list):
-        atom_names_list = [atom.GetSymbol() for atom in rdkit_mol.GetAtoms()]
-        print("Длина atom_names_list не совпадает с количеством атомов в rdkit_mol. "
-              "Будут использованы стандартные имена атомов.")
+    greek_alphabet = {0: 'B', 1: 'G', 2: 'D', 3: 'E', 4: 'Z', 5: 'H', 
+                      6: 'T', 7: 'I', 8: 'K', 9: 'L', 10: 'M', 11: 'N', 
+                      12: 'X', 13: 'O', 14: 'P', 15: 'R', 16: 'S'}
 
-    atom_counter = {}
+    # Найдём индекс CA (альфа-углерода)
+    submatch = rdkit_mol.GetSubstructMatch(Chem.MolFromSmarts('[H][N]C([H])C=O'))
+    if not submatch:
+        raise ValueError("Не удалось найти структуру аминокислоты [H][N]CC=O")
+    idx_H, idx_N, idx_CA, idx_HA ,idx_C, idx_O = submatch[0], submatch[1], submatch[2], submatch[3], submatch[4], submatch[5] 
 
-    def get_unique_atom_name(base_name, counter_dict):
-        """Генерирует уникальное имя для атома на основе счётчика."""
-        if base_name not in counter_dict:
-            counter_dict[base_name] = 1
-        else:
-            counter_dict[base_name] += 1
-        return f"{base_name}{counter_dict[base_name]}"
+    # Префиксы по индексам атомов
+    atom_names = {idx_H: {'atom_symbol': 'H','atom_letter':''}, idx_N: {'atom_symbol': 'N','atom_letter':''}, 
+                  idx_CA: {'atom_symbol': 'C','atom_letter':'A'}, idx_HA: {'atom_symbol': 'H','atom_letter':'A'},
+                  idx_C: {'atom_symbol': 'C','atom_letter':''}, idx_O: {'atom_symbol': 'O','atom_letter':''}}
+    # Старт нумерации с атомов, следующих за CA
+    # visited = set(atom_names.keys())
+    # atom_names = {}
+    greek_counter = 0
+    hydrogen_counts = {}
 
-    for atom, atom_name in zip(rdkit_mol.GetAtoms(), atom_names_list):
+    queue = [idx_CA]
+    while queue:
+        current_idx = queue.pop(0)
+        current_atom = rdkit_mol.GetAtomWithIdx(current_idx)
+        neighbors = defaultdict(int)
+        list_n = []
+        for atom in current_atom.GetNeighbors():
+            neigh = []
+            if atom.GetIdx() not in atom_names:
+                neigh.append(atom.GetIdx())
+                neighbors[atom.GetAtomicNum()] += 1
+            list_n.extend(neigh)
+        
+        count_hidrogen = neighbors[1] 
+        count_heavy = sum(neighbors.values()) - neighbors.get(1, 0) 
+
+        hidrogen_index = 1 if count_hidrogen > 1 else None
+        heavy_index = 1 if count_heavy > 1 else None
+            
+        for neighbor in current_atom.GetNeighbors():
+            nbr_idx = neighbor.GetIdx()
+            if nbr_idx in atom_names.keys():
+                continue
+                
+            if neighbor.GetAtomicNum() != 1:
+                # Тяжёлый атом
+                symbol = neighbor.GetSymbol()
+                if heavy_index and count_heavy > 1:
+                    greek_index = greek_alphabet.get(greek_counter, f"Y{greek_counter}") + str(count_heavy)
+                    atom_names[nbr_idx] = {'atom_symbol': symbol,'atom_letter': greek_index}
+                    count_heavy -= 1
+                    queue.append(nbr_idx)
+                elif heavy_index and count_heavy == 1:
+                    greek_index = greek_alphabet.get(greek_counter, f"Y{greek_counter}") + str(count_heavy)
+                    atom_names[nbr_idx] = {'atom_symbol': symbol,'atom_letter': greek_index}
+                    greek_counter += 1
+                    queue.append(nbr_idx)
+                else:
+                    greek_index = greek_alphabet.get(greek_counter, f"Y{greek_counter}")
+                    atom_names[nbr_idx] = {'atom_symbol': symbol,'atom_letter': greek_index}
+                    greek_counter += 1
+                    queue.append(nbr_idx)
+            else :
+                # Это водород — имя зависит от родителя
+                parent_letter = atom_names[current_idx]['atom_letter']
+                if hidrogen_index and count_hidrogen > 1:
+                    greek_index = parent_letter + str(count_hidrogen)
+                    atom_names[nbr_idx] = {'atom_symbol': 'H','atom_letter': greek_index}
+                    count_hidrogen -= 1
+                elif hidrogen_index and count_hidrogen == 1:
+                    greek_index = parent_letter + str(count_hidrogen)
+                    atom_names[nbr_idx] = {'atom_symbol': 'H','atom_letter': greek_index}
+                    count_hidrogen -= 1
+                else:
+                    atom_names[nbr_idx] = {'atom_symbol': 'H','atom_letter': parent_letter} #f"H{parent_name}{hydrogen_counts[parent_name]}"
+
+    # Объединяем всё
+    for atom in rdkit_mol.GetAtoms():
+        idx = atom.GetIdx()
+        name = atom_names[idx]['atom_symbol']+atom_names[idx]['atom_letter']
+        name = name[:4].ljust(4)  # PDB формат требует длину 4 символа
+
         info = Chem.AtomPDBResidueInfo()
-
-        # Проверка и установка уникального имени атома
-        unique_atom_name = get_unique_atom_name(atom_name, atom_counter)
-        info.SetName(unique_atom_name.ljust(4))  # Имя должно быть ровно 4 символа
-
-        info.SetResidueName(resname)            # Устанавливаем имя остатка
-        info.SetResidueNumber(resid)            # Устанавливаем номер остатка
-        info.SetChainId(segid)                  # Устанавливаем ID сегмента
-
+        info.SetName(name)
+        info.SetResidueName(resname)
+        info.SetResidueNumber(resid)
+        info.SetChainId(segid)
+        atom.SetProp("AtomName", name.strip())
         atom.SetMonomerInfo(info)
 
-    return rdkit_mol   
+    return rdkit_mol  
 
 def mda_pdb_modification(mol_universe,  resname = 'MOD', resid = 1, segid = 'A'):
 
@@ -614,19 +669,401 @@ def save_aa_chem_to_pdb(rdkit_mol, path, resname = 'MOD', resid = 1, segid = 'A'
         print("Ошибка санации:", e)
         
     # Получение пути и имени файла
-    path_to_file, file_name = path_parser(path, ['pdb'])
+    path_to_file, file_name = pt.path_parser(path, ['pdb'])
     
     # Генерация 3D-конформации и оптимизация молекулы
     AllChem.EmbedMolecule(rdkit_mol)
     AllChem.UFFOptimizeMolecule(rdkit_mol)
     
     rdkit_mol = rdkit_pdb_modification(rdkit_mol, 
-                     resname = resname, resid = resid, segid = segid, atom_names_list=atom_names_list)
+                     resname = resname, resid = resid, segid = segid)
+    rw_mol = Chem.RWMol(rdkit_mol)  # делаем редактируемую копию
+    h_indices = [atom.GetIdx() for atom in rw_mol.GetAtoms() if atom.GetAtomicNum() == 1]
+    for idx in sorted(h_indices, reverse=True):  # удалять нужно с конца, иначе индексы съедут
+        rw_mol.RemoveAtom(idx)
+    rdkit_mol_no_H = rw_mol.GetMol()
+    
     # Запись в файл
+    
     output_path = f"{path_to_file}/{file_name}.pdb" if path_to_file else f"{file_name}.pdb"
     with open(output_path, "w") as file:
         file.write(Chem.MolToPDBBlock(rdkit_mol))
     print(f'{file_name}.pdb saved to {path_to_file or "current directory"}')
+    
+    if '_H'in file_name:
+        file_name = file_name.replace('_H', '_no_H')
+    else:
+        file_name = file_name + '_no_H'
+    output_path = f"{path_to_file}/{file_name}.pdb" if path_to_file else f"{file_name}.pdb"
+    with open(output_path, "w") as file:
+        file.write(Chem.MolToPDBBlock(rdkit_mol_no_H))
+    print(f'{file_name}.pdb saved to {path_to_file or "current directory"}')
+
+    
+def check_PDB_residue_info(atom):
+    """
+    Проверяет, что параметры остатка были правильно установлены для атома.
+    """
+    monomer_info = atom.GetMonomerInfo()
+    # assert monomer_info.IsValid(), "Информация об остатке не установлена!"
+    assert monomer_info.GetName().strip(), "Имя атома не установлено!"
+    assert monomer_info.GetResidueName().strip(), "Имя остатка не установлено!"
+    assert monomer_info.GetResidueNumber() >= 1, "Номер остатка не установлен!"
+    assert monomer_info.GetChainId().strip(), "ID сегмента не установлен!"
+    print(f"Параметры остатка для атома {monomer_info.GetName()} установлены корректно.", 
+          monomer_info.GetName(), 
+          monomer_info.GetResidueName(),
+        monomer_info.GetResidueNumber(),
+        monomer_info.GetChainId(),sep='\n')
+
+def check_duplicate_atom_names(mol):
+    """
+    Проверяет наличие атомов с одинаковыми именами в молекуле и возвращает словарь.
+    """
+    # Получаем список всех имен атомов
+    atom_names = [atom.GetProp('AtomName') for atom in mol.GetAtoms()]
+
+    # Подсчитываем частоту появления каждого имени
+    name_count = Counter(atom_names)
+    print(name_count)
+    # Формируем словарь с именами атомов и их индексами в молекуле
+    atom_indices = {}
+    for i, atom in enumerate(mol.GetAtoms()):
+        name = atom.GetProp('AtomName')
+        if name in atom_indices:
+            atom_indices[name].append(i)
+        else:
+            atom_indices[name] = [i]
+
+    # Отбираем только те атомы, которые имеют одинаковые имена
+    duplicates = {name: indices for name, indices in atom_indices.items() if len(indices) > 1}
+
+    if duplicates:
+        print("Обнаружены атомы с одинаковыми именами:")
+        for name, indices in duplicates.items():
+            print(f"Имя: '{name}', Индексы атомов: {indices}")
+    else:
+        print("Дубликаты имен атомов не найдены.")
+
+    return duplicates
+
+def set_PDB_residue_info(atom, atom_name, resname='MOD', resid=1, segid='A'):
+    
+    info = Chem.AtomPDBResidueInfo()
+    info.SetName(atom_name.ljust(4))        # Имя должно быть ровно 4 символа
+    info.SetResidueName(resname)            # Устанавливаем имя остатка
+    info.SetResidueNumber(resid)            # Устанавливаем номер остатка
+    info.SetChainId(segid)                  # Устанавливаем ID сегмента
+    atom.SetMonomerInfo(info)
+    # return info
+    
+
+def modifie_residue_info(modified_mol,  index_map, resname='MOD', resid=1, segid='A'):
+    """
+    Назначает новые имена атомам в молекуле согласно индексному отображению.
+    """
+    # ref_mol_atom_dict = {atom.GetIdx(): atom.GetProp('AtomName') for atom in reference_mol.GetAtoms() if atom.GetPDBResidueInfo().GetResidueNumber()==2 }
+    
+    for atom in modified_mol.GetAtoms():
+        atom_name = atom.GetProp('AtomName') 
+        
+        if atom_name in index_map.keys():
+            atom_name = index_map[atom_name]
+            atom.SetProp("AtomName", atom_name)
+            print(f'Имя атома {atom.GetSymbol()} с индексом {atom.GetIdx()} заменено на имя {atom_name} ')
+            set_PDB_residue_info(atom, atom_name, resname, resid, segid) 
+        else:
+            ref_names = set(index_map.values()) 
+            new_name = atom_name
+            if atom_name in ref_names:
+                while new_name in ref_names:
+                    new_name = increment_name(new_name)
+                print(f'Имя атома {atom_name} с индексом {atom.GetIdx()} заменено на имя {new_name} ')
+            set_PDB_residue_info(atom, atom_name, resname, resid, segid)
+    return modified_mol
+
+def increment_name(name):
+    match = re.match(r'(\D+)(?:(\d*))$', name)
+    if match:
+        base, num_str = match.groups()
+        num = int(num_str or '0')
+        return f'{base}{num + 1}'
+    else:
+        return f'{name}1' # это странно, типа для случая CH1A 
+
+def write_modified_molecule(mol, output_path):
+    """
+    Записывает измененную молекулу в PDB-файл.
+    """
+    writer = Chem.PDBWriter(output_path)
+    for atom in mol.GetAtoms():
+        atom.SetMonomerType(atom.GetProp('AtomName'))
+    writer.write(mol)
+    writer.close()
+    
+def save_molecule_as_pdb(molecule, filename, format_coord='3D'):
+    """
+    Сохраняет молекулу в формате PDB.
+
+    :param molecule: Молекула в формате RDKit Mol.
+    :param filename: Имя файла для сохранения.
+    :param format: Формат представления ('2D' или '3D'). По умолчанию '3D'.
+    """
+    if format_coord == '2D':
+        # Рассчитываем 2D координаты
+        AllChem.Compute2DCoords(molecule)
+    elif format_coord == '3D':
+        # Рассчитываем 3D координаты (если еще не рассчитаны)
+        Chem.SanitizeMol(molecule)
+        AllChem.EmbedMolecule(molecule)
+        AllChem.UFFOptimizeMolecule(molecule)
+    else:
+        raise ValueError("Недопустимый формат. Выберите '2D' или '3D'.")
+    
+    path_to_file, file_name = pt.path_parser(filename, ['pdb'])
+    save_path = f'{path_to_file}/{file_name}_{format_coord}.pdb'
+    # Сохраняем молекулу в PDB формате
+    with open(save_path, 'w') as pdb_file:
+        pdb_file.write(Chem.MolToPDBBlock(molecule))
+    print(f"Молекула успешно сохранена в файле {save_path} в формате {format_coord}.")
+
+def remove_extra_H(top, extra_pattern_H = 'HW'):
+    atom_to_remove = [atom for atom in top.atoms if extra_pattern_H in atom.name]
+    print(f"Найденные атомы для удаления: {atom_to_remove}")
+    # Удаление атомов из списка атомов
+    for atom in atom_to_remove[::-1]:
+        top.atoms.remove(atom)
+
+    # Ручное удаление связей, углов и диэдральных углов
+    bonds_to_remove = [
+        bond for bond in top.bonds if any(atom in atom_to_remove for atom in (bond.atom1, bond.atom2))
+    ]
+    angles_to_remove = [
+        angle for angle in top.angles if any(atom in atom_to_remove for atom in (angle.atom1, angle.atom2, angle.atom3))
+    ]
+    dihedrals_to_remove = [
+        dihedral for dihedral in top.dihedrals if any(atom in atom_to_remove for atom in (dihedral.atom1, dihedral.atom2, dihedral.atom3, dihedral.atom4))
+    ]
+
+    # Удаление связей
+    for bond in bonds_to_remove:
+        top.bonds.remove(bond)
+
+    # Удаление углов
+    for angle in angles_to_remove:
+        top.angles.remove(angle)
+
+    # Удаление диэдральных углов
+    for dihedral in dihedrals_to_remove:
+        top.dihedrals.remove(dihedral)
+
+# Сохранение измененного файла топологии
+# top.write(f"Acpype_data/{acpype_name}.acpype/{acpype_name}_GMX_cleaned.itp")
+
+def check_atomtypes(top, path_to_atp = '', param_folder = ''):
+    exist_types = []
+    with open(path_to_atp, 'r') as atomtypes:
+        file = atomtypes.readlines()
+    for line in file:
+        exist_types.append(line.split()[0])
+
+    atom_types = {str(atom.atom_type) : atom.mass for atom in top}
+    add_atom_types = []       
+    for atom_type, atom_mass in atom_types.items():
+        if atom_type not in exist_types:
+            add_atom_types.append('%-2s%24.5f\n' % (atom_type, atom_mass))
+    
+    if param_folder:
+        os.makedirs(param_folder, exist_ok=True)
+    save_path = f'{param_folder}/atomtypes.atp'
+    
+    if add_atom_types:
+        add_atom_types.extend(file)
+        # print(f'In {path_to_atp}\nAdd line(-s):\n{add_atom_types}')
+        
+        with open (save_path, 'w') as atomtypes:
+            atomtypes.writelines(add_atom_types)
+        print(f'Добавлены недостающие типы атомов в {save_path}')
+    else:
+        with open (save_path, 'w') as atomtypes:
+            atomtypes.writelines(file)
+        print(f'Все используемые типы атомов указаны в {path_to_atp}')
+
+def make_r2b(path_to_r2b = '', reference_aa = '', add_aa_name = '', param_folder = '', out=False):
+    with open (path_to_r2b, 'r') as r2b:
+        r2b_list = r2b.readlines()
+    for i, r2b_line in enumerate(r2b_list):
+        rtp_str = r2b_line.upper()
+        if reference_aa.upper() == rtp_str.split()[0]:
+            print(f'Replese old srt:\n{rtp_str}')
+            add_rtp_line = rtp_str.replace('-', add_aa_name.upper(),1)
+            print(f'To new str:\n{add_rtp_line}')
+            r2b_list[i] = add_rtp_line
+
+    save_path = f'{param_folder}/aminoacids.r2b'
+    with open(save_path, 'w') as f:
+        f.writelines(r2b_list)
+    print(f'Save in  {save_path}')
+    
+def add_names_from_residue(modified_chem, index_map, resname='MOD', resid=1, segid='A'):
+    # Загружаем молекулы
+    # reference_mol = pt.pdb_to_chem(reference_pdb_path)
+    # modified_mol = pt.pdb_to_chem(modified_pdb_path)
+    
+    mod_mol = list(modified_chem.values())[0] # костыль работы с словарем молекулы
+    # ref_mol = list(reference_chem.values())[0] # костыль работы с словарем молекулы
+   
+
+    key_map = next(iter(match_data_dict['mon_pol_matches'].keys()))
+    index_map = match_data_dict['mon_pol_matches'][key_map]
+    # Присваиваем новые имена атомам в модифицированной молекуле
+    # Перезадаем параметры модифицированного остатка  
+    mod_residue = modifie_residue_info(mod_mol, index_map, resname, resid, segid)
+    
+    # Проверка наличия дублирующих имен атомов
+    has_duplicates = check_duplicate_atom_names(mod_residue)
+    # print(has_duplicates)
+    
+
+    return mod_residue    
+def make_rtp_for_aminoacid(g_parm,charges, name, c5=[],c3=[],shift = 0,canonical_atoms = [], add_inter_param = False):
+    rtp_text = ['[ bondedtypes ]\n',
+                '; Col 1: Type of bond\n',
+                '; Col 2: Type of angles\n',
+                '; Col 3: Type of proper dihedrals\n',
+                '; Col 4: Type of improper dihedrals\n',
+                '; Col 5: Generate all dihedrals if 1, only heavy atoms of 0.\n',
+                '; Col 6: Number of excluded neighbors for nonbonded interactions\n',
+                '; Col 7: Generate 1,4 interactions between pairs of hydrogens if 1\n',
+                '; Col 8: Remove impropers over the same bond as a proper if it is 1\n',
+                '; bonds  angles  dihedrals  impropers all_dihedrals nrexcl HH14 RemoveDih\n',
+                '     1       1          9          4        1         3      1     0 \n', '\n']
+    
+    rtp_text.append(f'[ {name} ]\n')
+    
+    rtp_text.append(' [ atoms ]\n')
+    for i, atom in enumerate(g_parm.atoms):
+        rtp_text.append("%6s%6s%12.4f%4d\n"% (atom.name, str(atom.atom_type), charges[i], atom.idx +shift))
+    rtp_text.append(' [ bonds ]\n')
+    for bond in g_parm.bonds:
+        if (bond.atom1.name and bond.atom2.name) in canonical_atoms:
+            rtp_text.append("%6s%6s\n" % (bond.atom1.name, bond.atom2.name))
+        else: 
+            rtp_text.append("%6s%6s%12.4f%12.1f\n" % (bond.atom1.name, bond.atom2.name, 0.1*bond.type.req, bond.type.k*2*4.184*100))
+    rtp_text.append('   -C    N\n')
+    rtp_text.append(' [ angles ]\n')
+    for angle in g_parm.angles:
+        if (angle.atom1.name and angle.atom2.name and angle.atom3.name) in canonical_atoms:
+            rtp_text.append("%6s%6s%6s\n" % (angle.atom1.name, angle.atom2.name, angle.atom3.name))
+        else: 
+            rtp_text.append("%6s%6s%6s %12.4f %8.1f\n" % (angle.atom1.name, angle.atom2.name, angle.atom3.name, 
+                                              angle.type.theteq, angle.type.k*2*4.184))
+    rtp_text.append(' [ dihedrals ]\n')
+    for dihedral in g_parm.dihedrals:
+        if dihedral.funct == 9 and (dihedral.atom1.name and 
+                                    dihedral.atom2.name and 
+                                    dihedral.atom3.name and 
+                                    dihedral.atom4.name) in canonical_atoms:
+            
+            rtp_text.append("%6s%6s%6s%6s\n" % (dihedral.atom1.name, dihedral.atom2.name,
+                                            dihedral.atom3.name, dihedral.atom4.name))
+        elif dihedral.funct == 9:
+            for i in dihedral.type:
+                rtp_text.append("%6s%6s%6s%6s %8.3f %8.4f %5i\n" % (dihedral.atom1.name, dihedral.atom2.name,
+                                                                       dihedral.atom3.name, dihedral.atom4.name,
+                                                                       i.phase, i.phi_k*4.184,
+                                                                       i.per))
+    rtp_text.append(' [ impropers ]\n')
+    for dihedral in g_parm.dihedrals:
+        if dihedral.funct == 4 and (dihedral.atom1.name and 
+                                    dihedral.atom2.name and 
+                                    dihedral.atom3.name and 
+                                    dihedral.atom4.name) in canonical_atoms:
+            rtp_text.append("%6s%6s%6s%6s\n" % (dihedral.atom1.name, dihedral.atom2.name,
+                                                dihedral.atom3.name, dihedral.atom4.name))
+        elif dihedral.funct == 4:
+            # for i in dihedral.type:
+            rtp_text.append("%6s%6s%6s%6s %8.3f %8.4f %5i\n" % (dihedral.atom1.name, dihedral.atom2.name,
+                                                               dihedral.atom3.name, dihedral.atom4.name,
+                                                               dihedral.type.phase, dihedral.type.phi_k*4.184,
+                                                               dihedral.type.per))
+            
+    rtp_text.extend(['    -C    CA     N     H\n',
+                     '    CA    +N     C     O\n'])
+    out = ''.join(rtp_text)
+    
+    return out
+
+def hdb_generator(pdb_file, resname='MOD', resid=1, segid='A'):
+    """
+    Модифицирует имена атомов в молекуле по правилам аминокислот:
+    - N, H, CA, C, O имеют стандартные имена
+    - Боковые атомы получают буквенные метки по греческому алфавиту
+    - Протоны наследуют имя родительского атома и получают числовой суффикс
+    """
+    def find_common_prefix(strings):
+        if not strings:
+            return ""
+
+        first = strings[0]
+        for i in range(len(first), 0, -1):
+            prefix = first[:i]
+            if all(s.startswith(prefix) for s in strings[1:]):
+                return prefix
+        return ""
+
+    hdb = ['1	1	H	N	-C	CA	\n',
+           '1	5	HA	CA	N	CB	C\n']
+    rdkit_mol = pt.pdb_to_chem(pdb_file, removeHs=False)
+    rdkit_mol = next(iter(rdkit_mol.values()))
+
+    if rdkit_mol is None:
+        raise ValueError("Не удалось загрузить молекулу из PDB-файла")
+
+    heavy_atoms = {}
+    for current_idx in range(4, rdkit_mol.GetNumHeavyAtoms()):
+        current_atom = rdkit_mol.GetAtomWithIdx(current_idx)
+        current_atom_name = current_atom.GetProp('AtomName')
+        # neighbors = defaultdict(int)
+        protons = []
+        neighbors_name = {current_atom_name: current_idx}
+        for atom in current_atom.GetNeighbors():
+            atom_name = atom.GetProp('AtomName')
+            atom_idx = atom.GetIdx()
+            if atom.GetAtomicNum() != 1:
+                neighbors_name[atom_name] = atom_idx
+            else:
+                protons.append(atom_name)
+                # neighbors[atom.GetAtomicNum()] += 1
+        if len(neighbors_name) == 2:
+            atom_3_idx = min(neighbors_name.values())-1
+            atom_name = rdkit_mol.GetAtomWithIdx(atom_3_idx).GetProp('AtomName')
+            neighbors_name[atom_name] = atom_3_idx
+        if current_atom.GetAtomicNum() == 6:
+            if max(neighbors_name.values()) == current_idx:
+                geom_n = 4
+            elif len(protons) == 1 and len(neighbors_name) == 3: # sp2 углерод с 1 протоном
+                geom_n = 1
+            elif len(protons) == 1 and len(neighbors_name) == 4: # sp3 углерод с 1 протоном
+                geom_n = 5
+            else:
+                geom_n = 6
+        elif current_atom.GetAtomicNum() == 7:
+            if max(neighbors_name.values()) == current_idx: # атом N последний
+                geom_n = 3
+            else:
+                geom_n = 1
+        
+    
+        if protons: # ['H'] ['HB1', 'HB2'] ['HC1', 'HC2', 'HC3']
+            n_H = str(len(protons))
+            H_name = find_common_prefix(protons)
+            if H_name not in ['H', 'HA']:
+                
+
+                hdb.append("{}\t{}\t{}\t{}\n".format(n_H, geom_n if geom_n else 'N', H_name, "\t".join(neighbors_name)))# ['CB', 'CA', 'CG'] ['CK', 'CI'] ['CA', 'N', 'C', 'CB']
+    hdb = [f'{resname}\t{len(hdb)}\n'] + hdb
+    return hdb
 
 def smi_to_mol2(smi_input, output_format, file_name=None, addh=True):
     """
@@ -674,51 +1111,6 @@ def smi_to_mol2(smi_input, output_format, file_name=None, addh=True):
     print('output path:',output_path)
     return mol
 
-def add_constraint(RESP_mol ,symmetric_list: list, charge_dict: dict, loc_charge: float,
-                   loc_indices = [], constraints=psiresp.ChargeConstraintOptions()):
-    """
-    Создает ограничения по расчетам зарядов для одной молекулы
-    Аргументы:
-        RESP_mol - молеккула открытая в psiresp
-        symmetric_list - лист с листами симитричных атомов
-        charge_dict - словарь, где ключ - индекс атома, значение - заряд атома
-        loc_indices - лист атомов сумарный заряд которых задается отдельно (loc_charge)
-        loc_charge - значение сумарного заряда для подгруппы атомов (loc_indices) в молекуле 
-    Возвращает:
-        constraints - ограничения по расчету зарядов для молекулы
-    """
-    # constraints = psiresp.ChargeConstraintOptions()
-    if loc_charge:
-        constraints.add_charge_sum_constraint_for_molecule(RESP_mol, charge=loc_charge, indices = loc_indices)
-    if symmetric_list:
-        for pair_list in symmetric_list:
-            constraints.add_charge_equivalence_constraint_for_molecule(RESP_mol,indices=pair_list)
-    if charge_dict:
-        for index, charge in charge_dict.items():
-            constraints.add_charge_sum_constraint_for_molecule(RESP_mol, charge=charge, indices = index)
-    return  constraints 
-
-
-def prepere_constraints(mol_name, mol_chem_dict, match_dict, constraint_dict, optimize_geometry = True, charge=0,
-                        conformer_generation_options = dict(n_conformer_pool=1000,
-                                                            n_max_conformers=3, energy_window = 100, 
-                                                            keep_original_conformer=False),
-                       symmetric_atoms_are_equivalent=True, ):
-    # global constraints 
-    psiresp_dict = {}
-    mol_chem = mol_chem_dict[mol_name]
-    RESP_mol= psiresp.Molecule.from_rdkit(mol_chem,
-                                          optimize_geometry = optimize_geometry, charge = charge, 
-                                          conformer_generation_options= conformer_generation_options )
-    psiresp_dict[mol_name] = RESP_mol
-    constraints = psiresp.ChargeConstraintOptions(symmetric_atoms_are_equivalent=symmetric_atoms_are_equivalent)
-    constraints = add_constraint(RESP_mol, 
-                                    constraint_dict[mol_name]['symmetric_list'] , 
-                                    constraint_dict[mol_name]['charge_atom_dict'], 
-                                    constraint_dict[mol_name]['charge_of_monomer'],
-                                    list(match_dict['mon_pol_matches'][mol_name].values()), 
-                                    constraints = constraints)
-    return psiresp_dict, constraints
 
 def rename_folder(folder_name):
     """
@@ -778,131 +1170,7 @@ def show_list_of_conf(directory, show_full = False):
 
 
 
-def run_job(RESP_mol: dict or list, name_of_system, constraints, n_processes=None):
-    """
-    Запускает расчёт RESP с заданными параметрами и измеряет время выполнения.
-    """
-    
-    try:
-        if isinstance(RESP_mol, dict):
-            RESP_list = list(RESP_mol.values())
 
-        job = psiresp.Job(
-            molecules=RESP_list,
-            working_directory=f'{name_of_system}',
-            n_processes=n_processes
-        )
-        job.charge_constraints = constraints
-        job.run()
-
-        return job
-    except SystemExit as e:
-        pass
-
-        # print(f"SystemExit: {e}")    
-    
-# def do_sh(name_sh: str):
-#     """
-#     Запускает .sh скрипт в указанной директории и отображает прогресс выполнения.
-#     """
-#     start_time = time.time()  # Начало отсчета времени
-#     done = False
-    
-#     # Создаем поток для анимации
-#     t = threading.Thread(target=animate, args=(lambda: done, os.path.basename(name_sh),))
-#     t.start()
-    
-#     try:
-#         if '/' in name_sh:
-#             cwd, name_sh = name_sh.rsplit('/', 1)
-#         else:
-#             cwd = None
-#         result = subprocess.run(["bash", name_sh], cwd=cwd, check=True)
-#         done = True
-#         t.join()
-#         elapsed_time = time.time() - start_time  # Подсчет прошедшего времени в минутах 
-#         formatted_time = format_time(elapsed_time)
-#         print_green(f'Время выполнения: {formatted_time}')
-#     except FileNotFoundError:
-#         done = True
-#         t.join()
-#         print(f"Не верно указана cwd: {cwd}")
-#     except SyntaxError:
-#         done = True
-#         t.join()
-#         print(f"Нет такого sh файла: {name_sh}")
-#     except subprocess.CalledProcessError as e:
-#         done = True
-#         t.join()
-#         print(f"Ошибка выполнения скрипта: {e}")
-
-
-
-def do_sh(path_sh: str):
-    """
-    Запускает .sh скрипт в указанной директории и отображает прогресс выполнения.
-    """
-    start_time = time.time()  # Начало отсчета времени
-    done = False
-    
-    # Создаем поток для анимации
-    t = threading.Thread(target=animate, args=(lambda: done, os.path.basename(path_sh),))
-    t.start()
-    
-    try:
-        if '/' in path_sh:
-            cwd, path_sh = path_sh.rsplit('/', 1)
-        else:
-            cwd = None
-        result = subprocess.run(["bash", path_sh], cwd=cwd, check=True)
-        done = True
-        t.join()
-        elapsed_time = time.time() - start_time  # Подсчет прошедшего времени в минутах 
-        formatted_time = format_time(elapsed_time)
-        print_green(f'Время выполнения: {formatted_time}')
-    except FileNotFoundError:
-        done = True
-        t.join()
-        print(f"Не верно указана cwd: {cwd}")
-    except SyntaxError:
-        done = True
-        t.join()
-        print(f"Нет такого sh файла: {path_sh}")
-    except subprocess.CalledProcessError as e:
-        done = True
-        t.join()
-        print(f"Ошибка выполнения скрипта: {e}")
-
-def resp_calculation(psiresp_dict, constraints, n_processes = None, folder_name='RESP_data/'):
-    
-    name_of_system = folder_name + get_unique_folder_name(psiresp_dict)
-    
-    start_time = time.time()  # Начало отсчета времени
-    done = False
-    
-    # Создаем поток для анимации
-    # t = threading.Thread(target=animate, args=(lambda: done, os.path.basename(path_sh),))
-    # t.start()
-    
-    run_job(psiresp_dict, name_of_system, constraints, n_processes = n_processes)
-    # done = True
-    # t.join()
-    elapsed_time = time.time() - start_time  # Подсчет прошедшего времени в минутах 
-    formatted_time = format_time(elapsed_time)
-    print_green(f'Время выполнения: {formatted_time}')
-    time.sleep(0.7)
-    
-    show_list_of_conf(f'{name_of_system}/optimization/', False)
-
-    do_sh(path_sh = f'{name_of_system}/optimization/run_optimization.sh')
-
-    run_job(psiresp_dict, name_of_system, constraints, n_processes = n_processes)
-    time.sleep(0.7)
-    do_sh(path_sh = f'{name_of_system}/single_point/run_single_point.sh')
-
-    job = run_job(psiresp_dict, name_of_system, constraints, n_processes = n_processes)
-    # molecule = job.molecules[0]
-    return job      
 
 ## Работа с листом зарядов
 
