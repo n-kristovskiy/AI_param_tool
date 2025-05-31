@@ -1,0 +1,57 @@
+CHARGE      0.00 ( 0 )
+Formula: H16 C8 N2 O2 
+ATOM      1  N   KAC     2      -4.176   0.243   0.664 -0.321500        NT
+ATOM      2  CA  KAC     2      -2.838   0.341   0.074  0.060900        CT
+ATOM      3  C   KAC     2      -2.091   1.464   0.743  0.136900         C
+ATOM      4  O   KAC     2      -1.862   1.435   1.942 -0.299400         O
+ATOM      5  CB  KAC     2      -2.081  -1.007   0.188 -0.031100        CT
+ATOM      6  CG  KAC     2      -1.007  -1.219  -0.898 -0.049900        CT
+ATOM      7  CD  KAC     2       0.203  -0.273  -0.825 -0.037300        CT
+ATOM      8  CE  KAC     2       1.028  -0.453   0.457  0.011600        CT
+ATOM      9  NZ  KAC     2       2.234   0.370   0.406 -0.315500         N
+ATOM     10  CH  KAC     2       3.379   0.017  -0.381  0.209900         C
+ATOM     11  OT2 KAC     2       3.396  -1.060  -1.037 -0.276100         O
+ATOM     12  CT1 KAC     2       4.580   0.905  -0.392  0.012100        CT
+ATOM     13  HT13KAC     2       4.264   1.961  -0.523  0.032200        HC
+ATOM     14  HT12KAC     2       5.261   0.630  -1.225  0.032200        HC
+ATOM     15  HT11KAC     2       5.123   0.804   0.571  0.032200        HC
+ATOM     16  HZ  KAC     2       2.282   1.221   1.011  0.148700         H
+ATOM     17  HE2 KAC     2       0.425  -0.141   1.334  0.046200        H1
+ATOM     18  HE1 KAC     2       1.307  -1.520   0.596  0.046200        H1
+ATOM     19  HD2 KAC     2       0.851  -0.491  -1.701  0.028000        HC
+ATOM     20  HD1 KAC     2      -0.119   0.783  -0.925  0.028000        HC
+ATOM     21  HG2 KAC     2      -0.641  -2.267  -0.832  0.026600        HC
+ATOM     22  HG1 KAC     2      -1.481  -1.111  -1.898  0.026600        HC
+ATOM     23  HB2 KAC     2      -2.816  -1.833   0.064  0.028400        HC
+ATOM     24  HB1 KAC     2      -1.650  -1.139   1.203  0.028400        HC
+ATOM     25  HA  KAC     2      -2.958   0.603  -1.001  0.053400        H1
+ATOM     26  H   KAC     2      -4.103  -0.164   1.626  0.118800         H
+ATOM     27  HW1 KAC     2      -4.749  -0.416   0.089  0.118800         H
+ATOM     28  HW2 KAC     2      -1.760   2.316   0.158  0.104300        HA
+BOND    1    1    2    1      N   CA
+BOND    2    1   26    1      N    H
+BOND    3    1   27    1      N  HW1
+BOND    4    2    3    1     CA    C
+BOND    5    2    5    1     CA   CB
+BOND    6    2   25    1     CA   HA
+BOND    7    3    4    2      C    O
+BOND    8    3   28    1      C  HW2
+BOND    9    5    6    1     CB   CG
+BOND   10    5   23    1     CB  HB2
+BOND   11    5   24    1     CB  HB1
+BOND   12    6    7    1     CG   CD
+BOND   13    6   21    1     CG  HG2
+BOND   14    6   22    1     CG  HG1
+BOND   15    7    8    1     CD   CE
+BOND   16    7   19    1     CD  HD2
+BOND   17    7   20    1     CD  HD1
+BOND   18    8    9    1     CE   NZ
+BOND   19    8   17    1     CE  HE2
+BOND   20    8   18    1     CE  HE1
+BOND   21    9   10    1     NZ   CH
+BOND   22    9   16    1     NZ   HZ
+BOND   23   10   11    2     CH  OT2
+BOND   24   10   12    1     CH  CT1
+BOND   25   12   13    1    CT1 HT13
+BOND   26   12   14    1    CT1 HT12
+BOND   27   12   15    1    CT1 HT11

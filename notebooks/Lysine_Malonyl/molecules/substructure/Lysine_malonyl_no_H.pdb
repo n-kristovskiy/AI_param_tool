@@ -1,0 +1,27 @@
+ATOM      1 N    KML A   2      -3.717   1.844   2.734  1.00  0.00           N  
+ATOM      2 CA   KML A   2      -3.350   0.620   2.034  1.00  0.00           C  
+ATOM      3 C    KML A   2      -4.546   0.153   1.259  1.00  0.00           C  
+ATOM      4 O    KML A   2      -4.628  -0.997   0.858  1.00  0.00           O  
+ATOM      5 CB   KML A   2      -2.146   0.894   1.111  1.00  0.00           C  
+ATOM      6 CG   KML A   2      -1.529  -0.392   0.540  1.00  0.00           C  
+ATOM      7 CD   KML A   2      -0.260  -0.083  -0.263  1.00  0.00           C  
+ATOM      8 CE   KML A   2       0.350  -1.363  -0.843  1.00  0.00           C  
+ATOM      9 NZ   KML A   2       1.540  -1.049  -1.632  1.00  0.00           N  
+ATOM     10 CH   KML A   2       2.796  -0.704  -1.032  1.00  0.00           C  
+ATOM     11 OT2  KML A   2       2.921  -0.686   0.222  1.00  0.00           O  
+ATOM     12 CT1  KML A   2       3.960  -0.324  -1.894  1.00  0.00           C  
+ATOM     13 CI   KML A   2       3.849   1.112  -2.293  1.00  0.00           C  
+ATOM     14 OK2  KML A   2       4.369   2.104  -1.471  1.00  0.00           O1-
+ATOM     15 OK1  KML A   2       3.246   1.431  -3.351  1.00  0.00           O  
+CONECT    1    2
+CONECT    2    3    5
+CONECT    3    4    4
+CONECT    5    6
+CONECT    6    7
+CONECT    7    8
+CONECT    8    9
+CONECT    9   10
+CONECT   10   11   11   12
+CONECT   12   13
+CONECT   13   14   15   15
+END

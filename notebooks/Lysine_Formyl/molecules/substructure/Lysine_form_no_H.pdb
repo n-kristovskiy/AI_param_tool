@@ -1,0 +1,21 @@
+ATOM      1 N    KFO A   2      -2.598  -0.321   1.802  1.00  0.00           N  
+ATOM      2 CA   KFO A   2      -2.902  -0.161   0.384  1.00  0.00           C  
+ATOM      3 C    KFO A   2      -3.215   1.279   0.093  1.00  0.00           C  
+ATOM      4 O    KFO A   2      -3.615   1.620  -1.008  1.00  0.00           O  
+ATOM      5 CB   KFO A   2      -1.730  -0.678  -0.472  1.00  0.00           C  
+ATOM      6 CG   KFO A   2      -0.408   0.066  -0.210  1.00  0.00           C  
+ATOM      7 CD   KFO A   2       0.721  -0.503  -1.082  1.00  0.00           C  
+ATOM      8 CE   KFO A   2       2.048   0.233  -0.854  1.00  0.00           C  
+ATOM      9 NZ   KFO A   2       2.616  -0.072   0.460  1.00  0.00           N  
+ATOM     10 CH   KFO A   2       3.830   0.534   0.911  1.00  0.00           C  
+ATOM     11 OT   KFO A   2       4.445   1.362   0.187  1.00  0.00           O  
+CONECT    1    2
+CONECT    2    3    5
+CONECT    3    4    4
+CONECT    5    6
+CONECT    6    7
+CONECT    7    8
+CONECT    8    9
+CONECT    9   10
+CONECT   10   11   11
+END

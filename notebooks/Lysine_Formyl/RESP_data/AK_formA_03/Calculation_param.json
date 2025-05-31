@@ -1,0 +1,24 @@
+{
+    "charge": 0,
+    "optimize_geometry": true,
+    "ConformerGenerationOptions": {
+        "n_conformer_pool": 1000,
+        "n_max_conformers": 10,
+        "rms_tolerance": 0.05,
+        "energy_window": 120.0,
+        "keep_original_conformer": false,
+        "minimize": null
+    },
+    "constraint_dict": {
+        "symmetric_list": [],
+        "charge_atom_dict": {
+            "4": -0.3479,
+            "24": 0.2747,
+            "5": -0.24,
+            "6": 0.7341,
+            "7": -0.5894,
+            "25": 0.1426
+        },
+        "charge_of_monomer": 0.0
+    }
+}

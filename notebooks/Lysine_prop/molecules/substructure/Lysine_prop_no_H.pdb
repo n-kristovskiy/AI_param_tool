@@ -1,0 +1,24 @@
+ATOM      1 N    KPR A   2       4.944  -0.248   1.078  1.00  0.00           N  
+ATOM      2 CA   KPR A   2       4.152   0.683   0.281  1.00  0.00           C  
+ATOM      3 C    KPR A   2       4.946   1.084  -0.931  1.00  0.00           C  
+ATOM      4 O    KPR A   2       4.666   2.089  -1.565  1.00  0.00           O  
+ATOM      5 CB   KPR A   2       2.805   0.033  -0.096  1.00  0.00           C  
+ATOM      6 CG   KPR A   2       1.779   1.055  -0.620  1.00  0.00           C  
+ATOM      7 CD   KPR A   2       0.439   0.405  -0.999  1.00  0.00           C  
+ATOM      8 CE   KPR A   2      -0.390  -0.009   0.225  1.00  0.00           C  
+ATOM      9 NZ   KPR A   2      -1.705  -0.503  -0.181  1.00  0.00           N  
+ATOM     10 CH   KPR A   2      -2.672  -0.937   0.784  1.00  0.00           C  
+ATOM     11 OT2  KPR A   2      -2.409  -0.883   2.016  1.00  0.00           O  
+ATOM     12 CT1  KPR A   2      -4.019  -1.418   0.337  1.00  0.00           C  
+ATOM     13 CI   KPR A   2      -4.955  -0.240   0.094  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    3    5
+CONECT    3    4    4
+CONECT    5    6
+CONECT    6    7
+CONECT    7    8
+CONECT    8    9
+CONECT    9   10
+CONECT   10   11   11   12
+CONECT   12   13
+END

@@ -1,0 +1,23 @@
+ATOM      1 N    KMA A   2       4.680  -0.931   0.609  1.00  0.00           N  
+ATOM      2 CA   KMA A   2       3.906   0.162   0.035  1.00  0.00           C  
+ATOM      3 C    KMA A   2       4.554   0.586  -1.253  1.00  0.00           C  
+ATOM      4 O    KMA A   2       4.318   1.676  -1.748  1.00  0.00           O  
+ATOM      5 CB   KMA A   2       2.458  -0.315  -0.186  1.00  0.00           C  
+ATOM      6 CG   KMA A   2       1.491   0.844  -0.490  1.00  0.00           C  
+ATOM      7 CD   KMA A   2       0.046   0.365  -0.706  1.00  0.00           C  
+ATOM      8 CE   KMA A   2      -0.649  -0.039   0.601  1.00  0.00           C  
+ATOM      9 NZ   KMA A   2      -2.061  -0.358   0.347  1.00  0.00           N  
+ATOM     10 CH2  KMA A   2      -3.042   0.701   0.280  1.00  0.00           C  
+ATOM     11 OT2  KMA A   2      -2.687   1.901   0.435  1.00  0.00           O  
+ATOM     12 CT1  KMA A   2      -4.491   0.411   0.024  1.00  0.00           C  
+ATOM     13 CH1  KMA A   2      -2.457  -1.753   0.124  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    3    5
+CONECT    3    4    4
+CONECT    5    6
+CONECT    6    7
+CONECT    7    8
+CONECT    8    9
+CONECT    9   10   13
+CONECT   10   11   11   12
+END

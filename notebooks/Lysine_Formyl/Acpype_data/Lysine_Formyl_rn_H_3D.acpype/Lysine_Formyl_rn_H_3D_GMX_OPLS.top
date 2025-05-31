@@ -1,0 +1,19 @@
+; Lysine_Formyl_rn_H_3D_GMX_OPLS.top created by acpype (v: 2022.6.6) on Fri Apr 25 12:41:54 2025
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include Lysine_Formyl_rn_H_3D_GMX.itp topology
+#include "Lysine_Formyl_rn_H_3D_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_Lysine_Formyl_rn_H_3D.itp"
+#endif
+
+[ system ]
+ Lysine_Formyl_rn_H_3D
+
+[ molecules ]
+; Compound        nmols
+ Lysine_Formyl_rn_H_3D 1     

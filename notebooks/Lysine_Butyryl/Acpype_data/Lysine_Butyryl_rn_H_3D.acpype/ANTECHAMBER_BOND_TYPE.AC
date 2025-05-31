@@ -1,0 +1,69 @@
+CHARGE      0.00 ( 0 )
+Formula: H20 C10 N2 O2 
+ATOM      1  N   KBU     2       4.997  -0.011   0.905 -0.321500       N.3
+ATOM      2  CA  KBU     2       4.201   0.895   0.073  0.060900       C.3
+ATOM      3  C   KBU     2       4.962   1.286  -1.169  0.136900       C.2
+ATOM      4  O   KBU     2       5.306   0.443  -1.983 -0.299400       O.2
+ATOM      5  CB  KBU     2       2.852   0.252  -0.298 -0.031100       C.3
+ATOM      6  CG  KBU     2       1.971   0.020   0.942 -0.049900       C.3
+ATOM      7  CD  KBU     2       0.663  -0.716   0.611 -0.037300       C.3
+ATOM      8  CE  KBU     2      -0.331   0.160  -0.162  0.011600       C.3
+ATOM      9  NZ  KBU     2      -1.601  -0.543  -0.338 -0.315300      N.am
+ATOM     10  CH  KBU     2      -2.557  -0.685   0.722  0.213000       C.2
+ATOM     11  OT2 KBU     2      -2.333  -0.179   1.856 -0.275800       O.2
+ATOM     12  CT1 KBU     2      -3.855  -1.400   0.478  0.023700       C.3
+ATOM     13  CI  KBU     2      -4.997  -0.419   0.184 -0.047600       C.3
+ATOM     14  CK  KBU     2      -4.823   0.294  -1.157 -0.064800       C.3
+ATOM     15  HK3 KBU     2      -3.922   0.942  -1.140  0.023000         H
+ATOM     16  HK2 KBU     2      -5.709   0.932  -1.355  0.023000         H
+ATOM     17  HK1 KBU     2      -4.728  -0.447  -1.980  0.023000         H
+ATOM     18  HI2 KBU     2      -5.953  -0.986   0.159  0.026700         H
+ATOM     19  HI1 KBU     2      -5.071   0.335   0.998  0.026700         H
+ATOM     20  HT12KBU     2      -3.745  -2.120  -0.361  0.035800         H
+ATOM     21  HT11KBU     2      -4.114  -1.989   1.385  0.035800         H
+ATOM     22  HZ  KBU     2      -1.844  -0.897  -1.290  0.148700         H
+ATOM     23  HE2 KBU     2      -0.506   1.120   0.371  0.046200         H
+ATOM     24  HE1 KBU     2       0.083   0.396  -1.165  0.046200         H
+ATOM     25  HD2 KBU     2       0.198  -1.033   1.569  0.028000         H
+ATOM     26  HD1 KBU     2       0.883  -1.637   0.027  0.028000         H
+ATOM     27  HG2 KBU     2       2.531  -0.600   1.675  0.026600         H
+ATOM     28  HG1 KBU     2       1.741   0.992   1.431  0.026600         H
+ATOM     29  HB2 KBU     2       2.320   0.929  -1.000  0.028400         H
+ATOM     30  HB1 KBU     2       3.029  -0.716  -0.816  0.028400         H
+ATOM     31  HA  KBU     2       4.000   1.823   0.653  0.053400         H
+ATOM     32  H   KBU     2       5.258  -0.859   0.349  0.118800         H
+ATOM     33  HW1 KBU     2       5.885   0.473   1.174  0.118800         H
+ATOM     34  HW2 KBU     2       5.208   2.328  -1.345  0.104300         H
+BOND    1    1    2    1      N   CA
+BOND    2    1   32    1      N    H
+BOND    3    1   33    1      N  HW1
+BOND    4    2    3    1     CA    C
+BOND    5    2    5    1     CA   CB
+BOND    6    2   31    1     CA   HA
+BOND    7    3    4    2      C    O
+BOND    8    3   34    1      C  HW2
+BOND    9    5    6    1     CB   CG
+BOND   10    5   29    1     CB  HB2
+BOND   11    5   30    1     CB  HB1
+BOND   12    6    7    1     CG   CD
+BOND   13    6   27    1     CG  HG2
+BOND   14    6   28    1     CG  HG1
+BOND   15    7    8    1     CD   CE
+BOND   16    7   25    1     CD  HD2
+BOND   17    7   26    1     CD  HD1
+BOND   18    8    9    1     CE   NZ
+BOND   19    8   23    1     CE  HE2
+BOND   20    8   24    1     CE  HE1
+BOND   21    9   10    1     NZ   CH
+BOND   22    9   22    1     NZ   HZ
+BOND   23   10   11    2     CH  OT2
+BOND   24   10   12    1     CH  CT1
+BOND   25   12   13    1    CT1   CI
+BOND   26   12   20    1    CT1 HT12
+BOND   27   12   21    1    CT1 HT11
+BOND   28   13   14    1     CI   CK
+BOND   29   13   18    1     CI  HI2
+BOND   30   13   19    1     CI  HI1
+BOND   31   14   15    1     CK  HK3
+BOND   32   14   16    1     CK  HK2
+BOND   33   14   17    1     CK  HK1

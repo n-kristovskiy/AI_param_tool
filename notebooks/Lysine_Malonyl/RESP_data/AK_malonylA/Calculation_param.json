@@ -1,0 +1,33 @@
+{
+    "charge": -1,
+    "optimize_geometry": true,
+    "ConformerGenerationOptions": {
+        "n_conformer_pool": 1000,
+        "n_max_conformers": 10,
+        "rms_tolerance": 0.05,
+        "energy_window": 150.0,
+        "keep_original_conformer": false,
+        "minimize": null
+    },
+    "constraint_dict": {
+        "symmetric_list": [],
+        "charge_atom_dict": {
+            "4": -0.3479,
+            "28": 0.2747,
+            "5": -0.24,
+            "6": 0.7341,
+            "7": -0.5894,
+            "29": 0.1426,
+            "13": -0.0094,
+            "14": 0.0187,
+            "15": -0.0479,
+            "36": 0.0362,
+            "37": 0.0362,
+            "38": 0.0103,
+            "39": 0.0103,
+            "40": 0.0621,
+            "41": 0.0621
+        },
+        "charge_of_monomer": -1.0
+    }
+}

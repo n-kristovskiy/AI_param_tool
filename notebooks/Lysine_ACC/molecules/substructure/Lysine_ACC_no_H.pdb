@@ -1,0 +1,22 @@
+ATOM      1 N    KAC A   2      -4.114  -1.163  -0.610  1.00  0.00           N  
+ATOM      2 CA   KAC A   2      -3.524  -0.638   0.619  1.00  0.00           C  
+ATOM      3 C    KAC A   2      -4.491   0.290   1.298  1.00  0.00           C  
+ATOM      4 O    KAC A   2      -4.875   1.312   0.752  1.00  0.00           O  
+ATOM      5 CB   KAC A   2      -2.185   0.070   0.337  1.00  0.00           C  
+ATOM      6 CG   KAC A   2      -1.123  -0.909  -0.191  1.00  0.00           C  
+ATOM      7 CD   KAC A   2       0.190  -0.209  -0.577  1.00  0.00           C  
+ATOM      8 CE   KAC A   2       0.982   0.280   0.643  1.00  0.00           C  
+ATOM      9 NZ   KAC A   2       2.275   0.822   0.228  1.00  0.00           N  
+ATOM     10 CH   KAC A   2       3.376  -0.014  -0.155  1.00  0.00           C  
+ATOM     11 OT2  KAC A   2       3.273  -1.269  -0.105  1.00  0.00           O  
+ATOM     12 CT1  KAC A   2       4.670   0.604  -0.572  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    3    5
+CONECT    3    4    4
+CONECT    5    6
+CONECT    6    7
+CONECT    7    8
+CONECT    8    9
+CONECT    9   10
+CONECT   10   11   11   12
+END

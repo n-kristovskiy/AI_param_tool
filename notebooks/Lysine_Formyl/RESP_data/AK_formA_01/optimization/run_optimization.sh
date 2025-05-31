@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+psi4 --qcschema C13H24N4O4_ad1bc5bdc920e63fb315badb6aef9c26e6b1c85e_3295dc7332cc740b0c698580ccc3dd1759e5b5fe.msgpack
+psi4 --qcschema C13H24N4O4_bf474ad85ae37958b16fae2ecdfff188911ea49e_3295dc7332cc740b0c698580ccc3dd1759e5b5fe.msgpack
+psi4 --qcschema C13H24N4O4_6a50d1ab61275b0e6da966b576829ce5285fb277_3295dc7332cc740b0c698580ccc3dd1759e5b5fe.msgpack

@@ -1,0 +1,16 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+
+DIHE
+CT-CT-N3-CT   9    1.400         0.000           3.000      same as c3-c3-n4-c3, penalty score=  0.0
+
+IMPROPER
+
+NONBON
+
+
+

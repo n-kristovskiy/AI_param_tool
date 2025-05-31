@@ -11,7 +11,6 @@ import numpy as np
 import itertools
 import threading
 import subprocess
-import MDAnalysis as mda
 
 from decimal import Decimal as D
 
@@ -1162,8 +1161,28 @@ def add_names_from_residue(modified_chem, index_map, resname='MOD', resid=1, seg
 
     return mod_residue
         
-## PSIRESP
-
+def save_charges_json(name: str, charge_list: list, path: str = ".") -> None:
+    """
+    Сохраняет список зарядов в JSON-файл с указанием абсолютного пути
+    
+    Параметры:
+    name (str): Название файла (без расширения)
+    charge_list (list): Список зарядов для сохранения
+    path (str): Путь для сохранения (по умолчанию текущая директория)
+    """
+    # Создаем директорию, если она не существует
+    os.makedirs(path, exist_ok=True)
+    
+    # Формируем полный путь к файлу
+    file_path = os.path.join(path, f"{name}.json")
+    absolute_path = os.path.abspath(file_path)
+    
+    # Сохраняем данные
+    with open(file_path, 'w') as convert_file:
+        json.dump(charge_list, convert_file, indent=4)
+    
+    # Выводим информативное сообщение
+    print(f"Файл успешно сохранен: \n{absolute_path}")
 
 
 

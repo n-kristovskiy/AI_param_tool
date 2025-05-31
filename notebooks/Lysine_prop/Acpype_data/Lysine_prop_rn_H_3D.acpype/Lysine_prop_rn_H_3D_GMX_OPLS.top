@@ -1,0 +1,19 @@
+; Lysine_prop_rn_H_3D_GMX_OPLS.top created by acpype (v: 2022.6.6) on Thu Apr 24 16:10:24 2025
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include Lysine_prop_rn_H_3D_GMX.itp topology
+#include "Lysine_prop_rn_H_3D_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_Lysine_prop_rn_H_3D.itp"
+#endif
+
+[ system ]
+ Lysine_prop_rn_H_3D
+
+[ molecules ]
+; Compound        nmols
+ Lysine_prop_rn_H_3D 1     

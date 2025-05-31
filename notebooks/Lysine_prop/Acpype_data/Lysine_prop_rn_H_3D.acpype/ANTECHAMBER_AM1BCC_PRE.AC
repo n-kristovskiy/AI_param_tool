@@ -1,0 +1,63 @@
+CHARGE      0.00 ( 0 )
+Formula: H18 C9 N2 O2 
+ATOM      1  N   KPR     2      -4.361  -0.416   2.281 -0.332000        NT
+ATOM      2  CA  KPR     2      -3.758  -0.266   0.955 -0.095000        CT
+ATOM      3  C   KPR     2      -4.239  -1.376   0.058  0.189000         C
+ATOM      4  O   KPR     2      -4.008  -2.544   0.330 -0.280000         O
+ATOM      5  CB  KPR     2      -2.217  -0.236   1.048 -0.192000        CT
+ATOM      6  CG  KPR     2      -1.562   0.121  -0.295 -0.156000        CT
+ATOM      7  CD  KPR     2      -0.036   0.188  -0.162 -0.185000        CT
+ATOM      8  CE  KPR     2       0.618   0.541  -1.502 -0.032000        CT
+ATOM      9  NZ  KPR     2       2.069   0.635  -1.351 -0.377000         N
+ATOM     10  CH  KPR     2       2.909  -0.521  -1.227  0.297000         C
+ATOM     11  OT2 KPR     2       2.412  -1.679  -1.271 -0.366000         O
+ATOM     12  CT1 KPR     2       4.382  -0.358  -1.002 -0.185000        CT
+ATOM     13  CI  KPR     2       4.673  -0.107   0.473 -0.212000        CT
+ATOM     14  HI3 KPR     2       4.169   0.823   0.813  0.080333        HC
+ATOM     15  HI2 KPR     2       4.319  -0.963   1.087  0.080333        HC
+ATOM     16  HI1 KPR     2       5.768   0.008   0.621  0.080333        HC
+ATOM     17  HT12KPR     2       4.918  -1.275  -1.332  0.113000        HC
+ATOM     18  HT11KPR     2       4.759   0.495  -1.605  0.113000        HC
+ATOM     19  HZ  KPR     2       2.511   1.582  -1.376  0.217000         H
+ATOM     20  HE2 KPR     2       0.369  -0.221  -2.272  0.102500        H1
+ATOM     21  HE1 KPR     2       0.228   1.522  -1.852  0.102500        H1
+ATOM     22  HD2 KPR     2       0.237   0.961   0.589  0.085500        HC
+ATOM     23  HD1 KPR     2       0.345  -0.794   0.191  0.085500        HC
+ATOM     24  HG2 KPR     2      -1.945   1.107  -0.640  0.084500        HC
+ATOM     25  HG1 KPR     2      -1.827  -0.646  -1.055  0.084500        HC
+ATOM     26  HB2 KPR     2      -1.919   0.526   1.801  0.090500        HC
+ATOM     27  HB1 KPR     2      -1.840  -1.223   1.397  0.090500        HC
+ATOM     28  HA  KPR     2      -4.108   0.698   0.523  0.113000        H1
+ATOM     29  H   KPR     2      -4.132   0.431   2.850  0.153500         H
+ATOM     30  HW1 KPR     2      -3.936  -1.241   2.766  0.153500         H
+ATOM     31  HW2 KPR     2      -4.799  -1.138  -0.841  0.097000        HA
+BOND    1    1    2    1      N   CA
+BOND    2    1   29    1      N    H
+BOND    3    1   30    1      N  HW1
+BOND    4    2    3    1     CA    C
+BOND    5    2    5    1     CA   CB
+BOND    6    2   28    1     CA   HA
+BOND    7    3    4    2      C    O
+BOND    8    3   31    1      C  HW2
+BOND    9    5    6    1     CB   CG
+BOND   10    5   26    1     CB  HB2
+BOND   11    5   27    1     CB  HB1
+BOND   12    6    7    1     CG   CD
+BOND   13    6   24    1     CG  HG2
+BOND   14    6   25    1     CG  HG1
+BOND   15    7    8    1     CD   CE
+BOND   16    7   22    1     CD  HD2
+BOND   17    7   23    1     CD  HD1
+BOND   18    8    9    1     CE   NZ
+BOND   19    8   20    1     CE  HE2
+BOND   20    8   21    1     CE  HE1
+BOND   21    9   10    1     NZ   CH
+BOND   22    9   19    1     NZ   HZ
+BOND   23   10   11    2     CH  OT2
+BOND   24   10   12    1     CH  CT1
+BOND   25   12   13    1    CT1   CI
+BOND   26   12   17    1    CT1 HT12
+BOND   27   12   18    1    CT1 HT11
+BOND   28   13   14    1     CI  HI3
+BOND   29   13   15    1     CI  HI2
+BOND   30   13   16    1     CI  HI1

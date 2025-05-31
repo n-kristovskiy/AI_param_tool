@@ -1,0 +1,20 @@
+; Lysine_1M_ACC_rn_H_3D_GMX.top created by acpype (v: 2022.6.6) on Wed Apr 23 18:11:10 2025
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333333333
+
+; Include Lysine_1M_ACC_rn_H_3D_GMX.itp topology
+#include "Lysine_1M_ACC_rn_H_3D_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_Lysine_1M_ACC_rn_H_3D.itp"
+#endif
+
+[ system ]
+ Lysine_1M_ACC_rn_H_3D
+
+[ molecules ]
+; Compound        nmols
+ Lysine_1M_ACC_rn_H_3D 1     
