@@ -6,41 +6,41 @@
 
 ## 🚀 Краткое описание
 
-Целью данного репозитория является улучшение качества расчета парциальных зарядов с использованием модели **Espaloma Charge**. Для достижения этой цели в качестве обучающих данных используются заряды, рассчитанные методом **RESP** с помощью библиотеки [psiresp](https://github.com/lilyminium/psiresp).
-
+Целью данного репозитория является ускорение расчета парциальных зарядов с использованием модели **Espaloma Charge**. 
 ---
 
 ## ⚙️ Установка окружения
 
 Для удобства работы подготовлено два окружения:
 
-1. **`ai_topmol.yml`** — окружение, содержащее нейронную сеть Espaloma Charge.
+1. **`ai_topmol.yml`** — окружение, готовое к использованию в комплексе с модифицированной библиотекой **Espaloma Charge**.
 2. **`psiresp_env.yml`** — окружение, содержащее библиотеку для квантово-химических расчетов **psiresp**.
 
 ## 📁 Описание ключевых папок
 
 - `data/`: Папка с результатами растетов зарядов методами resp (библиотека [psirep](https://github.com/lilyminium/psiresp)) и [Espaloma Charge](https://github.com/choderalab/espaloma-charge).
 - `datasets/`: Папка с наборами данных структур аминокислот и их модификаций.
-- `espaloma-charge-main`: Папка основными скриптами Espaloma Charge
-- `examples`: Папка c примером файлов полученных при применении конвеера по параметризации остатка
-- `notebooks`: Папка с ноутбуками для воспроизведения работы програмного конвейера
-    - `1_charge_calculation_Kcr.ipynb`
-    - `2_generate_topology_Kcr.ipynb`
-    - `3_edd_topology_Kcr.ipynb`
+- `espaloma-charge`: Оригинальная модель [Espaloma Charge](https://github.com/choderalab/espaloma-charge)
+- `espaloma-charge_mod`: Модифицированная модель [Espaloma Charge](https://github.com/choderalab/espaloma-charge), сдобавление возможности фиксировать заряды отдельных атомов
+- `notebooks_and_examples`: Папка c примами применнеия програмнного конвейера по параметризации модифицированных остатков.
+
 
 ## 📁 Описание ключевых ноутбуков 
 
-- `notebooks/`:
-    - `1_charge_calculation_Kcr.ipynb` : Ноутбук для создания pdb cnhernehs остатка и расчета парциальных зарядов
-    - `2_generate_topology_Kcr.ipynb`: Ноутбук для генерации файлоа топологии (itp) с использованием библиотеки [acpype](https://github.com/alanwilter/acpype)
-    - `3_edd_topology_Kcr.ipynb` : Ноутбук для генерации файла тополгии остатка (rtp) и дополнительных файлов для модификации силового поля
+- `notebooks_and_examples/Lysine_*TYPE_MODIFICATION*`:
+    - `1_charge_calculation.ipynb` : Ноутбук для генерации pdb модифицированного остатка и расчета парциальных зарядов.
+    - `2_generate_topology.ipynb`: Ноутбук для генерации файлоа топологии (itp) с использованием библиотеки [acpype](https://github.com/alanwilter/acpype)
+
+- `notebooks_and_examples/`
+    - `3_edd_topology.ipynb` : Ноутбук для генерации файла тополгии остатка (rtp) и дополнительных файлов для модификации силового поля
     
     - `datasets_parsing.ipynb`: Ноутбук для парсинга тестовых наборов данных.
     - `Espaloma_ai.ipynb`: Ноутбук с примером использования Espaloma Charge.
+    - `base_analysis.ipynb`: Ноутбук с базовым анализом значений парциальных зарядов посчитанныз psiRESP и Espaloma Charge
 
 ## 📧 Контакты
 
 Если у вас есть вопросы или предложения, свяжитесь с нами:
 
 Автор: Николай кристовский
-Почта: krist179mai.ru
+Почта: krist179mail.ru
