@@ -6,7 +6,7 @@
 
 ## 🚀 Краткое описание
 
-Целью данного репозитория является разработка и улучшение протокола по параметризации модифицированных аминокислот для силового поля amber 14 sb с использование нейронной сети **Espaloma Charge**. 
+Целью данного репозитория является разработка и улучшение протокола по параметризации модифицированных аминокислот для силового поля amber 14 sb с использованием нейронной сети **Espaloma Charge**. 
 
 ---
 
@@ -19,29 +19,29 @@
 
 ## 📁 Описание ключевых папок
 
-- `data/`: Папка с результатами растетов зарядов методами resp (библиотека [psirep](https://github.com/lilyminium/psiresp)) и [Espaloma Charge](https://github.com/choderalab/espaloma-charge).
+- `data/`: Папка с результатами расчетов зарядов методами resp (библиотека [psiresp](https://github.com/lilyminium/psiresp)) и [Espaloma Charge](https://github.com/choderalab/espaloma-charge).
 - `datasets/`: Папка с наборами данных структур аминокислот и их модификаций.
 - `espaloma-charge`: Оригинальная модель [Espaloma Charge](https://github.com/choderalab/espaloma-charge)
-- `espaloma-charge_mod`: Модифицированная модель [Espaloma Charge](https://github.com/choderalab/espaloma-charge), сдобавление возможности фиксировать заряды отдельных атомов
-- `notebooks_and_examples`: Папка c примами применнеия програмнного конвейера по параметризации модифицированных остатков.
+- `espaloma-charge_mod`: Модифицированная модель [Espaloma Charge](https://github.com/choderalab/espaloma-charge), добавление возможности фиксировать заряды отдельных атомов
+- `notebooks_and_examples`: Папка с примерами применения программного конвейера по параметризации модифицированных остатков.
 
 
 ## 📁 Описание ключевых ноутбуков 
 
 - `notebooks_and_examples/Lysine_*TYPE_MODIFICATION*`:
     - `1_charge_calculation.ipynb` : Ноутбук для генерации pdb модифицированного остатка и расчета парциальных зарядов.
-    - `2_generate_topology.ipynb`: Ноутбук для генерации файлоа топологии (itp) с использованием библиотеки [acpype](https://github.com/alanwilter/acpype)
+    - `2_generate_topology.ipynb`: Ноутбук для генерации файлов топологии (itp) с использованием библиотеки [acpype](https://github.com/alanwilter/acpype)
 
 - `notebooks_and_examples/`
-    - `3_edd_topology.ipynb` : Ноутбук для генерации файла тополгии остатка (rtp) и дополнительных файлов для модификации силового поля
+    - `3_edd_topology.ipynb` : Ноутбук для генерации файла топологии остатка (rtp) и дополнительных файлов для модификации силового поля
     
     - `datasets_parsing.ipynb`: Ноутбук для парсинга тестовых наборов данных.
     - `Espaloma_ai.ipynb`: Ноутбук с примером использования Espaloma Charge.
-    - `base_analysis.ipynb`: Ноутбук с базовым анализом значений парциальных зарядов посчитанныз psiRESP и Espaloma Charge
+    - `base_analysis.ipynb`: Ноутбук с базовым анализом значений парциальных зарядов, посчитанных psiRESP и Espaloma Charge
 
 ## 📧 Контакты
 
 Если у вас есть вопросы или предложения, свяжитесь с нами:
 
-Автор: Николай кристовский
-Почта: krist179mail.ru
+Автор: Николай Кристовский
+Почта: krist179@mail.ru
