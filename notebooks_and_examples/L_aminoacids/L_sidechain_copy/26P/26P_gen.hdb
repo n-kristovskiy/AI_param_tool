@@ -1,0 +1,6 @@
+26P	5
+1	1	H	N	-C	CA	
+1	5	HA	CA	N	CB	C
+2	-	HB	CB	CA	CG
+2	-	HG	CG	CB	CD
+2	-	HD	CD	CG	CE

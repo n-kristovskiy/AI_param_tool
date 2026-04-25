@@ -1,0 +1,7 @@
+2NP	6
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+2	6	HB	CB	CA	CG	
+2	6	HG	CG	CB	CD	
+2	6	HD	CD	CG	CE	
+2	3	HZ2	CZ2	CE	CD	

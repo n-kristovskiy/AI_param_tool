@@ -1,0 +1,6 @@
+AHB	5
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+1	5	HB	CB	CA	OB	CG	
+1	2	HOB	OB	CB	CA	
+2	3	HD2	ND2	CG	CB	

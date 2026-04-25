@@ -1,0 +1,10 @@
+OMX	9
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+1	5	HB	CB	CA	OG	CG	
+1	2	HG	OG	CB	CA	
+1	1	HD1	CD1	CE1	CG	
+1	1	HD2	CD2	CG	CE2	
+1	1	HE1	CE1	CD1	CZ	
+1	1	HE2	CE2	CD2	CZ	
+1	2	HH	OH	CZ	CE1	

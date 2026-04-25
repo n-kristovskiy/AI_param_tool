@@ -1,0 +1,7 @@
+LEF	6
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+2	6	HB	CB	CA	CG	
+1	5	HG	CG	CB	CD1	CD2	
+2	6	HD1	CD1	CG	F1	
+3	4	HD2	CD2	CG	CB	

@@ -1,0 +1,8 @@
+GBUT	7
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+2	6	HB	CB	CA	CG	
+2	6	HG	CG	CB	ND	
+1	1	HD	ND	CG	CE	
+2	3	HZ2	NZ2	CE	ND	
+2	3	HZ1	NZ1	CE	ND	

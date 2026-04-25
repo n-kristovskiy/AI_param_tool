@@ -1,0 +1,10 @@
+HRG	9
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+2	6	HB	CB	CG	CA	
+2	6	HG	CG	CD	CB	
+2	6	HD	CD	CE	CG	
+2	6	HE	CE	NZ	CD	
+1	1	HZ	NZ	CH	CE	
+2	3	HJ1	NJ1	CH	NZ	
+2	3	HJ2	NJ2	CH	NJ1	

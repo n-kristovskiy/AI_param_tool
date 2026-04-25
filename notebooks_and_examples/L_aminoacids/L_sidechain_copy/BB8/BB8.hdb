@@ -1,0 +1,10 @@
+BB8	9
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+1	5	HB	CB	CA	CG1	OG2	
+1	2	HG2	OG2	CB	CA	
+1	1	HD1	CD1	CE1	CG1	
+1	1	HD2	CD2	CE2	CG1	
+1	1	HE1	CE1	CD1	CZ	
+1	1	HE2	CE2	CD2	CZ	
+1	1	HZ	CZ	CE1	CE2	

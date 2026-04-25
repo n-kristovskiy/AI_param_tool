@@ -1,0 +1,8 @@
+THIC	7
+1	1	H	N	-C	CA	
+1	5	HA	CA	N	CB	C
+2	-	HB	CB	CA	CG
+2	-	HG	CG	CB	CD
+2	-	HD	CD	CG	NE
+1	-	HE	NE	CD	CZ
+2	-	HH	NH	CZ	NE

@@ -1,0 +1,10 @@
+APM	9
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+2	6	HB	CB	CG	CA	
+1	1	HD1	CD1	CE1	CG	
+1	1	HD2	CD2	CG	CE2	
+1	1	HE2	CE2	CZ	CD2	
+1	1	HZ	CZ	CE1	CE2	
+2	3	HJ1	NJ1	CH	NJ2	
+2	3	HJ2	NJ2	CH	NJ1	

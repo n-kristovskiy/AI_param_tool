@@ -1,0 +1,6 @@
+LME	5
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+1	5	HB	CB	CG2	CA	CG1	
+3	4	HG2	CG2	CB	CA	
+2	6	HG1	CG1	CB	CD	

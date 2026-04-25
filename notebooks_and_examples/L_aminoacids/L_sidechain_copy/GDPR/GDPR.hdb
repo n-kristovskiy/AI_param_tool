@@ -1,0 +1,7 @@
+GDPR	6
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+2	6	HB	CB	CA	NG	
+1	1	HG	NG	CB	CD	
+2	3	HE1	NE1	CD	NG	
+2	3	HE2	NE2	CD	NE1	

@@ -1,0 +1,5 @@
+LVG	4
+1	1	H	N	-C	CA	
+1	5	HA	CA	N	CB	C
+1	1	HB	CB	CA	CG
+2	3	HG	CG	CB	CA

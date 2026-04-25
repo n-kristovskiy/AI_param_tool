@@ -1,0 +1,10 @@
+ALC	9
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+2	6	HB	CB	CA	CG	
+1	5	HG	CG	CB	CD1	CD2	
+2	6	HD1	CD1	CE1	CG	
+2	6	HD2	CD2	CE2	CG	
+2	6	HE1	CE1	CD1	CZ	
+2	6	HE2	CE2	CD2	CZ	
+2	6	HZ	CZ	CE1	CE2	

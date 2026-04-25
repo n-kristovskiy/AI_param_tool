@@ -1,0 +1,10 @@
+
+verbosity 1
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+mods = loadamberparams AF_647_rn_H_3D_AC.frcmod
+R647 = loadmol2 AF_647_rn_H_3D_user_gaff2.mol2
+check R647
+saveamberparm R647 AF_647_rn_H_3D_AC.prmtop AF_647_rn_H_3D_AC.inpcrd
+saveoff R647 AF_647_rn_H_3D_AC.lib
+quit

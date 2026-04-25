@@ -1,0 +1,216 @@
+[ bondedtypes ]
+; Col 1: Type of bond
+; Col 2: Type of angles
+; Col 3: Type of proper dihedrals
+; Col 4: Type of improper dihedrals
+; Col 5: Generate all dihedrals if 1, only heavy atoms of 0.
+; Col 6: Number of excluded neighbors for nonbonded interactions
+; Col 7: Generate 1,4 interactions between pairs of hydrogens if 1
+; Col 8: Remove impropers over the same bond as a proper if it is 1
+; bonds  angles  dihedrals  impropers all_dihedrals nrexcl HH14 RemoveDih
+     1       1          9          4        1         3      1     0 
+
+[ K3M ]
+ [ atoms ]
+     N     N     -0.3479   1
+    CA    CX     -0.2400   2
+     C     C      0.7341   3
+     O     O     -0.5894   4
+    CB    C8     -0.2080   5
+    CG    C8     -0.2339   6
+    CD    C8     -0.2035   7
+    CE    C8      0.0037   8
+    NZ    N3     -0.5921   9
+   CH3    CT     -0.0525  10
+  HH33    HP      0.1419  11
+  HH32    HP      0.1419  12
+  HH31    HP      0.1419  13
+   CH2    CT     -0.0525  14
+  HH23    HP      0.1419  15
+  HH22    HP      0.1419  16
+  HH21    HP      0.1419  17
+   CH1    CT     -0.0525  18
+  HH13    HP      0.1419  19
+  HH12    HP      0.1419  20
+  HH11    HP      0.1419  21
+   HE2    HP      0.1762  22
+   HE1    HP      0.1762  23
+   HD2    HC      0.1482  24
+   HD1    HC      0.1482  25
+   HG2    HC      0.1227  26
+   HG1    HC      0.1227  27
+   HB2    HC      0.1228  28
+   HB1    HC      0.1228  29
+    HA    H1      0.1426  30
+     H     H      0.2747  31
+ [ bonds ]
+     N    CA
+     N     H
+    CA     C
+    CA    CB
+    CA    HA
+     C     O
+    CB    CG
+    CB   HB2
+    CB   HB1
+    CG    CD
+    CG   HG2
+    CG   HG1
+    CD    CE
+    CD   HD2
+    CD   HD1
+    CE    NZ
+    CE   HE2      0.1090    284510.0
+    CE   HE1      0.1090    284510.0
+    NZ   CH3      0.1471    307110.0
+    NZ   CH2      0.1471    307110.0
+    NZ   CH1      0.1471    307110.0
+   CH3  HH33      0.1090    284510.0
+   CH3  HH32      0.1090    284510.0
+   CH3  HH31      0.1090    284510.0
+   CH2  HH23      0.1090    284510.0
+   CH2  HH22      0.1090    284510.0
+   CH2  HH21      0.1090    284510.0
+   CH1  HH13      0.1090    284510.0
+   CH1  HH12      0.1090    284510.0
+   CH1  HH11      0.1090    284510.0
+   -C    N
+ [ angles ]
+     N    CA     C
+     N    CA    CB
+     N    CA    HA
+    CA     N     H
+    CA     C     O
+    CA    CB    CG
+    CA    CB   HB2
+    CA    CB   HB1
+     C    CA    CB
+     C    CA    HA
+    CB    CA    HA
+    CB    CG    CD
+    CB    CG   HG2
+    CB    CG   HG1
+    CG    CB   HB2
+    CG    CB   HB1
+    CG    CD    CE
+    CG    CD   HD2
+    CG    CD   HD1
+    CD    CG   HG2
+    CD    CG   HG1
+    CD    CE    NZ
+    CD    CE   HE2     109.5000    418.4
+    CD    CE   HE1     109.5000    418.4
+    CE    CD   HD2
+    CE    CD   HD1
+    CE    NZ   CH3     109.5000    418.4
+    CE    NZ   CH2     109.5000    418.4
+    CE    NZ   CH1     109.5000    418.4
+    NZ    CE   HE2     109.5000    418.4
+    NZ    CE   HE1     109.5000    418.4
+    NZ   CH3  HH33     109.5000    418.4
+    NZ   CH3  HH32     109.5000    418.4
+    NZ   CH3  HH31     109.5000    418.4
+    NZ   CH2  HH23     109.5000    418.4
+    NZ   CH2  HH22     109.5000    418.4
+    NZ   CH2  HH21     109.5000    418.4
+    NZ   CH1  HH13     109.5000    418.4
+    NZ   CH1  HH12     109.5000    418.4
+    NZ   CH1  HH11     109.5000    418.4
+   CH3    NZ   CH2     109.5000    418.4
+   CH3    NZ   CH1     109.5000    418.4
+  HH33   CH3  HH32     109.5000    292.9
+  HH33   CH3  HH31     109.5000    292.9
+  HH32   CH3  HH31     109.5000    292.9
+   CH2    NZ   CH1     109.5000    418.4
+  HH23   CH2  HH22     109.5000    292.9
+  HH23   CH2  HH21     109.5000    292.9
+  HH22   CH2  HH21     109.5000    292.9
+  HH13   CH1  HH12     109.5000    292.9
+  HH13   CH1  HH11     109.5000    292.9
+  HH12   CH1  HH11     109.5000    292.9
+   HE2    CE   HE1     109.5000    292.9
+   HD2    CD   HD1
+   HG2    CG   HG1
+   HB2    CB   HB1
+ [ dihedrals ]
+     N    CA     C     O
+     N    CA    CB    CG
+     N    CA    CB   HB2
+     N    CA    CB   HB1
+    CA    CB    CG    CD
+    CA    CB    CG   HG2
+    CA    CB    CG   HG1
+     C    CA    CB    CG
+     C    CA    CB   HB2
+     C    CA    CB   HB1
+     O     C    CA    CB
+     O     C    CA    HA
+    CB    CG    CD    CE
+    CB    CG    CD   HD2
+    CB    CG    CD   HD1
+    CG    CB    CA    HA
+    CG    CD    CE    NZ
+    CG    CD    CE   HE2    0.000   0.6508     3
+    CG    CD    CE   HE1    0.000   0.6508     3
+    CD    CG    CB   HB2
+    CD    CG    CB   HB1
+    CD    CE    NZ   CH3    0.000   0.6508     3
+    CD    CE    NZ   CH2    0.000   0.6508     3
+    CD    CE    NZ   CH1    0.000   0.6508     3
+    CE    CD    CG   HG2
+    CE    CD    CG   HG1
+    CE    NZ   CH3  HH33    0.000   0.6508     3
+    CE    NZ   CH3  HH32    0.000   0.6508     3
+    CE    NZ   CH3  HH31    0.000   0.6508     3
+    CE    NZ   CH2  HH23    0.000   0.6508     3
+    CE    NZ   CH2  HH22    0.000   0.6508     3
+    CE    NZ   CH2  HH21    0.000   0.6508     3
+    CE    NZ   CH1  HH13    0.000   0.6508     3
+    CE    NZ   CH1  HH12    0.000   0.6508     3
+    CE    NZ   CH1  HH11    0.000   0.6508     3
+    NZ    CE    CD   HD2
+    NZ    CE    CD   HD1
+   CH3    NZ    CE   HE2    0.000   0.6508     3
+   CH3    NZ    CE   HE1    0.000   0.6508     3
+   CH3    NZ   CH2  HH23    0.000   0.6508     3
+   CH3    NZ   CH2  HH22    0.000   0.6508     3
+   CH3    NZ   CH2  HH21    0.000   0.6508     3
+   CH3    NZ   CH1  HH13    0.000   0.6508     3
+   CH3    NZ   CH1  HH12    0.000   0.6508     3
+   CH3    NZ   CH1  HH11    0.000   0.6508     3
+  HH33   CH3    NZ   CH2    0.000   0.6508     3
+  HH33   CH3    NZ   CH1    0.000   0.6508     3
+  HH32   CH3    NZ   CH2    0.000   0.6508     3
+  HH32   CH3    NZ   CH1    0.000   0.6508     3
+  HH31   CH3    NZ   CH2    0.000   0.6508     3
+  HH31   CH3    NZ   CH1    0.000   0.6508     3
+   CH2    NZ    CE   HE2    0.000   0.6508     3
+   CH2    NZ    CE   HE1    0.000   0.6508     3
+   CH2    NZ   CH1  HH13    0.000   0.6508     3
+   CH2    NZ   CH1  HH12    0.000   0.6508     3
+   CH2    NZ   CH1  HH11    0.000   0.6508     3
+  HH23   CH2    NZ   CH1    0.000   0.6508     3
+  HH22   CH2    NZ   CH1    0.000   0.6508     3
+  HH21   CH2    NZ   CH1    0.000   0.6508     3
+   CH1    NZ    CE   HE2    0.000   0.6508     3
+   CH1    NZ    CE   HE1    0.000   0.6508     3
+   HE2    CE    CD   HD2
+   HE2    CE    CD   HD1
+   HE1    CE    CD   HD2
+   HE1    CE    CD   HD1
+   HD2    CD    CG   HG2
+   HD2    CD    CG   HG1
+   HD1    CD    CG   HG2
+   HD1    CD    CG   HG1
+   HG2    CG    CB   HB2
+   HG2    CG    CB   HB1
+   HG1    CG    CB   HB2
+   HG1    CG    CB   HB1
+   HB2    CB    CA    HA
+   HB1    CB    CA    HA
+     H     N    CA     C
+     H     N    CA    CB
+     H     N    CA    HA
+ [ impropers ]
+    -C    CA     N     H
+    CA    +N     C     O

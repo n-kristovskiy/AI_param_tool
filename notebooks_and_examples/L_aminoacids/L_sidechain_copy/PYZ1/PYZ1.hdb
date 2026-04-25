@@ -1,0 +1,7 @@
+PYZ1	6
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+2	6	HB	CB	CA	NG	
+1	1	HD2	CD2	NG	CE2	
+1	1	HE2	CE2	CD2	CE1	
+1	1	HE1	CE1	CE2	ND1	

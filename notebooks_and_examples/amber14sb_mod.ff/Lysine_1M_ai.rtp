@@ -1,0 +1,174 @@
+[ bondedtypes ]
+; Col 1: Type of bond
+; Col 2: Type of angles
+; Col 3: Type of proper dihedrals
+; Col 4: Type of improper dihedrals
+; Col 5: Generate all dihedrals if 1, only heavy atoms of 0.
+; Col 6: Number of excluded neighbors for nonbonded interactions
+; Col 7: Generate 1,4 interactions between pairs of hydrogens if 1
+; Col 8: Remove impropers over the same bond as a proper if it is 1
+; bonds  angles  dihedrals  impropers all_dihedrals nrexcl HH14 RemoveDih
+     1       1          9          4        1         3      1     0 
+
+[ K1M ]
+ [ atoms ]
+     N     N     -0.3479   1
+    CA    CX     -0.2400   2
+     C     C      0.7341   3
+     O     O     -0.5894   4
+    CB    C8     -0.1970   5
+    CG    C8     -0.2233   6
+    CD    C8     -0.1996   7
+    CE    C8     -0.0296   8
+    NZ    N3     -0.6958   9
+    CH    CT     -0.0784  10
+   HH3    HP      0.1937  11
+   HH2    HP      0.1937  12
+   HH1    HP      0.1937  13
+   HZ2     H      0.2925  14
+   HZ1     H      0.2925  15
+   HE2    HP      0.1917  16
+   HE1    HP      0.1917  17
+   HD2    HC      0.1681  18
+   HD1    HC      0.1681  19
+   HG2    HC      0.1414  20
+   HG1    HC      0.1414  21
+   HB2    HC      0.1406  22
+   HB1    HC      0.1406  23
+    HA    H1      0.1426  24
+     H     H      0.2747  25
+ [ bonds ]
+     N    CA
+     N     H
+    CA     C
+    CA    CB
+    CA    HA
+     C     O
+    CB    CG
+    CB   HB2
+    CB   HB1
+    CG    CD
+    CG   HG2
+    CG   HG1
+    CD    CE
+    CD   HD2
+    CD   HD1
+    CE    NZ
+    CE   HE2      0.1090    284510.0
+    CE   HE1      0.1090    284510.0
+    NZ    CH      0.1471    307110.0
+    NZ   HZ2
+    NZ   HZ1
+    CH   HH3      0.1090    284510.0
+    CH   HH2      0.1090    284510.0
+    CH   HH1      0.1090    284510.0
+   -C    N
+ [ angles ]
+     N    CA     C
+     N    CA    CB
+     N    CA    HA
+    CA     N     H
+    CA     C     O
+    CA    CB    CG
+    CA    CB   HB2
+    CA    CB   HB1
+     C    CA    CB
+     C    CA    HA
+    CB    CA    HA
+    CB    CG    CD
+    CB    CG   HG2
+    CB    CG   HG1
+    CG    CB   HB2
+    CG    CB   HB1
+    CG    CD    CE
+    CG    CD   HD2
+    CG    CD   HD1
+    CD    CG   HG2
+    CD    CG   HG1
+    CD    CE    NZ
+    CD    CE   HE2     109.5000    418.4
+    CD    CE   HE1     109.5000    418.4
+    CE    CD   HD2
+    CE    CD   HD1
+    CE    NZ    CH     109.5000    418.4
+    CE    NZ   HZ2
+    CE    NZ   HZ1
+    NZ    CE   HE2     109.5000    418.4
+    NZ    CE   HE1     109.5000    418.4
+    NZ    CH   HH3     109.5000    418.4
+    NZ    CH   HH2     109.5000    418.4
+    NZ    CH   HH1     109.5000    418.4
+    CH    NZ   HZ2
+    CH    NZ   HZ1
+   HH3    CH   HH2     109.5000    292.9
+   HH3    CH   HH1     109.5000    292.9
+   HH2    CH   HH1     109.5000    292.9
+   HZ2    NZ   HZ1
+   HE2    CE   HE1     109.5000    292.9
+   HD2    CD   HD1
+   HG2    CG   HG1
+   HB2    CB   HB1
+ [ dihedrals ]
+     N    CA     C     O
+     N    CA    CB    CG
+     N    CA    CB   HB2
+     N    CA    CB   HB1
+    CA    CB    CG    CD
+    CA    CB    CG   HG2
+    CA    CB    CG   HG1
+     C    CA    CB    CG
+     C    CA    CB   HB2
+     C    CA    CB   HB1
+     O     C    CA    CB
+     O     C    CA    HA
+    CB    CG    CD    CE
+    CB    CG    CD   HD2
+    CB    CG    CD   HD1
+    CG    CB    CA    HA
+    CG    CD    CE    NZ
+    CG    CD    CE   HE2    0.000   0.6508     3
+    CG    CD    CE   HE1    0.000   0.6508     3
+    CD    CG    CB   HB2
+    CD    CG    CB   HB1
+    CD    CE    NZ    CH    0.000   0.6508     3
+    CD    CE    NZ   HZ2
+    CD    CE    NZ   HZ1
+    CE    CD    CG   HG2
+    CE    CD    CG   HG1
+    CE    NZ    CH   HH3    0.000   0.6508     3
+    CE    NZ    CH   HH2    0.000   0.6508     3
+    CE    NZ    CH   HH1    0.000   0.6508     3
+    NZ    CE    CD   HD2
+    NZ    CE    CD   HD1
+    CH    NZ    CE   HE2    0.000   0.6508     3
+    CH    NZ    CE   HE1    0.000   0.6508     3
+   HH3    CH    NZ   HZ2
+   HH3    CH    NZ   HZ1
+   HH2    CH    NZ   HZ2
+   HH2    CH    NZ   HZ1
+   HH1    CH    NZ   HZ2
+   HH1    CH    NZ   HZ1
+   HZ2    NZ    CE   HE2    0.000   0.6508     3
+   HZ2    NZ    CE   HE1    0.000   0.6508     3
+   HZ1    NZ    CE   HE2    0.000   0.6508     3
+   HZ1    NZ    CE   HE1    0.000   0.6508     3
+   HE2    CE    CD   HD2
+   HE2    CE    CD   HD1
+   HE1    CE    CD   HD2
+   HE1    CE    CD   HD1
+   HD2    CD    CG   HG2
+   HD2    CD    CG   HG1
+   HD1    CD    CG   HG2
+   HD1    CD    CG   HG1
+   HG2    CG    CB   HB2
+   HG2    CG    CB   HB1
+   HG1    CG    CB   HB2
+   HG1    CG    CB   HB1
+   HB2    CB    CA    HA
+   HB1    CB    CA    HA
+     H     N    CA     C
+     H     N    CA    CB
+     H     N    CA    HA
+ [ impropers ]
+    -C    CA     N     H
+    CA    +N     C     O

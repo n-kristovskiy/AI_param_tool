@@ -1,0 +1,9 @@
+FT6	8
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+2	6	HB	CB	CA	CG	
+1	1	HD1	CD1	CG	NE1	
+1	1	HE1	NE1	CD1	CE2	
+1	1	HE3	CE3	CD2	CZ3	
+1	1	HZ2	CZ2	CE2	CH2	
+1	1	HZ3	CZ3	CE3	CH2	

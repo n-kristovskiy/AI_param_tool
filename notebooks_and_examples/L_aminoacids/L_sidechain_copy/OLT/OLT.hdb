@@ -1,0 +1,6 @@
+OLT	5
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+1	5	HB	CB	CA	OG1	CG2	
+3	4	HG2	CG2	CB	CA	
+3	4	HD1	CD1	OG1	CB	

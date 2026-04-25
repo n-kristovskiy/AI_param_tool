@@ -1,0 +1,7 @@
+TH6	6
+1       1       HN      N       -C      CA
+1       5       HA      CA      N       C       CB
+1	5	HB	CB	CA	OB1	CG	
+1	2	HB1	OB1	CB	CA	
+2	6	HG	CG	CB	OD	
+1	2	HD	OD	CG	CB	
