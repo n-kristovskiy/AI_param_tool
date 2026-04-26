@@ -1,0 +1,14 @@
+name: darwin_resp
+channels:
+  - psi4
+  - conda-forge
+dependencies:
+  - python
+  - psi4=1.6.1
+  - psiresp=0.4.2
+  - pydantic<2.0
+  - rdkit=2024
+  - numpy
+  - ipykernel
+  - nglview=3.1.4
+  - setuptools<80
